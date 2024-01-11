@@ -1,8 +1,10 @@
-import { Navbar, Footer } from '../../components/index'
+import { Navbar, Footer, NitsHacks, Techno } from '../../components/index'
 const Home = () => {
     return (
         <>
             <Navbar />
+            <NitsHacks />
+            <Techno />
             <Footer />
         </>
     );
