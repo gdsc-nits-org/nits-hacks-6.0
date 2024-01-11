@@ -1,10 +1,10 @@
-import Index from './components/index'
+import Home from './Pages/Home/Home'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path='/' element={<Index />} />
+				<Route path='/' element={<Home />} />
 			</Routes>
 		</BrowserRouter>
 	);
