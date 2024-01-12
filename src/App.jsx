@@ -1,10 +1,10 @@
+import Landing from "./components/Landing/Landing";
+
 function App() {
 	return (
-		<>
-			<h2>Navbar</h2>
-			<h1>Home</h1>
-			<h2>Footer</h2>
-		</>
+		<div>
+			<Landing />
+		</div>
 	);
 }
 
