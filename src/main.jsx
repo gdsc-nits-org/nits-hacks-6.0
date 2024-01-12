@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
+import Home from "./Home.jsx";
 import "./index.scss";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Landing from "./components/Landing/Landing.jsx";
-import Preview from "./components/Preview/Preview.jsx";
+import Preview from "./Pages/Preview/Preview.jsx";
 
 const router = createBrowserRouter([
 	{
@@ -12,22 +11,8 @@ const router = createBrowserRouter([
 		element: <Preview />,
 	},
 	{
-		path: "/",
-		element: <App />,
-		children: [
-			{
-				path: "/home",
-				element: <Landing />,
-			},
-			{
-				path: "/team",
-				element: <Landing />,
-			},
-			{
-				path: "/events",
-				element: <Landing />,
-			},
-		],
+		path: "/home",
+		element: <Home />,
 	},
 ]);
 
