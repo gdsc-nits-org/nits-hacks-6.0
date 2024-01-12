@@ -32,19 +32,19 @@ const Navbar = () => {
                     <img src={logo} className={styles.navIcons} alt="logo loading..." />
                 </div>
             </div>
-            <div className={styles.mobileActive} style={{ zIndex: `${nav === false ? '-1' : '0'}`, opacity: `${nav === false ? '0' : '1'}`, transition: 'ease 500ms' }}>
-                <Link to='/' className={styles.link}>HOME</Link>
-                <Link to='/about' className={styles.link}>ABOUT</Link>
-                <Link to='/sponsors' className={styles.link}>SPONSORS</Link>
-                <Link to='/team' className={styles.link}>TEAM</Link>
+            <div className={styles.mobileActive} style={{ zIndex: `${nav === false ? '-1' : '3'}`, opacity: `${nav === false ? '0' : '1'}`, transition: 'ease 500ms' }}>
+                <div className={styles.linkParentMobile}><Link to='/' className={styles.link}>HOME</Link></div>
+                <div className={styles.linkParentMobile}><Link to='/about' className={styles.link}>ABOUT</Link></div>
+                <div className={styles.linkParentMobile}><Link to='/sponsors' className={styles.link}>SPONSORS</Link></div>
+                <div className={styles.linkParentMobile}><Link to='/team' className={styles.link}>TEAM</Link></div>
             </div>
             <div className={styles.deskNav}>
-                <div className={styles.left}><img src={logo} alt="logo loading..." /></div>
+                <div className={styles.left}><img src={logo} alt="logo loading..." className={styles.logo} /></div>
                 <div className={styles.right}>
-                    <Link to='/' className={styles.link}>HOME</Link>
-                    <Link to='/about' className={styles.link}>ABOUT</Link>
-                    <Link to='/sponsors' className={styles.link}>SPONSORS</Link>
-                    <Link to='/team' className={styles.link}>TEAM</Link>
+                    <div className={styles.linkParent}><div className={styles.innerParent}><Link to='/' className={styles.link}>Home</Link></div></div>
+                    <div className={styles.linkParent}><div className={styles.innerParent}><Link to='/about' className={styles.link}>About</Link></div></div>
+                    <div className={styles.linkParent}><div className={styles.innerParent}><Link to='/sponsors' className={styles.link}>Sponsors</Link></div></div>
+                    <div className={styles.linkParent}><div className={styles.innerParent}><Link to='/team' className={styles.link}>Team</Link></div></div>
                 </div>
             </div>
         </div>
