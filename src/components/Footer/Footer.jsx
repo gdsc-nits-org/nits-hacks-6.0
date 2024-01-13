@@ -1,12 +1,12 @@
 import styles from './Footer.module.scss'
-import React from "react"
+
 // import { GoogleMapReact, LocationPin } from 'google-maps-react'
 const Footer = () => {
-    const location = {
-        address: '1600 Amphitheatre Parkway, Mountain View, california.',
-        lat: 37.42216,
-        lng: -122.08427,
-    };
+    // const location = {
+    //     address: '1600 Amphitheatre Parkway, Mountain View, california.',
+    //     lat: 37.42216,
+    //     lng: -122.08427,
+    // };
     return (
         <div className={styles.footer}>
             <div className={styles.footerUpper}>
@@ -73,9 +73,9 @@ const Footer = () => {
 
             <div className={styles.footerLower}>
                 <div className={styles.maincontainer}>
-                    <div class={styles.line}>
-                        <div class={`${styles.left} ${styles.circle}`}></div>
-                        <div class={`${styles.right} ${styles.circle}`}></div>
+                    <div className={styles.line}>
+                        <div className={`${styles.left} ${styles.circle}`}></div>
+                        <div className={`${styles.right} ${styles.circle}`}></div>
                     </div>
                 </div>
             </div>
