@@ -12,8 +12,13 @@ const Preview = () => {
 		<div className={styles.container}>
 			<div className={styles.glow_container}>
 				<div className={styles.text}>
-					<img src="/16bit.png" alt="" className={styles.bit} />
-					<img src="/transfer.png" alt="" className={styles.transfer} />
+					<h1 className={styles.bit}>
+						Setting Up the <span style={{ color: "white" }}>16-BIT</span> Biome
+					</h1>
+					<h1 className={styles.transfer}>
+						Transferring to{" "}
+						<span style={{ color: "white" }}>NITS HACK 6.0</span>
+					</h1>
 				</div>
 				<div className={styles.insignia}>
 					<img src="/insignia.png" alt="" />

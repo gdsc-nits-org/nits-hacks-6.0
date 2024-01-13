@@ -1,12 +1,11 @@
-import Landing from "./components/Landing/Landing";
-import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
+import { Navbar, Landing, Sponsor, Footer } from "./components/index";
 
 function App() {
 	return (
 		<div>
 			<Navbar />
 			<Landing />
+			<Sponsor />
 			<Footer />
 		</div>
 	);
