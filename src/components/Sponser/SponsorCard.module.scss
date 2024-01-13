@@ -1,6 +1,6 @@
 @font-face {
   font-family: Pixeloid;
-  src: url("./PixeloidSans-Bold.ttf");
+  src: url("/fonts/PixeloidSans-Bold.ttf");
 }
 $fontcolor: #ffffff;
 .sponsorCont {
@@ -27,7 +27,7 @@ body {
 }
 
 .box {
-  background: url("./background/lovepik-technology-border-png-image_401017818_wh1200-removebg-preview\ 1.svg");
+  background: url("/background/SponsorCardBg.svg");
   background-repeat: no-repeat;
   background-size: contain;
 }
