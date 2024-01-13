@@ -5,12 +5,12 @@ import arrowAnimation from "../../lottiefiles/home_arror.json";
 import Pixel from "../Pixel/Pixel";
 
 const Landing = () => {
-	const [move, setMove] = useState(true);
+	const [move, setMove] = useState(false);
 	const pixelRef = useRef(null);
 	const rainContainerRef = useRef(null);
 
 	const rain = () => {
-		let amt = 50;
+		let amt = 45;
 		let i = 0;
 		while (i < amt) {
 			let drop = document.createElement("i");
@@ -30,7 +30,7 @@ const Landing = () => {
 	};
 
 	useEffect(() => {
-		rain();
+		setTimeout(() => rain(), 100);
 	}, []);
 
 	return (

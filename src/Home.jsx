@@ -1,6 +1,6 @@
 import { Navbar, Landing, Sponsor, Footer } from "./components/index";
 
-function App() {
+function Home() {
 	return (
 		<div>
 			<Navbar />
@@ -11,4 +11,4 @@ function App() {
 	);
 }
 
-export default App;
+export default Home;

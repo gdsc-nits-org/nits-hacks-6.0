@@ -1,19 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Home from "./Home.jsx";
 import "./index.scss";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Preview from "./Pages/Preview/Preview.jsx";
+import App from "./App.jsx";
+// import Home from "./Home.jsx";
+// import Preview from "./Pages/Preview/Preview.jsx";
 
 const router = createBrowserRouter([
 	{
 		path: "/",
-		element: <Preview />,
+		// element: <Preview/>
+		element: <App />,
 	},
-	{
-		path: "/home",
-		element: <Home />,
-	},
+	//   {
+	//     path: "/home",
+	//     element: <Home />,
+	//   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

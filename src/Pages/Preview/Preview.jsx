@@ -2,12 +2,13 @@ import { useRef } from "react";
 
 import Lottie from "lottie-react";
 import upgradeAnimation from "../../lottiefiles/upgrading.json";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import styles from "./preview.module.scss";
 
-const Preview = () => {
+// eslint-disable-next-line react/prop-types
+const Preview = ({ setLoaded }) => {
 	const lottieRef = useRef(null);
-	const navigate = useNavigate();
+	//   const navigate = useNavigate();
 	return (
 		<div className={styles.container}>
 			<div className={styles.glow_container}>
@@ -30,7 +31,8 @@ const Preview = () => {
 						animationData={upgradeAnimation}
 						initialSegment={[0, 120]}
 						onComplete={() => {
-							navigate("/home");
+							//   navigate("/home");
+							setLoaded(true);
 						}}
 						loop={false}
 					/>

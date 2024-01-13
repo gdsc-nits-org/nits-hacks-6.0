@@ -42,7 +42,7 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     animation: rain 5s linear infinite;
-    // z-index: -2;
+    z-index: -2;
   }
 
   i:nth-child(3n + 1) {
@@ -71,7 +71,7 @@
       width: 90rem;
       position: absolute;
       top: -1rem;
-      // z-index: -1;
+      z-index: -1;
 
       @media screen and (max-width: 1024px) {
         top: 0rem;
