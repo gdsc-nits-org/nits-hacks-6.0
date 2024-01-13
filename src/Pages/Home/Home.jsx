@@ -1,10 +1,13 @@
-import { Navbar, Footer } from '../../components/index'
+import { Navbar, Footer, Sponsor } from "../../components/index";
+import { Event } from "../../components/index";
 const Home = () => {
-    return (
-        <>
-            <Navbar />
-            <Footer />
-        </>
-    );
-}
+	return (
+		<>
+			<Navbar />
+			<Event />
+			<Sponsor />
+			<Footer />
+		</>
+	);
+};
 export default Home;
