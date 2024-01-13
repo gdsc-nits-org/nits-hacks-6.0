@@ -1,4 +1,4 @@
-import { Navbar, Footer, NitsHacks, Techno } from '../../components/index'
+import { Navbar, Footer, NitsHacks, Techno, Sponsor } from '../../components/index'
 const Home = () => {
     return (
         <div style={{ overflowX: 'hidden' }}>
@@ -6,7 +6,9 @@ const Home = () => {
             <NitsHacks />
             <Techno />
             <Footer />
+            <Sponsor />
         </div>
     );
 }
 export default Home;
+
