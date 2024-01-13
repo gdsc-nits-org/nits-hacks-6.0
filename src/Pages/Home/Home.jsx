@@ -1,9 +1,17 @@
-import { Navbar, Footer, Sponsor } from "../../components/index";
-import { Event } from "../../components/index";
+import {
+	Navbar,
+	Footer,
+	NitsHacks,
+	Techno,
+	Sponsor,
+	Event,
+} from "../../components/index";
 const Home = () => {
 	return (
 		<>
 			<Navbar />
+			<NitsHacks />
+			<Techno />
 			<Event />
 			<Sponsor />
 			<Footer />

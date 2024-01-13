@@ -18,6 +18,7 @@ $fontcolor: #ffffff;
 $fontfamily: Pixeloid Sans Bold;
 .eventCont {
   width: 100%;
+  overflow-x: hidden;
 }
 .heading {
   background-clip: text;
