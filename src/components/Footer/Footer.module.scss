@@ -9,6 +9,8 @@
     color: #ffffff;
     display: flex;
     flex-direction: column;
+    max-width: 100%;
+   
 }
 
 .footerUpper {
@@ -80,9 +82,10 @@
 }
 
 .mapsimg {
-    width: 100px;
-    height: 100px;
-    border: 1px solid red;
+    width: 17.625rem;
+    height: 13.06rem;
+    overflow: hidden;
+    border-radius: 8px;
 }
 
 .maps {
@@ -137,18 +140,21 @@
 .con {
     padding-bottom: 0.375rem;
 }
-.logo, .buttondiv2{
+
+.logo,
+.buttondiv2 {
     display: none;
 }
 
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1150px) {
     .footerUpper {
         flex-direction: column;
 
         .upper1 {
             flex-direction: row;
             justify-content: space-between;
+           
 
             .contact {
                 padding: 5rem;
@@ -166,7 +172,7 @@
                 }
 
                 .gmail {
-                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 20px;
                 }
 
                 .social {
@@ -197,26 +203,39 @@
                 padding: 0.5rem;
             }
         }
-        .maps{
+
+        .maps {
             width: 33%;
             padding-left: 5rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: end;
-           padding-right: 5rem;
+            padding-right: 5rem;
+
+            p {
+                font-size: 24px;
+                padding: 0px 0px 1rem 0px;
+            }
+            .mapsimg {
+                width: 21.875rem;
+                height: 14.75rem;
+
+            }
         }
-        .logo{
+
+        .logo {
             display: block;
             width: 33%;
             display: flex;
             justify-content: center;
             align-items: center;
-            .logoInner{
+
+            .logoInner {
                 height: 7.8125rem;
                 width: 11rem;
-                
-               .logoInner img{
+
+                .logoInner img {
                     width: 100%;
                     height: 100%;
                 }
@@ -225,23 +244,27 @@
     }
 
 }
-.footerLower{
+
+.footerLower {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.maincontainer{
-    padding: 0 5rem 3.75rem 5rem; 
-    width: 100%; 
-    max-width: 100%; 
+
+.maincontainer {
+    padding: 0 5rem 3.75rem 5rem;
+    width: 100%;
+    max-width: 100%;
     background-color: transparent;
 }
-.line{
+
+.line {
     width: 100%;
     height: 2px;
     background-color: #fff;
     position: relative;
 }
+
 .circle {
     width: 10px;
     height: 10px;
@@ -259,16 +282,113 @@
     right: 0;
     transform: translate(50%, -50%);
 }
-@media(max-width:900px) {
-    .maincontainer{
+
+@media(max-width:920px) {
+    .maincontainer {
         padding: 2rem 1rem;
-        .line{
+
+        .line {
             height: 1px;
         }
-        .circle{
+
+        .circle {
             width: 5px;
             height: 5px;
         }
     }
 
+}
+@media(min-width:920px) and (max-width:1150px){
+    .footerUpper {
+        flex-direction: column;
+
+        .upper1 {
+            flex-direction: row;
+            justify-content: space-between;
+           
+
+            .contact {
+                padding: 5rem;
+                width: 33%;
+
+                p {
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+
+                .pconnect {
+                    padding: 1.5rem 0;
+                }
+
+                .gmail {
+                    font-size: 20px;
+                }
+
+                .social {
+                    padding-bottom: 2.375rem;
+
+                    .imgdiv {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
+
+            .buttondiv2 {
+                display: block;
+            }
+
+            .buttondiv {
+                display: none;
+            }
+        }
+
+        .copytxt {
+            justify-content: center;
+            display: flex;
+            align-items: center;
+
+            p {
+                padding: 0.5rem;
+            }
+        }
+
+        .maps {
+            width: 33%;
+            padding-left: 5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: end;
+            padding-right: 5rem;
+
+            p {
+                font-size: 14px;
+            }
+            .mapsimg{
+                width: 15rem;
+                height: 10rem;
+            }
+        }
+
+        .logo {
+            display: block;
+            width: 33%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .logoInner {
+                height: 7.8125rem;
+                width: 11rem;
+
+                .logoInner img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
 }
