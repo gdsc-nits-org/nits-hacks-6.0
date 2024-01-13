@@ -21,7 +21,7 @@ const Preview = () => {
 				<div className={styles.upgrading}>
 					<Lottie
 						lottieRef={lottieRef}
-						onEnterFrame={() => lottieRef.current.setSpeed(0.75)}
+						onEnterFrame={() => lottieRef.current.setSpeed(0.5)}
 						animationData={upgradeAnimation}
 						initialSegment={[0, 120]}
 						onComplete={() => {

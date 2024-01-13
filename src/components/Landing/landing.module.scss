@@ -18,6 +18,9 @@
     left: -2.7rem;
     top: -1.2rem;
     width: 24rem;
+    @media screen and (max-width: 1730px) {
+      display: none;
+    }
   }
 
   .superflex {
@@ -31,9 +34,13 @@
       @media screen and (max-width: 440px) {
         width: 55rem;
         height: 35rem;
+        top: 30rem;
       }
       @media screen and (max-width: 1024px) {
-        top: 9rem;
+        top: 4.5rem;
+      }
+      @media screen and (max-width: 376px) {
+        top: 10rem;
       }
     }
     .nitshack {
@@ -46,6 +53,10 @@
       }
       @media screen and (max-width: 390px) {
         width: 20rem;
+        margin-top: 30rem;
+      }
+      @media screen and (max-width: 351px) {
+        width: 16rem;
         margin-top: 30rem;
       }
     }
