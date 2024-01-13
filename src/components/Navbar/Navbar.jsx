@@ -32,7 +32,7 @@ const Navbar = () => {
                     <img src={logo} className={styles.navIcons} alt="logo loading..." />
                 </div>
             </div>
-            <div className={styles.mobileActive} style={{ zIndex: `${nav === false ? '-1' : '3'}`, opacity: `${nav === false ? '0' : '1'}`, transition: 'ease 500ms' }}>
+            <div className={styles.mobileActive} style={{ display: `${nav === false ? 'none' : 'flex'}`, zIndex: `${nav === false ? '-1' : '3'}`, opacity: `${nav === false ? '0' : '1'}`, transition: 'ease 500ms' }}>
                 <div className={styles.linkParentMobile}><Link to='/' className={styles.link}>HOME</Link></div>
                 <div className={styles.linkParentMobile}><Link to='/about' className={styles.link}>ABOUT</Link></div>
                 <div className={styles.linkParentMobile}><Link to='/sponsors' className={styles.link}>SPONSORS</Link></div>
