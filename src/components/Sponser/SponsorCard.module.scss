@@ -1,6 +1,8 @@
-@import url(https://db.onlinewebfonts.com/c/0210e8c7a07c76189f47127049f61dd5?family=Pixeloid+Sans+Bold);
+@font-face {
+  font-family: Pixeloid;
+  src: url("../../../public/fonts/PixeloidSans-Bold.ttf");
+}
 $fontcolor: #ffffff;
-$fontfamily: Pixeloid Sans Bold;
 .sponsorCont {
   width: 100%;
 }
@@ -46,7 +48,7 @@ img {
     rgba(255, 0, 0, 0) 100%
   );
   color: #ffffff;
-  font-family: $fontfamily;
+  font-family: Pixeloid;
   font-size: 2.1rem;
   font-weight: 700;
   height: 4.56;
