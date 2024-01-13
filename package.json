@@ -42,10 +42,7 @@
       "pnpm lint",
       "pnpm format"
     ],
-    "*.css": [
-      "pnpm format"
-    ],
-    "*.scss": [
+    "*.(scss|css)": [
       "pnpm format"
     ]
   }
