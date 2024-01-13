@@ -28,7 +28,7 @@ const Sponsor = () => {
 	];
 	return (
 		<div className={styles.sponsorCont}>
-			<h1 className={styles.heading}>Sponsors</h1>
+			<h1 className={styles.heading}>SPONSORS</h1>
 			<div className={styles.pagebody}>
 				{sponsors.map((s) => {
 					return (
