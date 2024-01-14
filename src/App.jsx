@@ -1,15 +1,10 @@
-import EventPage from "./Pages/Home/EventPage/EventPage";
-import Home from "./Pages/Home/Home";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-function App() {
-	return (
-		<BrowserRouter>
-			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route exact path="/Event" element={<EventPage />} />
-			</Routes>
-		</BrowserRouter>
-	);
-}
+import { useState } from "react";
+import Home from "./Home";
+import Preview from "./components/Preview/Preview";
+
+const App = () => {
+	const [loaded, setLoaded] = useState(false);
+	return loaded ? <Home /> : <Preview setLoaded={setLoaded} />;
+};
 
 export default App;
