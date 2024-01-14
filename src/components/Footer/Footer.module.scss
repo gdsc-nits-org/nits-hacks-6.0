@@ -11,8 +11,8 @@
     flex-direction: column;
     width: 100%;
     overflow-x: hidden;
-    
-   
+
+
 }
 
 .footerUpper {
@@ -31,7 +31,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 2.8px;
+    letter-spacing: 0.175rem;
     text-transform: capitalize;
     padding: 1rem;
 }
@@ -48,22 +48,18 @@
 .btn1 {
     width: 9rem;
     height: 2.06rem;
-    border: 1.22px solid var(--button-stroke-2, #B5868D);
+    border: 0.07rem solid var(--button-stroke-2, #B5868D);
     background: linear-gradient(101deg, #002358 10.23%, #1D0B21 100%);
     font-family: pixeloid;
     padding: 0.5rem 0.3rem;
 
-    // a {
-    //     background: linear-gradient(101deg, #002358 10.23%, #1D0B21 100%);
-    // }
-    
+
+
     &:hover {
-        background: linear-gradient(
-    180deg,
-    rgb(181, 134, 141) 0%,
-    rgb(243, 97, 150) 100%);
-        // background: #B5868D;
-        // color: #ffffff;
+        background: linear-gradient(180deg,
+                rgb(181, 134, 141) 0%,
+                rgb(243, 97, 150) 100%);
+
         transition: ease-in;
         transition-duration: 0.2s;
 
@@ -80,7 +76,7 @@
     a {
         color: #4DEBF6;
         text-align: center;
-        font-size: 11.39px;
+        font-size: 0.711rem;
         font-style: normal;
         font-weight: 400;
         line-height: 16.271px;
@@ -101,11 +97,11 @@
 
     p {
         padding: 1rem 0;
-        font-size: 10px;
+        font-size: 0.625rem;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        letter-spacing: 2.8px;
+        letter-spacing: 0.081rem;
         text-transform: capitalize;
     }
 
@@ -128,7 +124,7 @@
     padding-top: 0.81rem;
     padding-bottom: 1.125rem;
     align-items: flex-start;
-    gap: 16.194px;
+    gap: 1rem;
 
     p {
         font-size: 0.875rem;
@@ -136,8 +132,8 @@
 }
 
 .imgdiv {
-    width: 35px;
-    height: 35px;
+    width: 2.18rem;
+    height: 2.18rem;
 }
 
 .imgdiv img {
@@ -161,16 +157,16 @@
 
         .upper1 {
             flex-direction: row;
-            // gap:2rem;
+
             justify-content: space-between;
-           
+
 
             .contact {
                 padding: 1rem 2rem 1rem 2rem;
                 width: 33%;
 
                 p {
-                    font-size: 24px;
+                    font-size: 1.125rem;
                     font-style: normal;
                     font-weight: 400;
                     line-height: normal;
@@ -181,15 +177,15 @@
                 }
 
                 .gmail {
-                    font-size: 20px;
+                    font-size: 1rem;
                 }
 
                 .social {
                     padding-bottom: 2.375rem;
 
                     .imgdiv {
-                        width: 50px;
-                        height: 50px;
+                        width: 3.125rem;
+                        height: 3.125rem;
                     }
                 }
             }
@@ -223,13 +219,13 @@
             padding-right: 2rem;
 
             p {
-                font-size: 24px;
+                font-size: 1.125rem;
                 padding: 0px 0px 1rem 0px;
             }
-            .mapsimg {
-                width: 21.875rem;
-                height: 14.75rem;
 
+            .mapsimg {
+                height: 13.06rem;
+                width: 17.62rem;
             }
         }
 
@@ -269,14 +265,14 @@
 
 .line {
     width: 100%;
-    height: 2px;
+    height: 0.125rem;
     background-color: #fff;
     position: relative;
 }
 
 .circle {
-    width: 10px;
-    height: 10px;
+    width: 0.5rem;
+    height: 0.5rem;
     background-color: #fff;
     border-radius: 50%;
     position: absolute;
@@ -307,21 +303,22 @@
     }
 
 }
-@media(min-width:920px) and (max-width:1150px){
+
+@media(min-width:920px) and (max-width:1150px) {
     .footerUpper {
         flex-direction: column;
 
         .upper1 {
             flex-direction: row;
             justify-content: space-between;
-           
+
 
             .contact {
                 padding: 5rem;
                 width: 33%;
 
                 p {
-                    font-size: 18px;
+                    font-size: 1.125rem;
                     font-style: normal;
                     font-weight: 400;
                     line-height: normal;
@@ -332,16 +329,13 @@
                 }
 
                 .gmail {
-                    font-size: 20px;
+                    font-size: 1.25rem;
                 }
 
                 .social {
                     padding-bottom: 2.375rem;
 
-                    .imgdiv {
-                        width: 50px;
-                        height: 50px;
-                    }
+
                 }
             }
 
@@ -374,9 +368,10 @@
             padding-right: 5rem;
 
             p {
-                font-size: 14px;
+                font-size: 0.875rem;
             }
-            .mapsimg{
+
+            .mapsimg {
                 width: 15rem;
                 height: 10rem;
             }
@@ -400,4 +395,5 @@
             }
         }
     }
+
 }

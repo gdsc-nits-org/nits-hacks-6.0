@@ -1,12 +1,6 @@
 import styles from "./Footer.module.scss";
 
-// import { GoogleMapReact, LocationPin } from 'google-maps-react'
 const Footer = () => {
-	// const location = {
-	//     address: '1600 Amphitheatre Parkway, Mountain View, california.',
-	//     lat: 37.42216,
-	//     lng: -122.08427,
-	// };
 	return (
 		<div className={styles.footer}>
 			<div className={styles.footerUpper}>
@@ -20,22 +14,28 @@ const Footer = () => {
 						<p className={styles.pconnect}>CONNECT WITH US :</p>
 						<div className={styles.social}>
 							<div className={styles.imgdiv}>
-								<img
-									src="https://res.cloudinary.com/dxafdfvui/image/upload/v1705083563/instapxl_sj0sgp.svg"
-									alt="instagram"
-								/>
+								<a href="https://www.instagram.com/nitshacks/" target="blank_">
+									<img
+										src="https://res.cloudinary.com/dxafdfvui/image/upload/v1705083563/instapxl_sj0sgp.svg"
+										alt="instagram"
+									/>
+								</a>
 							</div>
 							<div className={styles.imgdiv}>
-								<img
-									src="https://res.cloudinary.com/dxafdfvui/image/upload/v1705083563/fbpxl_imhsav.svg"
-									alt="facebook"
-								/>
+								<a href="https://www.facebook.com/NITSHacks" target="blank_">
+									<img
+										src="https://res.cloudinary.com/dxafdfvui/image/upload/v1705083563/fbpxl_imhsav.svg"
+										alt="facebook"
+									/>
+								</a>
 							</div>
 							<div className={styles.imgdiv}>
-								<img
-									src="https://res.cloudinary.com/dxafdfvui/image/upload/v1705083935/twitterlogo_al9ufe.svg"
-									alt="twitter"
-								/>
+								<a href="https://twitter.com/nitshacks" target="blank_">
+									<img
+										src="https://res.cloudinary.com/dxafdfvui/image/upload/v1705083935/twitterlogo_al9ufe.svg"
+										alt="twitter"
+									/>
+								</a>
 							</div>
 						</div>
 						<p className={styles.con}>CONTACT US</p>
@@ -69,23 +69,6 @@ const Footer = () => {
 								loading="lazy"
 								referrerPolicy="no-referrer-when-downgrade"
 							></iframe>
-							{/* <div className={styles.map}>
-                                <h2 className={styles.mapH2}>Come Visit Us At Our Campus</h2>
-
-                                <div className={styles.googleMap}>
-                                    <GoogleMapReact
-                                        bootstrapURLKeys={{ key: '' }}
-                                        defaultCenter={location}
-                                        defaultZoom={zoomLevel}
-                                    >
-                                        <LocationPin
-                                            lat={location.lat}
-                                            lng={location.lng}
-                                            text={location.address}
-                                        />
-                                    </GoogleMapReact>
-                                </div>
-                            </div> */}
 						</div>
 					</div>
 					<div className={styles.buttondiv}>
