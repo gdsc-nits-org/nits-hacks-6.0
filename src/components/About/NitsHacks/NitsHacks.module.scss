@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: Pixeloid;
-    src: url("../../../../public/fonts/PixeloidSans-Bold.ttf");
+    src: url("/fonts/PixeloidSans-Bold.ttf");
 }
 
 @font-face {
     font-family: PixeloidLight;
-    src: url("../../../../public/fonts/PixeloidSans.ttf");
+    src: url("/fonts/PixeloidSans.ttf");
 }
 
 .nitsParent {
@@ -36,6 +36,7 @@
 
         .btn:hover {
             background: var(--button-stroke-2, linear-gradient(106deg, #B5868D -5.14%, #F36196 115.83%));
+            color: #ffffff;
             transition-property: ease;
             transition-duration: 0.5s;
         }

@@ -1,5 +1,4 @@
 import styles from "./Eventcard.module.scss";
-
 const Event = () => {
 	const events = [
 		{
@@ -27,7 +26,7 @@ const Event = () => {
 		},
 	];
 	return (
-		<div className={styles.eventCont}>
+		<div className={styles.eventCont} id="event">
 			<h1 className={styles.heading}>EVENTS</h1>
 			<div className={styles.pagebody}>
 				{events.map((event) => {

@@ -27,6 +27,7 @@
     align-items: center;
     height: auto;
     overflow: hidden;
+    padding: 0.5rem 0.5rem;
 
     .btn {
         background-color: transparent;
@@ -193,5 +194,7 @@
         color: #ffffff;
         text-decoration: none;
         background-color: transparent;
+        border: 0px solid transparent;
+        font-family: Pixeloid;
     }
 }
