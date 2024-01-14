@@ -37,6 +37,7 @@ const Landing = () => {
 		<div
 			className={styles.landing_main}
 			onPointerMove={(e) => {
+				setMove(true);
 				let x = e.clientX;
 				let y = e.clientY;
 
@@ -51,7 +52,7 @@ const Landing = () => {
 			<div className={styles.superflex}>
 				<img src="/Subtract.png" alt="" className={styles.tag} />
 				<h1 className={styles.nitshack}>NITS HACKS 6.0</h1>
-				<h1 className={styles.dates}>01. 02. 03. 04</h1>
+				<h1 className={styles.dates}>01. 02. 03. 04.</h1>
 				<h1 className={styles.month}>February</h1>
 				<div className={styles.arrow}>
 					<a href="#about">

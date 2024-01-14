@@ -22,7 +22,7 @@
 
   .pixel {
     position: fixed;
-    width: 3rem;
+    width: 5.5rem;
     aspect-ratio: 1;
     user-select: none !important;
     pointer-events: none;
@@ -81,8 +81,13 @@
         width: 65rem;
         height: 40rem;
       }
+      @media screen and (max-width: 390px) {
+        top: 3rem;
+        width: 65rem;
+        height: 40rem;
+      }
       @media screen and (max-width: 310px) {
-        top: 10rem;
+        top: 5rem;
         width: 45rem;
         height: 30rem;
       }

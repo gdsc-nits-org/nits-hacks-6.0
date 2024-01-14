@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Home from "./Home";
-import Preview from "./Pages/Preview/Preview";
+import Preview from "./components/Preview/Preview";
 
 const App = () => {
 	const [loaded, setLoaded] = useState(false);
