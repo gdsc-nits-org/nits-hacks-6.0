@@ -1,9 +1,7 @@
 import styles from "./NitsHacks.module.scss";
 import Lottie from "lottie-react";
 import nitsHacksGif from "/public/about_man_in_pc.json";
-import { useRef } from "react"
 const NitsHacks = () => {
-    const NitsHacks = useRef(null);
     return (
         <div className={styles.nitsParent}>
             <div className={styles.NitsHacks}>
