@@ -2,12 +2,12 @@
 @font-face{
     font-family: "Pixeloid";
     src: local("PixeloidSans"),
-    url("../../../../public/Font/PixeloidSans.ttf") format("truetype");
+    url("/fonts/PixeloidSans.ttf") format("truetype");
 }
 @font-face{
     font-family: "PixeloidBold";
     src: local("PixeloidSans-Bold"),
-    url("../../../../public/Font/PixeloidSans-Bold.ttf") format("truetype");
+    url("/fonts/PixeloidSans-Bold.ttf") format("truetype");
 }
 
 .MainDiv{
@@ -30,8 +30,13 @@
             font-size: 3rem;
             color: white;
             line-height: 2.5rem;
-            padding-top: 1.5rem;
-            padding-bottom: 1.5rem;
+            padding: 1.5rem 1rem 1.5rem 1rem;
+            background-image: linear-gradient(to bottom, #ff0101, #000000);
+            background-clip: text;
+            -webkit-text-stroke-color: transparent;
+            -webkit-text-stroke-width: 0.4rem;
+            background-clip: text;  
+            
         }
         p{
             font-family: 'JetBrains Mono', monospace;
@@ -125,6 +130,33 @@
             .title{
                 font-size: 1.4rem;
             }
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .MainDiv{
+        .event_info{
+           .btn_wrapper{
+            .btn_1,.btn_2{
+                font-size: .7rem;
+                padding: 0.55rem 1.3rem;
+            }
+           }
+        }
+    }
+}
+
+@media (max-width: 360px){
+    .MainDiv{
+        .event_info{
+           .btn_wrapper{
+            .btn_1,.btn_2{
+                font-size: .5rem;
+                padding: 0.45rem 0.9rem;
+                margin: 0.5rem;
+            }
+           }
         }
     }
 }
