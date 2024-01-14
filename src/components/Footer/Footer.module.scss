@@ -53,19 +53,25 @@
     font-family: pixeloid;
     padding: 0.5rem 0.3rem;
 
-    a {
-        background: linear-gradient(101deg, #002358 10.23%, #1D0B21 100%);
-    }
-
+    // a {
+    //     background: linear-gradient(101deg, #002358 10.23%, #1D0B21 100%);
+    // }
+    
     &:hover {
-        background: #B5868D;
-        color: #ffffff;
+        background: linear-gradient(
+    180deg,
+    rgb(181, 134, 141) 0%,
+    rgb(243, 97, 150) 100%);
+        // background: #B5868D;
+        // color: #ffffff;
         transition: ease-in;
         transition-duration: 0.2s;
 
         a {
-            background: #B5868D;
+            background: transparent;
             color: #ffffff;
+            transition: ease-in;
+            transition-duration: 0.2s;
             transition: ease-in;
             transition-duration: 0.2s;
         }
@@ -155,11 +161,12 @@
 
         .upper1 {
             flex-direction: row;
+            // gap:2rem;
             justify-content: space-between;
            
 
             .contact {
-                padding: 5rem;
+                padding: 1rem 2rem 1rem 2rem;
                 width: 33%;
 
                 p {
@@ -213,7 +220,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: end;
-            padding-right: 5rem;
+            padding-right: 2rem;
 
             p {
                 font-size: 24px;
@@ -254,7 +261,7 @@
 }
 
 .maincontainer {
-    padding: 0 5rem 3.75rem 5rem;
+    padding: 0 2rem 1rem 2rem;
     width: 100%;
     max-width: 100%;
     background-color: transparent;

@@ -39,7 +39,14 @@ const Footer = () => {
 							</div>
 						</div>
 						<p className={styles.con}>CONTACT US</p>
-						<p className={styles.gmail}>nitshacks.nits@gmail.com</p>
+						<p className={styles.gmail}>
+							<a
+								style={{ color: "#ffffff", textDecoration: "none" }}
+								href="mailto:nitshacks.nits@gmail.com"
+							>
+								nitshacks.nits@gmail.com
+							</a>
+						</p>
 					</div>
 					<div className={styles.logo}>
 						<div className={styles.logoInner}>
