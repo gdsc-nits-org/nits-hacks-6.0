@@ -18,7 +18,7 @@ const Event = () => {
 		{
 			id: 3,
 			name: "Coming soon",
-			img: "https://res.cloudinary.com/drffnopta/image/upload/v1705331366/depositphotos_632822984-stock-photo-generative-illustration-gaming-background-abstract_2400x1600_1_phjyw9.svg",
+			img: "https://res.cloudinary.com/drffnopta/image/upload/v1705332021/3fffde984f44e305ae305d4633de9e72_1_hrqwz9.svg",
 			content: "Coming soon",
 		},
 	];
