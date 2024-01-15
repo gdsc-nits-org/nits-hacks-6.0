@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Footer, Navbar } from "../../components";
 import styles from "./EventPage.module.scss";
 
@@ -30,8 +31,12 @@ const EventPage = () => {
 						Repellendus amet ex aliquid illum ipsa expedita!
 					</p>
 					<div className={styles.btn_wrapper}>
-						<button className={styles.btn_1}>REGISTER NOW</button>
-						<button className={styles.btn_2}>BACK TO HOME</button>
+						<a href="https://forms.google.com/" className={styles.btn_1}>
+							REGISTER NOW
+						</a>
+						<Link to="/" className={styles.btn_2}>
+							BACK TO HOME
+						</Link>
 					</div>
 				</div>
 				<div className={styles.event_poster}>
