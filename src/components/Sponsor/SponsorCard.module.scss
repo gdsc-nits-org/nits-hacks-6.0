@@ -1,13 +1,13 @@
-@font-face {
-  font-family: Pixeloid;
-  src: url("/fonts/PixeloidSans-Bold.ttf");
-}
 $fontcolor: #ffffff;
+
 .sponsorCont {
   width: 100%;
   overflow: hidden;
-  background-color: black;
-  padding-top: 1rem;
+  padding-top: 3rem;
+}
+
+body {
+  background-color: #000;
 }
 
 .pagebody {
@@ -20,6 +20,7 @@ $fontcolor: #ffffff;
   padding: 0;
   margin-top: 1.5rem;
 }
+
 .card {
   height: 15rem;
   width: 25rem;
@@ -33,7 +34,7 @@ $fontcolor: #ffffff;
   background-size: contain;
 }
 
-.only_use_class_selectors_in_module_css_files_ffs {
+.img {
   height: 15rem;
   width: 7rem;
   position: relative;
@@ -44,11 +45,9 @@ $fontcolor: #ffffff;
 .heading {
   background-clip: text;
   -webkit-text-stroke: 2.7px transparent;
-  background-image: linear-gradient(
-    180deg,
-    rgb(255, 1, 1) 0%,
-    rgba(255, 0, 0, 0) 100%
-  );
+  background-image: linear-gradient(180deg,
+      rgb(255, 1, 1) 0%,
+      rgba(255, 0, 0, 0) 100%);
   color: #ffffff;
   font-family: Pixeloid;
   font-size: 2.1rem;
@@ -61,12 +60,14 @@ $fontcolor: #ffffff;
   top: 0;
   width: 100vw;
 }
+
 @media screen and (max-width: 850px) {
   .card {
     height: 12rem;
     width: 17rem;
   }
-  .only_use_class_selectors_in_module_css_files_ffs {
+
+  .img {
     height: 13rem;
     width: 5rem;
   }
@@ -77,41 +78,49 @@ $fontcolor: #ffffff;
     height: 12rem;
     width: 14rem;
   }
-  .only_use_class_selectors_in_module_css_files_ffs {
+
+  .img {
     height: 13rem;
     width: 5rem;
     bottom: 0.5rem;
   }
+
   .heading {
     font-size: 1.7rem;
   }
 }
+
 @media screen and (min-width: 850px) {
   .card {
     position: relative;
     left: 3.2rem;
   }
 }
+
 @media screen and (max-width: 480px) {
   .card {
     height: 8rem;
     width: 10rem;
   }
-  .only_use_class_selectors_in_module_css_files_ffs {
+
+  .img {
     height: 11rem;
     width: 4rem;
     bottom: 1.3rem;
     left: 3rem;
   }
+
   .pagebody {
     gap: 1.5rem;
   }
+
   .heading {
     font-size: 1.4rem;
   }
 }
+
 @media screen and (min-width: 480px) {
-  .only_use_class_selectors_in_module_css_files_ffs {
+  .img {
     left: 5rem;
   }
 }

@@ -1,9 +1,8 @@
 import { useRef } from "react";
-
 import Lottie from "lottie-react";
 import upgradeAnimation from "../../lottiefiles/upgrading.json";
 // import { useNavigate } from "react-router-dom";
-import styles from "./preview.module.scss";
+import styles from "./Preview.module.scss";
 
 // eslint-disable-next-line react/prop-types
 const Preview = ({ setLoaded }) => {

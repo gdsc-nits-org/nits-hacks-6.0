@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from "react";
-import styles from "./landing.module.scss";
+import { Link } from "react-scroll";
+import styles from "./Landing.module.scss";
 import Lottie from "lottie-react";
 import arrowAnimation from "../../lottiefiles/home_arror.json";
 import Pixel from "../Pixel/Pixel";
@@ -50,14 +51,14 @@ const Landing = () => {
 		>
 			<div className={move ? styles.pixel : undefined} ref={pixelRef}></div>
 			<div className={styles.superflex}>
-				<img src="/Subtract.png" alt="" className={styles.tag} />
+				<img src="/subtract1.png" alt="" className={styles.tag} />
 				<h1 className={styles.nitshack}>NITS HACKS 6.0</h1>
 				<h1 className={styles.dates}>01. 02. 03. 04.</h1>
 				<h1 className={styles.month}>February</h1>
 				<div className={styles.arrow}>
-					<a href="#about">
+					<Link to="about" smooth={true}>
 						<Lottie animationData={arrowAnimation} />
-					</a>
+					</Link>
 				</div>
 			</div>
 			<Pixel />
