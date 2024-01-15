@@ -1,0 +1,334 @@
+@font-face {
+  font-family: Pixeloid;
+  src: url("../../../public/fonts/PixeloidSans.ttf");
+}
+@font-face {
+  font-family: Pixeloid Bold;
+  src: url("../../../public/fonts/PixeloidSans-Bold.ttf");
+}
+$fontcolor: #ffffff;
+
+.teamsCont {
+  width: 100%;
+  overflow-x: hidden;
+  background: url("../../../public/background/teamPagebg.svg");
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.headingteams {
+  color: #ffffff;
+  font-family: Pixeloid Bold;
+  font-size: 2.3rem;
+  font-weight: 400;
+  height: 4.56;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 2.5rem;
+  text-align: center;
+  top: 0;
+  width: 100vw;
+  text-shadow: 2px 10px 25px #ffffff;
+}
+.button {
+  align-items: center;
+  background: linear-gradient(180deg, rgb(0, 35, 88) 0%, rgb(29, 11, 33) 100%);
+  border: 1.5px solid;
+  border-color: transparent;
+  border-image: linear-gradient(
+      to bottom,
+      rgb(181, 134, 141),
+      rgb(243, 97, 150)
+    )
+    1;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  height: 3rem;
+  width: 10rem;
+
+  .state_layer {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 0.5rem;
+    justify-content: center;
+    padding: 10px 24px;
+    position: relative;
+
+    .button_text {
+      color: #4debf6;
+      font-family: Pixeloid;
+      font-size: 1.3em;
+      margin-top: -1px;
+      position: relative;
+      text-align: center;
+      white-space: nowrap;
+      width: fit-content;
+      background: transparent;
+      border: none;
+    }
+  }
+}
+.button:hover {
+  background: linear-gradient(
+    180deg,
+    rgb(181, 134, 141) 0%,
+    rgb(243, 97, 150) 100%
+  );
+}
+
+.button:hover .button_text {
+  color: #ffffff;
+}
+
+.teams_body {
+  display: flex;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1.5rem;
+}
+
+.headingteamsa {
+  color: #ffffff;
+  font-family: Pixeloid Bold;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 2.5rem;
+  text-align: center;
+  width: 100vw;
+  position: relative;
+  top: 3rem;
+  text-shadow: 2px 10px 25px #ffffff;
+}
+.teamname {
+  position: relative;
+  right: 10rem;
+}
+.teamname_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  left: 24%;
+  top: 7rem;
+  max-width: fit-content;
+  max-height: fit-content;
+}
+@media screen and (max-width: 1200px) {
+  .teams_body {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .teamname_body {
+    flex-direction: column;
+    gap: 2rem;
+    left: 55%;
+  }
+}
+@media only screen and (min-width: 880px) and (max-width: 1170px) {
+  .teamname_body {
+    left: 20%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .headingteamsa {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .headingteams {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 751px) and (max-width: 1299px) {
+  .teamname_body {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .headingteams {
+    display: none;
+  }
+  .teams_body {
+    background: linear-gradient(
+      270deg,
+      rgba(0, 0, 0, 1),
+      rgba(150, 0, 135, 0.41),
+      rgba(255, 0, 229, 0)
+    );
+    flex-direction: column;
+    float: right;
+    gap: 3rem;
+    padding-right: 1rem;
+    padding-bottom: 15rem;
+    padding-top: 5rem;
+  }
+  .teamname_body {
+    flex-direction: row;
+    gap: 4rem;
+    float: left;
+    left: 17rem;
+  }
+}
+.teamname_body {
+  height: fit-content;
+  width: fit-content;
+  .card {
+    background-color: black;
+    border: 2px solid rgba(208, 60, 171, 1);
+    height: 23rem;
+    width: 17rem;
+    gap: 2rem;
+    transition: 0.4s;
+    .box {
+      background: url("./spam/Group.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: relative;
+      left: 1.7rem;
+      top: 2rem;
+      .img {
+        height: inherit;
+        width: inherit;
+        position: inherit;
+        left: 0.8rem;
+      }
+    }
+    .design {
+      position: relative;
+      top: 3rem;
+      left: 2.3rem;
+      height: 2rem;
+      width: 12.2rem;
+      border: 1.37px solid rgba(28, 169, 245, 1);
+      overflow: hidden;
+      .desimg {
+        position: relative;
+        left: 0.7rem;
+        top: 0.3rem;
+        float: right;
+        width: 80%;
+        height: 70%;
+        transition: 0.4s;
+      }
+    }
+  }
+}
+.social {
+  display: none;
+  transition: 0.2s;
+}
+.content {
+  position: relative;
+  top: 3.5rem;
+  left: 1.3rem;
+  padding-left: 1rem;
+  color: #ffffff;
+  transition: 0.2s;
+  font-weight: 700;
+  .name {
+    font-family: Pixeloid Bold;
+  }
+  .designation {
+    font-family: Pixeloid;
+  }
+}
+.card:hover {
+  cursor: pointer;
+}
+.hover .content {
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.card:hover {
+  box-shadow: rgba(210, 70, 200, 1) 4px 22px 50px 4px;
+  transform: translate3D(0, -1.5px, 0) scale(1.03);
+}
+.card:hover {
+  .desimg {
+    transform: translate(100%);
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+  }
+}
+.card:hover {
+  .social {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1.7rem;
+    gap: 1rem;
+    bottom: 1rem;
+
+    .logo {
+      height: 1.2rem;
+      width: 1.3rem;
+    }
+    .logogit {
+      height: 1.5rem;
+      width: 1.8rem;
+    }
+  }
+}
+@media screen and (max-width: 1350px) {
+  .card {
+    height: auto;
+    width: auto;
+  }
+}
+@media screen and (max-width: 383px) {
+  .headingteamsa {
+    left: 45%;
+  }
+}
+@media only screen and (min-width: 384px) and (max-width: 880px) {
+  .headingteamsa {
+    left: 25%;
+  }
+}
+@media only screen and (min-width: 881px) and (max-width: 1000px) {
+  .headingteamsa {
+    left: 20%;
+  }
+}
+@media only screen and (min-width: 1001px) {
+  .headingteamsa {
+    left: 15.5%;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+  .teamname {
+    position: relative;
+    right: 11rem;
+  }
+}
+@media only screen and (min-width: 1001px) {
+  .teamname_body {
+    left: 23%;
+  }
+}
+@media only screen and (max-width: 400px) {
+}
+@media only screen and (min-width: 385px) and (max-width: 600px) {
+  .headingteamsa {
+    left: 40%;
+  }
+}

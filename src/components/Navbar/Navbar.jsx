@@ -79,7 +79,7 @@ const Navbar = () => {
 					</button>
 				</div>
 				<div className={styles.linkParentMobile}>
-					<Link to="/team" className={styles.link}>
+					<Link to="/Teams" className={styles.link}>
 						TEAM
 					</Link>
 				</div>
@@ -115,7 +115,7 @@ const Navbar = () => {
 							<button
 								onClick={() =>
 									document
-										.getElementById("Sponsor")
+										.getElementById("sponsor")
 										.scrollIntoView({ behaviour: "smooth" })
 								}
 								className={styles.link}
@@ -126,7 +126,7 @@ const Navbar = () => {
 					</div>
 					<div className={styles.linkParent}>
 						<div className={styles.innerParent}>
-							<Link to="/team" className={styles.link}>
+							<Link to="/Teams" className={styles.link}>
 								Team
 							</Link>
 						</div>
