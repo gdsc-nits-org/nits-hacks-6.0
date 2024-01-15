@@ -3,26 +3,23 @@ const Event = () => {
 	const events = [
 		{
 			id: 1,
-			name: "Software Track",
+			name: "Coming soon",
 			img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1704971596/Nits%20hacks%206.0/Events/xbb2oxs7ytlcongnfkwn.svg",
-			content:
-				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+			content: "Coming soon",
 		},
 
 		{
 			id: 2,
-			name: "UI/UX Track",
+			name: "Coming soon",
 			img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1704971595/Nits%20hacks%206.0/Events/ssk8rfvcx5kiqjym5sl4.svg",
-			content:
-				"UI/UX track aims to introduce tech enthusiasts to the aesthetic world of design and highlight its significance in technology.The design- a - thon provides beginners with education, skill development, andnetworking opportunities within the UI / UX community.",
+			content: "Coming soon",
 		},
 
 		{
 			id: 3,
-			name: "Speaker Session",
-			img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1704971595/Nits%20hacks%206.0/Events/spnzunypvuzxjmlskild.svg",
-			content:
-				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+			name: "Coming soon",
+			img: "https://res.cloudinary.com/drffnopta/image/upload/v1705332021/3fffde984f44e305ae305d4633de9e72_1_hrqwz9.svg",
+			content: "Coming soon",
 		},
 	];
 	return (
