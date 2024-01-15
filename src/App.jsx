@@ -8,9 +8,14 @@ const App = () => {
 	const [loaded, setLoaded] = useState(false);
 	return (
 		<>
-			{loaded ? <Home /> : <Preview setLoaded={setLoaded} />};
 			<Routes>
-				<Route exact path="/Event" element={<EventPage />}></Route>
+				{loaded ? (
+					<Route exact path="/" element={<Home />} />
+				) : (
+					<Route exact path="/" element={<Preview setLoaded={setLoaded} />} />
+				)}
+				;
+				<Route exact path="/Event" element={<EventPage />} />
 			</Routes>
 		</>
 	);
