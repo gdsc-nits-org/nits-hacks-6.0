@@ -65,11 +65,11 @@ const Navbar = () => {
 						SPONSORS
 					</SectionLink>
 				</div>
-				<div className={styles.linkParentMobile}>
+				{/* <div className={styles.linkParentMobile}>
 					<Link to="/team" className={styles.link}>
 						TEAM
 					</Link>
-				</div>
+				</div> */}
 			</div>
 			<div className={styles.deskNav}>
 				<div className={styles.left}>
@@ -97,13 +97,13 @@ const Navbar = () => {
 							</SectionLink>
 						</div>
 					</div>
-					<div className={styles.linkParent}>
+					{/* <div className={styles.linkParent}>
 						<div className={styles.innerParent}>
 							<Link to="/Teams" className={styles.link}>
 								Team
 							</Link>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>
