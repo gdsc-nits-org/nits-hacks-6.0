@@ -1,6 +1,7 @@
 import styles from "./NitsHacks.module.scss";
 import Lottie from "lottie-react";
-import nitsHacksGif from "/public/about_man_in_pc.json";
+import nitsHacksGif from "../../../lottiefiles/about_man_in_pc.json";
+
 const NitsHacks = () => {
 	return (
 		<div className={styles.nitsParent}>
@@ -11,13 +12,14 @@ const NitsHacks = () => {
 						<div className={styles.aboutHead2}>NITS HACKS 6.0</div>
 					</h1>
 					<p className={styles.p}>
-						Tecnoesis is the annual techno-managerial event of NIT Silchar,
-						promising all tech geeks the ideal niche of fascinating events,
-						workshops, competitions and interactions worth a lifetime. This mega
-						event has left its mark as of the most prominent techfests across
-						the country. The cauldron of enthusiasm and knowledge attracts
-						various students, presenting the chance to let their minds run wild
-						with ideads, fostering the inventors of the future.
+						NITS HACKS, organized by NIT Silchar, is a premier hackathon in
+						northeastern India. It provides a platform for tech enthusiasts to
+						collaborate, showcase problem-solving skills, and emphasizes soft
+						skill development. More than just a hackathon, it offers valuable
+						technical learning experiences, encouraging participants to tackle
+						real-life challenges and build innovative technology projects. NITS
+						HACKS celebrates innovation and shapes the next generation of tech
+						leaders.
 					</p>
 				</div>
 				<div className={styles.parent}>

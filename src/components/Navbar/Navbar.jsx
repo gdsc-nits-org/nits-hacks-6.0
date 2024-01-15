@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { Link as SectionLink } from "react-scroll";
 import styles from "./Navbar.module.scss";
 
 const Navbar = () => {
@@ -55,28 +56,14 @@ const Navbar = () => {
 					</Link>
 				</div>
 				<div className={styles.linkParentMobile}>
-					<button
-						onClick={() =>
-							document
-								.getElementById("event")
-								.scrollIntoView({ behaviour: "smooth" })
-						}
-						className={styles.link}
-					>
+					<SectionLink to="event" smooth={true} className={styles.link}>
 						EVENTS
-					</button>
+					</SectionLink>
 				</div>
 				<div className={styles.linkParentMobile}>
-					<button
-						onClick={() =>
-							document
-								.getElementById("Sponsor")
-								.scrollIntoView({ behaviour: "smooth" })
-						}
-						className={styles.link}
-					>
+					<SectionLink to="sponsors" smooth={true} className={styles.link}>
 						SPONSORS
-					</button>
+					</SectionLink>
 				</div>
 				<div className={styles.linkParentMobile}>
 					<Link to="/Teams" className={styles.link}>
@@ -98,30 +85,16 @@ const Navbar = () => {
 					</div>
 					<div className={styles.linkParent}>
 						<div className={styles.innerParent}>
-							<button
-								onClick={() =>
-									document
-										.getElementById("event")
-										.scrollIntoView({ behaviour: "smooth" })
-								}
-								className={styles.link}
-							>
+							<SectionLink to="event" smooth={true} className={styles.link}>
 								Events
-							</button>
+							</SectionLink>
 						</div>
 					</div>
 					<div className={styles.linkParent}>
 						<div className={styles.innerParent}>
-							<button
-								onClick={() =>
-									document
-										.getElementById("sponsor")
-										.scrollIntoView({ behaviour: "smooth" })
-								}
-								className={styles.link}
-							>
+							<SectionLink to="sponsors" smooth={true} className={styles.link}>
 								Sponsors
-							</button>
+							</SectionLink>
 						</div>
 					</div>
 					<div className={styles.linkParent}>
