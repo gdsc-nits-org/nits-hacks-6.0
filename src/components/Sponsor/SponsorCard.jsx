@@ -28,18 +28,18 @@ const Sponsor = () => {
 		{
 			id: 7,
 			img: "https://res.cloudinary.com/dxafdfvui/image/upload/v1705320298/solana_yhw3k5.svg",
-		},	
+		},
 		{
 			id: 8,
 			img: "https://res.cloudinary.com/dxafdfvui/image/upload/v1705320698/Polygon_blockchain_logo_gijj2n.svg",
-		},	
+		},
 		{
 			id: 9,
 			img: "https://res.cloudinary.com/dxafdfvui/image/upload/v1705320842/devfolio_jpfrru.svg",
-		}	
+		},
 	];
 	return (
-		<div className={styles.sponsorCont}>
+		<div className={styles.sponsorCont} id="sponsors">
 			<h1 className={styles.heading}>PAST SPONSORS</h1>
 			<div className={styles.pagebody}>
 				{sponsors.map((s) => {

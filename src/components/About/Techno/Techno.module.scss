@@ -5,8 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    padding-top: 3rem;
 
     .aboutCont {
         display: flex;
@@ -85,7 +84,7 @@
 
     @media screen and (min-width:300px) {
         .heading {
-            font-size: 1.6rem;
+            font-size: 1rem;
 
             .aboutHead1 {
                 -webkit-text-stroke: 0.2rem transparent;
