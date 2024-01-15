@@ -1,6 +1,7 @@
-import styles from "./Navbar.module.scss";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import styles from "./Navbar.module.scss";
+
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
 	const hamburger = {

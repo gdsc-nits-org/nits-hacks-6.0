@@ -1,15 +1,10 @@
-@font-face {
-  font-family: Pixeloid;
-  src: url(/fonts/PixeloidSans.ttf);
-}
-
 .container {
   max-width: 100%;
   height: 100vh;
   background-image: url(/space.png);
   background-size: contain;
   padding: 2.3rem;
-  font-family: Pixeloid;
+  font-family: PixeloidLight;
   color: #d03cab;
   overflow: hidden;
 
