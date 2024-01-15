@@ -48,6 +48,7 @@ const Landing = () => {
 			onPointerLeave={() => setMove(false)}
 			onPointerEnter={() => setMove(true)}
 			ref={rainContainerRef}
+			id="home"
 		>
 			<div className={move ? styles.pixel : undefined} ref={pixelRef}></div>
 			<div className={styles.superflex}>
