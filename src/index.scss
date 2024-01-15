@@ -21,12 +21,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
-#root{
+
+#root {
   background-color: #000000;
+  min-height: 100vh;
 }
