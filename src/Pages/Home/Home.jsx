@@ -1,6 +1,9 @@
+import styles from "./Home.module.scss";
+
 import {
 	Navbar,
 	Footer,
+	Landing,
 	NitsHacks,
 	Techno,
 	Sponsor,
@@ -10,8 +13,11 @@ const Home = () => {
 	return (
 		<div style={{ overflowX: "hidden" }}>
 			<Navbar />
-			<NitsHacks />
-			<Techno />
+			<Landing />
+			<div id="about" className={styles.about}>
+				<NitsHacks />
+				<Techno />
+			</div>
 			<Event />
 			<Sponsor />
 			<Footer />

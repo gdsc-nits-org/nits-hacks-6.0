@@ -5,7 +5,7 @@ const Techno = () => {
 			<div className={styles.aboutCont}>
 				<h1 className={styles.heading}>
 					<div className={styles.aboutHead1}>ABOUT</div>
-					<div className={styles.aboutHead2}>TECHNOESIS</div>
+					<div className={styles.aboutHead2}>TECNOESIS</div>
 				</h1>
 				<p className={styles.p}>
 					Tecnoesis is the annual techno-managerial event of NIT Silchar,
