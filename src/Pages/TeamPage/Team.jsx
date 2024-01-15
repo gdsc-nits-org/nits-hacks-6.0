@@ -1,6 +1,7 @@
 import styles from "./Team.module.scss"
 import design from "./spam/design.svg"
 import { useState } from "react";
+import Navbar from "../../../src/components/Navbar/Navbar"
 import FACULTY from "./Faculty.json"
 import TECH from "./Tech.json"
 import VOLUNTEERS from "./Volunteers.json"
@@ -61,6 +62,7 @@ const Teams = () => {
     if (teamName === 'FACULTY') {
         return (
             <div className={styles.teamsCont}>
+                <Navbar />
                 <div className={styles.teams}>
                     <h1 className={styles.headingteams}>TEAMS</h1>
                     <div className={styles.teams_body}>
@@ -94,6 +96,7 @@ const Teams = () => {
     else if (teamName === 'TECH') {
         return (
             <div className={styles.teamsCont}>
+                <Navbar />
                 <div className={styles.teams}>
                     <h1 className={styles.headingteams}>TEAMS</h1>
                     <div className={styles.teams_body}>
@@ -126,6 +129,7 @@ const Teams = () => {
     else if (teamName === 'CORE') {
         return (
             <div className={styles.teamsCont}>
+                <Navbar />
                 <div className={styles.teams}>
                     <h1 className={styles.headingteams}>TEAMS</h1>
                     <div className={styles.teams_body}>
@@ -158,6 +162,7 @@ const Teams = () => {
     else if (teamName === 'ORGANISERS') {
         return (
             <div className={styles.teamsCont}>
+                <Navbar />
                 <div className={styles.teams}>
                     <h1 className={styles.headingteams}>TEAMS</h1>
                     <div className={styles.teams_body}>
@@ -191,6 +196,7 @@ const Teams = () => {
 
     return (
         <div className={styles.teamsCont}>
+            <Navbar />
             <div className={styles.teams}>
                 <h1 className={styles.headingteams}>TEAMS</h1>
                 <div className={styles.teams_body}>

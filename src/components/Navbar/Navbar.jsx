@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Link as SectionLink } from "react-scroll";
 import styles from "./Navbar.module.scss";
-
+import Teams from "../../Pages/TeamPage/Team";
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
 	const hamburger = {
@@ -66,7 +66,7 @@ const Navbar = () => {
 					</SectionLink>
 				</div>
 				<div className={styles.linkParentMobile}>
-					<Link to="/Teams" className={styles.link}>
+					<Link to="/team" className={styles.link}>
 						TEAM
 					</Link>
 				</div>
