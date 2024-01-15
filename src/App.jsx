@@ -6,4 +6,5 @@ const App = () => {
 	const [loaded, setLoaded] = useState(false);
 	return loaded ? <Home /> : <Preview setLoaded={setLoaded} />;
 };
+
 export default App;
