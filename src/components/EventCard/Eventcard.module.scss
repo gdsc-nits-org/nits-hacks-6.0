@@ -1,24 +1,14 @@
-@import url(https://db.onlinewebfonts.com/c/0210e8c7a07c76189f47127049f61dd5?family=Pixeloid+Sans+Bold);
-
-@font-face {
-  font-family: "JetBrainsMono";
-  src: url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2") format("woff2"),
-    url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff") format("woff"),
-    url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-
 body {
   background-color: #000;
 }
 
 $fontcolor: #ffffff;
-$fontfamily: Pixeloid Sans Bold;
+$fontfamily: Pixeloid;
 
 .eventCont {
   width: 100%;
   overflow-x: hidden;
+  padding-top: 4rem;
 }
 
 .heading {
@@ -30,7 +20,7 @@ $fontfamily: Pixeloid Sans Bold;
   color: #ffffff;
   font-family: $fontfamily;
   font-size: 2.1rem;
-  font-weight: 700;
+  font-weight: 100;
   height: 4.56;
   left: 0;
   letter-spacing: 0;
@@ -114,7 +104,6 @@ $fontfamily: Pixeloid Sans Bold;
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
-  font-family: "JetBrainsMono";
   color: $fontcolor;
   width: 13rem;
   position: relative;
