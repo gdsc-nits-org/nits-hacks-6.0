@@ -99,7 +99,7 @@ const Navbar = () => {
 					</div>
 					<div className={styles.linkParent}>
 						<div className={styles.innerParent}>
-							<Link to="/team" className={styles.link}>
+							<Link to="/Teams" className={styles.link}>
 								Team
 							</Link>
 						</div>
