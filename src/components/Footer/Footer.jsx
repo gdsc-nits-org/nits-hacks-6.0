@@ -54,7 +54,7 @@ const Footer = () => {
 						</div>
 					</div>
 					<div className={styles.maps}>
-						<p>How to Reach</p>
+						<p>How to Reach?</p>
 						<div className={styles.mapsimg}>
 							<iframe
 								title="mymap"
