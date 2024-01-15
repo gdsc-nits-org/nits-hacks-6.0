@@ -66,7 +66,7 @@ const Navbar = () => {
 					</SectionLink>
 				</div>
 				<div className={styles.linkParentMobile}>
-					<Link to="/team" className={styles.link}>
+					<Link to="/Teams" className={styles.link}>
 						TEAM
 					</Link>
 				</div>
