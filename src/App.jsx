@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Home from "./Home";
+import Home from "./Pages/Home/Home";
 import Preview from "./components/Preview/Preview";
 
 const App = () => {
