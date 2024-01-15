@@ -35,13 +35,7 @@ const Sponsor = () => {
 						<div key={s.id} className={styles.card}>
 							<div className={styles.wrapper}>
 								<div className={styles.box}>
-									<img
-										src={s.img}
-										alt={s}
-										className={
-											styles.only_use_class_selectors_in_module_css_files_ffs
-										}
-									/>
+									<img src={s.img} className={styles.img} alt={s} />
 								</div>
 							</div>
 						</div>
