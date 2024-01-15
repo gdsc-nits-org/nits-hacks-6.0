@@ -1,4 +1,4 @@
-import styles from "./Eventcard.module.scss";
+import styles from "./EventCard.module.scss";
 const Event = () => {
 	const events = [
 		{
