@@ -1,0 +1,23 @@
+[
+    {
+        "id": 7,
+        "img": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1705243449/Nits%20hacks%206.0/Teams/fmha1lhmpilyn6miadrl.jpg",
+        "name": "ABC",
+        "category": "TECH",
+        "designation": "ABC"
+    },
+    {
+        "id": 8,
+        "img": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1705243449/Nits%20hacks%206.0/Teams/fmha1lhmpilyn6miadrl.jpg",
+        "name": "ABC",
+        "category": "TECH",
+        "designation": "ABC"
+    },
+    {
+        "id": 9,
+        "img": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1705243449/Nits%20hacks%206.0/Teams/fmha1lhmpilyn6miadrl.jpg",
+        "name": "ABC",
+        "category": "TECH",
+        "designation": "ABC"
+    }
+]
