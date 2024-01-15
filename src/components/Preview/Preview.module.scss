@@ -51,6 +51,10 @@
         position: relative;
         height: 25rem;
 
+        @media screen and (max-height: 580px) {
+          height: 20rem;
+        }
+
         @media screen and (max-width: 1024px) {
           top: 4rem;
           height: 22rem;
