@@ -31,7 +31,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 }
-img {
+.img {
   height: 15rem;
   width: 7rem;
   position: relative;
@@ -64,7 +64,7 @@ img {
     height: 12rem;
     width: 17rem;
   }
-  img {
+  .img {
     height: 13rem;
     width: 5rem;
   }
@@ -75,7 +75,7 @@ img {
     height: 12rem;
     width: 14rem;
   }
-  img {
+  .img {
     height: 13rem;
     width: 5rem;
     bottom: 0.5rem;
@@ -95,7 +95,7 @@ img {
     height: 8rem;
     width: 10rem;
   }
-  img {
+  .img {
     height: 11rem;
     width: 4rem;
     bottom: 1.3rem;
@@ -109,7 +109,7 @@ img {
   }
 }
 @media screen and (min-width: 480px) {
-  img {
+  .img {
     left: 5rem;
   }
 }

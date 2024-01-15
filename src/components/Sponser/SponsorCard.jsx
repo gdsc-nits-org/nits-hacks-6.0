@@ -35,7 +35,7 @@ const Sponsor = () => {
 						<div key={s.id} className={styles.card}>
 							<div className={styles.wrapper}>
 								<div className={styles.box}>
-									<img src={s.img} alt={s} />
+									<img className={styles.img} src={s.img} alt={s} />
 								</div>
 							</div>
 						</div>
