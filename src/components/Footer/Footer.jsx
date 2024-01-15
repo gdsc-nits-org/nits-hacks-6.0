@@ -50,10 +50,7 @@ const Footer = () => {
 					</div>
 					<div className={styles.logo}>
 						<div className={styles.logoInner}>
-							<img
-								src="https://res.cloudinary.com/dxafdfvui/image/upload/v1705127726/logo_vfazzi.svg"
-								alt="Logo"
-							/>
+							<img src="/logo.png" alt="Logo" className={styles.logoImg} />
 						</div>
 					</div>
 					<div className={styles.maps}>

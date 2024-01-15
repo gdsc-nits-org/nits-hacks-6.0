@@ -1,399 +1,385 @@
-@font-face {
-    font-family: Pixeloid;
-    src: url("../../../public//fonts/PixeloidSans.ttf");
-}
-
 .footer {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 9.02%, rgba(0, 0, 0, 0.00) 9.02%, #540A51 93.53%);
-    font-family: Pixeloid;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    overflow-x: hidden;
-
-
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 9.02%,
+    rgba(0, 0, 0, 0) 9.02%,
+    #540a51 93.53%
+  );
+  font-family: Pixeloid;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .footerUpper {
-    display: flex;
-    flex-direction: column-reverse;
-    background-color: transparent;
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: transparent;
 }
 
 .upper1 {
-    display: flex;
-    flex-direction: column-reverse;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .copytxt {
-    font-size: 0.625rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.175rem;
-    text-transform: capitalize;
-    padding: 1rem;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.175rem;
+  text-transform: capitalize;
+  padding: 1rem;
 }
 
 .btn1 {
-    display: none;
+  display: none;
 }
 
 .buttondiv {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .btn2,
 .btn1 {
-    width: 9rem;
-    height: 2.06rem;
-    border: 0.07rem solid var(--button-stroke-2, #B5868D);
-    background: linear-gradient(101deg, #002358 10.23%, #1D0B21 100%);
-    font-family: pixeloid;
-    padding: 0.5rem 0.3rem;
+  width: 9rem;
+  height: 2.06rem;
+  border: 0.07rem solid var(--button-stroke-2, #b5868d);
+  background: linear-gradient(101deg, #002358 10.23%, #1d0b21 100%);
+  font-family: pixeloid;
+  padding: 0.5rem 0.3rem;
 
+  &:hover {
+    background: linear-gradient(
+      180deg,
+      rgb(181, 134, 141) 0%,
+      rgb(243, 97, 150) 100%
+    );
 
-
-    &:hover {
-        background: linear-gradient(180deg,
-                rgb(181, 134, 141) 0%,
-                rgb(243, 97, 150) 100%);
-
-        transition: ease-in;
-        transition-duration: 0.2s;
-
-        a {
-            background: transparent;
-            color: #ffffff;
-            transition: ease-in;
-            transition-duration: 0.2s;
-            transition: ease-in;
-            transition-duration: 0.2s;
-        }
-    }
+    transition: ease-in;
+    transition-duration: 0.2s;
 
     a {
-        color: #4DEBF6;
-        text-align: center;
-        font-size: 0.711rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 16.271px;
-        letter-spacing: 0.081px;
-        text-decoration: none;
+      background: transparent;
+      color: #ffffff;
+      transition: ease-in;
+      transition-duration: 0.2s;
+      transition: ease-in;
+      transition-duration: 0.2s;
     }
+  }
+
+  a {
+    color: #4debf6;
+    text-align: center;
+    font-size: 0.711rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.271px;
+    letter-spacing: 0.081px;
+    text-decoration: none;
+  }
 }
 
 .mapsimg {
-    width: 17.625rem;
-    height: 13.06rem;
-    overflow: hidden;
-    border-radius: 8px;
+  width: 17.625rem;
+  height: 13.06rem;
+  overflow: hidden;
+  border-radius: 8px;
 }
 
 .maps {
-    padding: 1rem;
+  padding: 1rem;
 
-    p {
-        padding: 1rem 0;
-        font-size: 0.625rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: 0.081rem;
-        text-transform: capitalize;
-    }
+  p {
+    padding: 1rem 0;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.081rem;
+    text-transform: capitalize;
+  }
 
-    .mapsimg {
-
-        height: 13.06rem;
-        width: 17.62rem;
-        background-color: white;
-
-    }
+  .mapsimg {
+    height: 13.06rem;
+    width: 17.62rem;
+    background-color: white;
+  }
 }
 
 .contact {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .social {
-    display: flex;
-    flex-direction: row;
-    padding-top: 0.81rem;
-    padding-bottom: 1.125rem;
-    align-items: flex-start;
-    gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  padding-top: 0.81rem;
+  padding-bottom: 1.125rem;
+  align-items: flex-start;
+  gap: 1rem;
 
-    p {
-        font-size: 0.875rem;
-    }
+  p {
+    font-size: 0.875rem;
+  }
 }
 
 .imgdiv {
-    width: 2.18rem;
-    height: 2.18rem;
+  width: 2.18rem;
+  height: 2.18rem;
 }
 
 .imgdiv img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .con {
-    padding-bottom: 0.375rem;
+  padding-bottom: 0.375rem;
 }
 
 .logo,
 .buttondiv2 {
-    display: none;
+  display: none;
 }
 
-
 @media only screen and (min-width: 1150px) {
-    .footerUpper {
-        flex-direction: column;
+  .footerUpper {
+    flex-direction: column;
 
-        .upper1 {
-            flex-direction: row;
+    .upper1 {
+      flex-direction: row;
 
-            justify-content: space-between;
+      justify-content: space-between;
 
+      .contact {
+        padding: 1rem 2rem 1rem 2rem;
+        width: 33%;
 
-            .contact {
-                padding: 1rem 2rem 1rem 2rem;
-                width: 33%;
-
-                p {
-                    font-size: 1.125rem;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: normal;
-                }
-
-                .pconnect {
-                    padding: 1.5rem 0;
-                }
-
-                .gmail {
-                    font-size: 1rem;
-                }
-
-                .social {
-                    padding-bottom: 2.375rem;
-
-                    .imgdiv {
-                        width: 3.125rem;
-                        height: 3.125rem;
-                    }
-                }
-            }
-
-            .buttondiv2 {
-                display: block;
-            }
-
-            .buttondiv {
-                display: none;
-            }
+        p {
+          font-size: 1.125rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
         }
 
-        .copytxt {
-            justify-content: center;
-            display: flex;
-            align-items: center;
-
-            p {
-                padding: 0.5rem;
-            }
+        .pconnect {
+          padding: 1.5rem 0;
         }
 
-        .maps {
-            width: 33%;
-            padding-left: 5rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: end;
-            padding-right: 2rem;
-
-            p {
-                font-size: 1.125rem;
-                padding: 0px 0px 1rem 0px;
-            }
-
-            .mapsimg {
-                height: 13.06rem;
-                width: 17.62rem;
-            }
+        .gmail {
+          font-size: 1rem;
         }
 
-        .logo {
-            display: block;
-            width: 33%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        .social {
+          padding-bottom: 2.375rem;
 
-            .logoInner {
-                height: 7.8125rem;
-                width: 11rem;
-
-                .logoInner img {
-                    width: 100%;
-                    height: 100%;
-                }
-            }
+          .imgdiv {
+            width: 3.125rem;
+            height: 3.125rem;
+          }
         }
+      }
+
+      .buttondiv2 {
+        display: block;
+      }
+
+      .buttondiv {
+        display: none;
+      }
     }
 
+    .copytxt {
+      font-family: PixeloidLight;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+
+      p {
+        padding: 0.5rem;
+      }
+    }
+
+    .maps {
+      width: 33%;
+      padding-left: 5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: end;
+      padding-right: 2rem;
+
+      p {
+        font-size: 1.125rem;
+        padding: 0px 0px 1rem 0px;
+      }
+
+      .mapsimg {
+        height: 13.06rem;
+        width: 17.62rem;
+      }
+    }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .logoInner {
+        .logoImg {
+          animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+          height: 11rem;
+        }
+      }
+    }
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
 }
 
 .footerLower {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .maincontainer {
-    padding: 0 2rem 1rem 2rem;
-    width: 100%;
-    max-width: 100%;
-    background-color: transparent;
+  padding: 0 2rem 1rem 2rem;
+  width: 100%;
+  max-width: 100%;
+  background-color: transparent;
 }
 
 .line {
-    width: 100%;
-    height: 0.125rem;
-    background-color: #fff;
-    position: relative;
+  width: 100%;
+  height: 0.125rem;
+  background-color: #fff;
+  position: relative;
 }
 
 .circle {
-    width: 0.5rem;
-    height: 0.5rem;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
 }
 
 .circle.left {
-    left: 0;
-    transform: translate(-50%, -50%);
+  left: 0;
+  transform: translate(-50%, -50%);
 }
 
 .circle.right {
-    right: 0;
-    transform: translate(50%, -50%);
+  right: 0;
+  transform: translate(50%, -50%);
 }
 
-@media(max-width:920px) {
-    .maincontainer {
-        padding: 2rem 1rem;
+@media (max-width: 920px) {
+  .maincontainer {
+    padding: 2rem 1rem;
 
-        .line {
-            height: 1px;
-        }
-
-        .circle {
-            width: 5px;
-            height: 5px;
-        }
+    .line {
+      height: 1px;
     }
 
+    .circle {
+      width: 5px;
+      height: 5px;
+    }
+  }
 }
 
-@media(min-width:920px) and (max-width:1150px) {
-    .footerUpper {
-        flex-direction: column;
+@media (min-width: 920px) and (max-width: 1150px) {
+  .footerUpper {
+    flex-direction: column;
 
-        .upper1 {
-            flex-direction: row;
-            justify-content: space-between;
+    .upper1 {
+      flex-direction: row;
+      justify-content: space-between;
 
+      .contact {
+        padding: 5rem;
+        width: 33%;
 
-            .contact {
-                padding: 5rem;
-                width: 33%;
-
-                p {
-                    font-size: 1.125rem;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: normal;
-                }
-
-                .pconnect {
-                    padding: 1.5rem 0;
-                }
-
-                .gmail {
-                    font-size: 1.25rem;
-                }
-
-                .social {
-                    padding-bottom: 2.375rem;
-
-
-                }
-            }
-
-            .buttondiv2 {
-                display: block;
-            }
-
-            .buttondiv {
-                display: none;
-            }
+        p {
+          font-size: 1.125rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
         }
 
-        .copytxt {
-            justify-content: center;
-            display: flex;
-            align-items: center;
-
-            p {
-                padding: 0.5rem;
-            }
+        .pconnect {
+          padding: 1.5rem 0;
         }
 
-        .maps {
-            width: 33%;
-            padding-left: 5rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: end;
-            padding-right: 5rem;
-
-            p {
-                font-size: 0.875rem;
-            }
-
-            .mapsimg {
-                width: 15rem;
-                height: 10rem;
-            }
+        .gmail {
+          font-size: 1.25rem;
         }
 
-        .logo {
-            display: block;
-            width: 33%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            .logoInner {
-                height: 7.8125rem;
-                width: 11rem;
-
-                .logoInner img {
-                    width: 100%;
-                    height: 100%;
-                }
-            }
+        .social {
+          padding-bottom: 2.375rem;
         }
+      }
+
+      .buttondiv2 {
+        display: block;
+      }
+
+      .buttondiv {
+        display: none;
+      }
     }
 
+    .copytxt {
+      justify-content: center;
+      display: flex;
+      align-items: center;
+
+      p {
+        padding: 0.5rem;
+      }
+    }
+
+    .maps {
+      width: 33%;
+      padding-left: 5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: end;
+      padding-right: 5rem;
+
+      p {
+        font-size: 0.875rem;
+      }
+
+      .mapsimg {
+        width: 15rem;
+        height: 10rem;
+      }
+    }
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .logoInner {
+        .logoImg {
+          animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+          height: 11rem;
+        }
+      }
+    }
+  }
 }
