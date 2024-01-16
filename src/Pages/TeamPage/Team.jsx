@@ -185,7 +185,7 @@ const Teams = () => {
                 <div className={styles.teamname}>
                     <h1 className={styles.headingteamsa}>{teamName}</h1>
                     <div className={styles.teamname_body}>
-                        {ORGANISERS.map((s) => <Card id={s.id} name={s.name} alt={s.alt} img={s.img} designation={s.designation} />)}
+                        {ORGANISERS.map((s) => <Card key={s.id} name={s.name} alt={s.alt} img={s.img} designation={s.designation} />)}
                     </div>
                 </div>
 
@@ -219,7 +219,7 @@ const Teams = () => {
             <div className={styles.teamname}>
                 <h1 className={styles.headingteamsa}>{teamName}</h1>
                 <div className={styles.teamname_body}>
-                    {VOLUNTEERS.map((s) => <Card id={s.id} name={s.name} alt={s.alt} img={s.img} designation={s.designation} />)}
+                    {VOLUNTEERS.map((s) => <Card key={s.id} name={s.name} alt={s.alt} img={s.img} designation={s.designation} />)}
                 </div>
             </div>
 

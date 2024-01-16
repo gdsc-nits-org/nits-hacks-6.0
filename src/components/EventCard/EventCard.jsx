@@ -4,7 +4,7 @@ const Event = () => {
 		{
 			id: 1,
 			name: "Software Track",
-			img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1704971596/Nits%20hacks%206.0/Events/xbb2oxs7ytlcongnfkwn.svg",
+			img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1705409401/Nits%20hacks%206.0/Events/new2/wu6lez7se75gtjufzcc3.webp",
 			content:
 				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
 		},
@@ -12,7 +12,7 @@ const Event = () => {
 		{
 			id: 2,
 			name: "UI/UX Track",
-			img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1704971595/Nits%20hacks%206.0/Events/ssk8rfvcx5kiqjym5sl4.svg",
+			img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1705409401/Nits%20hacks%206.0/Events/new2/wa4qxrgwacycncj0olhl.webp",
 			content:
 				"UI/UX track aims to introduce tech enthusiasts to the aesthetic world of design and highlight its significance in technology.The design- a - thon provides beginners with education, skill development, andnetworking opportunities within the UI / UX community.",
 		},
@@ -20,7 +20,7 @@ const Event = () => {
 		{
 			id: 3,
 			name: "Speaker Session",
-			img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1704971595/Nits%20hacks%206.0/Events/spnzunypvuzxjmlskild.svg",
+			img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1705409401/Nits%20hacks%206.0/Events/new2/e1e6wzqea5yvopgxxwla.webp",
 			content:
 				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
 		},
@@ -41,7 +41,7 @@ const Event = () => {
 								</div>
 								<p className={styles.description}>
 									{" "}
-									{event.content.slice(0, 80) +
+									{event.content.slice(0, 50) +
 										`${event.content.length > 100 ? "..." : ""}`}
 								</p>
 							</div>

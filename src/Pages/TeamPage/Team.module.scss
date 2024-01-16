@@ -48,6 +48,7 @@ $fontcolor: #ffffff;
   position: relative;
   height: 3rem;
   width: 10rem;
+  cursor: pointer;
 
   .state_layer {
     align-items: center;
@@ -69,6 +70,7 @@ $fontcolor: #ffffff;
       width: fit-content;
       background: transparent;
       border: none;
+      cursor: pointer;
     }
   }
 }
