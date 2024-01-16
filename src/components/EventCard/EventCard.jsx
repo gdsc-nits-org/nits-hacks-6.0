@@ -29,18 +29,21 @@ const Event = () => {
 				{events.map((event) => {
 					return (
 						<div key={event.id} className={styles.card}>
-							<img className={styles.img} src={event.img} alt={event} />
-							<div className={styles.content}>
-								<div className={styles.rectangle}>
-									<div className={styles.box}>
-										<p className={styles.title}>{event.name}</p>
+							<div className={styles.object}>
+								<img className={styles.img} src={event.img} alt={event} />
+
+								<div className={styles.content}>
+									<div className={styles.rectangle}>
+										<div className={styles.box}>
+											<p className={styles.title}>{event.name}</p>
+										</div>
 									</div>
+									<p className={styles.description}>
+										{" "}
+										{event.content.slice(0, 80) +
+											`${event.content.length > 100 ? "..." : ""}`}
+									</p>
 								</div>
-								<p className={styles.description}>
-									{" "}
-									{event.content.slice(0, 80) +
-										`${event.content.length > 100 ? "..." : ""}`}
-								</p>
 							</div>
 						</div>
 					);
