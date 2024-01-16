@@ -10,6 +10,7 @@ const Landing = () => {
 	const pixelRef = useRef(null);
 	const rainContainerRef = useRef(null);
 
+	// Rain
 	const rain = () => {
 		let amt = 60;
 		let i = 0;
@@ -36,7 +37,8 @@ const Landing = () => {
 
 	return (
 		<div
-			className={styles.landing_main}
+			className={styles.landing_main_div}
+			// Pointer style
 			onPointerMove={(e) => {
 				setMove(true);
 				let x = e.clientX;
@@ -50,6 +52,27 @@ const Landing = () => {
 			ref={rainContainerRef}
 			id="home"
 		>
+			<div className={styles.landing_img}>
+				{/* <img src="/landing.svg" alt="" /> */}
+				{/* <img className={styles.imgs} src="https://res.cloudinary.com/dhgfsshq4/image/upload/v1705430692/hacks%206.0/clouds_2_xc3saa.webp" alt="Clouds" /> */}
+				<img
+					className={styles.imgs}
+					src="https://res.cloudinary.com/dhgfsshq4/image/upload/v1705430676/hacks%206.0/layer_2_1_xhsldo.webp"
+					alt="Buildings"
+				/>
+				<img
+					className={styles.imgs}
+					src="https://res.cloudinary.com/dhgfsshq4/image/upload/v1705430647/hacks%206.0/layer_3_1_1_j5mcuq.webp"
+					alt="Front"
+				/>
+				<img
+					className={styles.imgs}
+					src="https://res.cloudinary.com/dhgfsshq4/image/upload/v1705431199/hacks%206.0/Group_5252_1_p3s348.webp"
+					alt=""
+				/>
+			</div>
+			<div className={styles.overlap}></div>
+
 			<div className={move ? styles.pixel : undefined} ref={pixelRef}></div>
 			<div className={styles.superflex}>
 				<img
