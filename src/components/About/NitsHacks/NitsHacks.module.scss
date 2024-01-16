@@ -31,6 +31,9 @@
             transition-property: ease;
             transition-duration: 0.5s;
         }
+        a{
+            text-decoration: none;
+        }
     }
 
     @media screen and (min-width:950px) {
