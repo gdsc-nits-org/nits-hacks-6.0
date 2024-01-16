@@ -54,7 +54,11 @@ const Landing = () => {
 		>
 			<div className={styles.landing_img}>
 				{/* <img src="/landing.svg" alt="" /> */}
-				{/* <img className={styles.imgs} src="https://res.cloudinary.com/dhgfsshq4/image/upload/v1705430692/hacks%206.0/clouds_2_xc3saa.webp" alt="Clouds" /> */}
+				<img
+					className={styles.imgs}
+					src="https://res.cloudinary.com/dhgfsshq4/image/upload/v1705430692/hacks%206.0/clouds_2_xc3saa.webp"
+					alt="Clouds"
+				/>
 				<img
 					className={styles.imgs}
 					src="https://res.cloudinary.com/dhgfsshq4/image/upload/v1705430676/hacks%206.0/layer_2_1_xhsldo.webp"
