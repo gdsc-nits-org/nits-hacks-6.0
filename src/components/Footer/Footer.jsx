@@ -75,9 +75,12 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className={styles.upper2}>
+					<div className={styles.copytxt2}>
+						<p>Made with <span className={styles.span1}>❤️</span> by GDSC, NIT Silchar</p>
+					</div>
 					<div className={styles.copytxt}>
 						<p>©Copyright </p>
-						<p>2024, Nits Hacks </p>
+						<p>2024, Nits Hacks 6.0</p>
 						<p>National Institute of Technology, Silchar</p>
 					</div>
 				</div>
