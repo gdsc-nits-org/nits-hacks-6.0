@@ -154,7 +154,7 @@ $fontfamily: Pixeloid;
   }
 
   .card {
-    height: 15rem;
+    height: 18rem;
     width: fit-content;
     margin-top: 1.3rem;
     overflow: hidden;
@@ -219,6 +219,9 @@ $fontfamily: Pixeloid;
     font-size: 1.3rem;
     width: 78%;
   }
+  .content {
+    width: 70%;
+  }
 
   .card {
     height: 20rem;
@@ -257,7 +260,7 @@ $fontfamily: Pixeloid;
   .description {
     font-size: 0.7rem;
     width: 90%;
-    height: 50%;
+    height: 40%;
   }
 
   .card {
@@ -326,7 +329,7 @@ $fontfamily: Pixeloid;
 
 @media (min-width: 600px) and (max-width: 1150px) {
   .card:hover .content {
-    height: 13rem;
+    height: 12rem;
   }
 }
 @media (min-width: 1001px) and (max-width: 1499px) {
