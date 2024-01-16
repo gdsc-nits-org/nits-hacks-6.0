@@ -329,3 +329,14 @@ $fontfamily: Pixeloid;
     height: 13rem;
   }
 }
+@media (min-width: 1001px) and (max-width: 1499px) {
+  .card {
+    height: 16rem;
+    width: 25rem;
+
+    .img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
