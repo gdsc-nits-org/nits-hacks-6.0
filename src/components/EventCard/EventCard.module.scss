@@ -160,6 +160,7 @@ $fontfamily: Pixeloid;
     overflow: hidden;
     position: relative;
     left: 4rem;
+
     .img {
       width: 100%;
     }
@@ -179,6 +180,7 @@ $fontfamily: Pixeloid;
     transform: scale(1.15);
   }
 }
+
 @media screen and (min-width: 401px) and (max-width: 499px) {
   .card {
     position: relative;
@@ -196,6 +198,7 @@ $fontfamily: Pixeloid;
     width: 20rem;
   }
 }
+
 @media screen and (max-width: 600px) {
   .pagebody {
     flex-direction: column;
