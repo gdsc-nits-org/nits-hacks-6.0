@@ -16,6 +16,7 @@ $fontcolor: #ffffff;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  padding-top: 3rem;
 }
 .headingteams {
   color: #ffffff;
@@ -88,7 +89,7 @@ $fontcolor: #ffffff;
 
 .teams_body {
   display: flex;
-  padding-top: 2rem;
+  // padding-top: 3rem;
   padding-left: 1.5rem;
   flex-wrap: wrap;
   justify-content: center;
