@@ -4,21 +4,21 @@ const Event = () => {
 		{
 			id: 1,
 			name: "Coming soon",
-			img: "https://res.cloudinary.com/drffnopta/image/upload/v1705349994/software_track_cxotxh.webp",
+			img: "https://https://res.cloudinary.com/dgnlmdkyq/image/upload/v1705407823/Nits%20hacks%206.0/Events/new/uksmyvzivxa1mpzcunei.png",
 			content: "Coming soon",
 		},
 
 		{
 			id: 2,
 			name: "Coming soon",
-			img: "https://res.cloudinary.com/drffnopta/image/upload/v1705350222/ux_track_n8ftbq.webp",
+			img: "https://https://res.cloudinary.com/dgnlmdkyq/image/upload/v1705407823/Nits%20hacks%206.0/Events/new/vrqrxf6s4lgj866e8ata.png",
 			content: "Coming soon",
 		},
 
 		{
 			id: 3,
 			name: "Coming soon",
-			img: "https://res.cloudinary.com/drffnopta/image/upload/v1705350056/coding_track_pbo1gw.webp",
+			img: "https://https://res.cloudinary.com/dgnlmdkyq/image/upload/v1705408332/Nits%20hacks%206.0/Events/new/zexwiouj456umaz6d3n7.png",
 			content: "Coming soon",
 		},
 	];
