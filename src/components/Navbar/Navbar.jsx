@@ -51,22 +51,32 @@ const Navbar = () => {
 				}}
 			>
 				<div className={styles.linkParentMobile}>
-					<Link to="/" className={styles.link}>
+					<Link to="/" className={styles.link} onClick={() => setNav(!nav)}>
 						HOME
 					</Link>
 				</div>
 				<div className={styles.linkParentMobile}>
-					<SectionLink to="event" smooth={true} className={styles.link}>
+					<SectionLink
+						to="event"
+						smooth={true}
+						className={styles.link}
+						onClick={() => setNav(!nav)}
+					>
 						EVENTS
 					</SectionLink>
 				</div>
 				<div className={styles.linkParentMobile}>
-					<SectionLink to="sponsors" smooth={true} className={styles.link}>
+					<SectionLink
+						to="sponsors"
+						smooth={true}
+						className={styles.link}
+						onClick={() => setNav(!nav)}
+					>
 						SPONSORS
 					</SectionLink>
 				</div>
 				<div className={styles.linkParentMobile}>
-					<Link to="/team" className={styles.link}>
+					<Link to="/team" className={styles.link} onClick={() => setNav(!nav)}>
 						TEAM
 					</Link>
 				</div>
