@@ -11,7 +11,8 @@ import {
 } from "../../components/index";
 const Home = () => {
 	return (
-		<div style={{ overflowX: "hidden" }}>
+		// <div style={{ overflowX: "hidden" }}>
+		<div>
 			<Navbar />
 			<Landing />
 			<div id="about" className={styles.about}>
