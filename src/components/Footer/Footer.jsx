@@ -37,6 +37,14 @@ const Footer = () => {
 									/>
 								</a>
 							</div>
+							<div className={styles.imgdiv}>
+								<a href="https://www.linkedin.com/company/nitshacks/" target="blank_">
+									<img
+										src="https://res.cloudinary.com/dxafdfvui/image/upload/v1705425238/linkedinneww_ctnyj8.svg"
+										alt="linkedin"
+									/>
+								</a>
+							</div>
 						</div>
 						<p className={styles.con}>CONTACT US</p>
 						<p className={styles.gmail}>
