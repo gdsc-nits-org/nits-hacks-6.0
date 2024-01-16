@@ -37,6 +37,14 @@ const Footer = () => {
 									/>
 								</a>
 							</div>
+							<div className={styles.imgdiv}>
+								<a href="https://www.linkedin.com/company/nitshacks/" target="blank_">
+									<img
+										src="https://res.cloudinary.com/dxafdfvui/image/upload/v1705425238/linkedinneww_ctnyj8.svg"
+										alt="linkedin"
+									/>
+								</a>
+							</div>
 						</div>
 						<p className={styles.con}>CONTACT US</p>
 						<p className={styles.gmail}>
@@ -54,7 +62,7 @@ const Footer = () => {
 						</div>
 					</div>
 					<div className={styles.maps}>
-						<p>How to Reach</p>
+						<p>How to Reach?</p>
 						<div className={styles.mapsimg}>
 							<iframe
 								title="mymap"
@@ -75,9 +83,12 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className={styles.upper2}>
+					<div className={styles.copytxt2}>
+						<p>Made with <span className={styles.span1}>❤️</span> by GDSC, NIT Silchar</p>
+					</div>
 					<div className={styles.copytxt}>
 						<p>©Copyright </p>
-						<p>2024, Nits Hacks </p>
+						<p>2024, Nits Hacks 6.0</p>
 						<p>National Institute of Technology, Silchar</p>
 					</div>
 				</div>
