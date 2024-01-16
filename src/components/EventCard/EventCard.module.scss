@@ -35,6 +35,7 @@ $fontfamily: Pixeloid;
 
 .pagebody {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   gap: 2rem;

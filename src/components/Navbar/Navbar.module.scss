@@ -133,25 +133,25 @@
       transition: ease 0.5s;
       text-transform: capitalize;
     }
+  }
 
-    .linkParent:hover {
-      background-image: linear-gradient(108.6deg, #e3e2a9, #efbbb6, #a52e62);
-      transition: all 0.5s;
+  .linkParent:hover {
+    background-image: linear-gradient(108.6deg, #e3e2a9, #efbbb6, #a52e62);
+    transition: all 0.5s;
 
-      .innerParent {
-        background-color: #002358;
-        transition-duration: 0.5s;
-      }
-    }
-
-    .linkParent:hover .link {
-      background: linear-gradient(106.48deg, #56f4fd, #047a94);
-      color: #1d0b21;
-      top: 0.5rem;
-      left: 5%;
+    .innerParent {
+      background-color: #002358;
       transition-duration: 0.5s;
-      padding: 0.5rem 1.1rem;
     }
+  }
+
+  .linkParent:hover .link {
+    background: linear-gradient(106.48deg, #56f4fd, #047a94);
+    color: #1d0b21;
+    top: 0.5rem;
+    left: 5%;
+    transition-duration: 0.5s;
+    padding: 0.5rem 1.1rem;
   }
 }
 

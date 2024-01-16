@@ -11,7 +11,7 @@ const Landing = () => {
 	const rainContainerRef = useRef(null);
 
 	const rain = () => {
-		let amt = 45;
+		let amt = 60;
 		let i = 0;
 		while (i < amt) {
 			let drop = document.createElement("i");
