@@ -8,7 +8,13 @@ const Footer = () => {
 					<div className={styles.contact}>
 						<div className={styles.buttondiv2}>
 							<button className={styles.btn2}>
-								<a href="">VISIT TECNOESIS</a>
+								<a
+									href="https://tecnoesis.co.in"
+									target="_blank"
+									rel="noreferrer"
+								>
+									VISIT TECNOESIS
+								</a>
 							</button>
 						</div>
 						<p className={styles.pconnect}>CONNECT WITH US :</p>

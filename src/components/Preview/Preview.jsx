@@ -1,24 +1,11 @@
 import { useRef } from "react";
 import Lottie from "lottie-react";
 import upgradeAnimation from "../../lottiefiles/upgrading.json";
-// import { useNavigate } from "react-router-dom";
 import styles from "./Preview.module.scss";
-import { useState } from "react";
-import { useEffect } from "react";
 
 // eslint-disable-next-line react/prop-types
 const Preview = ({ setLoaded }) => {
 	const lottieRef = useRef(null);
-	const [audio] = useState(new Audio("/sound/loading.mp3"));
-
-	useEffect(() => {
-		window.addEventListener("load", () => {
-			audio.volume = 0.1;
-			audio.play();
-			console.log(audio);
-		});
-	}, [audio]);
-
 	return (
 		<div className={styles.container}>
 			<div className={styles.glow_container}>
@@ -42,7 +29,6 @@ const Preview = ({ setLoaded }) => {
 						initialSegment={[0, 120]}
 						onComplete={() => {
 							setLoaded(true);
-							audio.pause();
 						}}
 						loop={false}
 					/>

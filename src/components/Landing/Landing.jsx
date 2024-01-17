@@ -31,14 +31,8 @@ const Landing = () => {
 		}
 	};
 
-	useEffect(() => {
-		setTimeout(() => rain(), 100);
-
+	const parallax = () => {
 		const far = document.getElementById("far");
-		far.addEventListener("event", (e) => {
-			e.preventDefault();
-			e.stopPropagation();
-		});
 		const tag = document.getElementById("tag");
 		const mid = document.getElementById("mid");
 		const rocket1 = document.getElementById("rocket1");
@@ -48,7 +42,7 @@ const Landing = () => {
 
 		window.addEventListener("scroll", () => {
 			let value = window.scrollY;
-			far.style.transform = "TranslateY(" + value * 1 + "px)";
+			far.style.transform = "TranslateY(" + value * 0.8 + "px)";
 			mid.style.transform = "TranslateY(" + value * 0.6 + "px)";
 			tag.style.transform = "TranslateY(" + value * 0.2 + "px)";
 			hover_board.style.top = "calc(5vh + " + value * 0.8 + "px)";
@@ -56,6 +50,11 @@ const Landing = () => {
 			rocket2.style.transform = "TranslateY(" + value * 0.3 + "px) scale(0.7)";
 			rocket3.style.transform = "TranslateY(" + value * 0.8 + "px) scale(0.3)";
 		});
+	};
+
+	useEffect(() => {
+		setTimeout(() => rain(), 100);
+		parallax();
 	}, []);
 
 	return (
@@ -86,14 +85,12 @@ const Landing = () => {
 						src="https://res.cloudinary.com/dhgfsshq4/image/upload/v1705444035/hacks%206.0/hover_craft_kgbfdt.webp"
 						alt=""
 					/>
-
 					<img
 						className={`${styles.imgs} ${styles.far}`}
 						id="far"
 						src="https://res.cloudinary.com/dhgfsshq4/image/upload/v1705430676/hacks%206.0/layer_2_1_xhsldo.webp"
 						alt="Buildings"
 					/>
-
 					<img
 						className={styles.rocket1}
 						id="rocket1"
