@@ -135,7 +135,7 @@ $fontfamily: Pixeloid;
   transition: 0.4s ease-in-out;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .pagebody {
     flex-direction: column;
     gap: 2rem;
@@ -151,21 +151,10 @@ $fontfamily: Pixeloid;
 
   .card {
     height: 15rem;
-    width: fit-content;
-    margin-top: 1.3rem;
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .img {
-      width: 100%;
-    }
   }
 
   .content {
-    left: 3.5rem;
+    left: 0.5rem;
   }
 
   .title {
@@ -178,14 +167,7 @@ $fontfamily: Pixeloid;
   }
 }
 
-@media screen and (min-width: 401px) and (max-width: 599px) {
-  .card {
-    position: relative;
-    left: 5rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .pagebody {
     flex-direction: column;
     gap: 2rem;
@@ -210,14 +192,7 @@ $fontfamily: Pixeloid;
   }
 
   .card {
-    height: 20rem;
-    width: fit-content;
-    margin-top: 1.3rem;
-    overflow: hidden;
-
     .img {
-      width: 60%;
-      height: 15rem;
       padding: 0%;
       margin: 0%;
     }
@@ -266,6 +241,10 @@ $fontfamily: Pixeloid;
 
   .heading {
     font-size: 1.9rem;
+  }
+
+  .card {
+    width: auto;
   }
 }
 
