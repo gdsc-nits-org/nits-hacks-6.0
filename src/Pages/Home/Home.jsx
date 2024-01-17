@@ -9,24 +9,17 @@ import {
 	Sponsor,
 	Event,
 } from "../../components/index";
+import { useEffect } from "react";
+import { useState } from "react";
 // import { useState } from "react";
 
 const Home = () => {
-	// const [audio] = useState(new Audio("/sound/bgm.mp3"));
-	// const [playing, setPlaying] = useState(false);
+	const [audio] = useState(new Audio("/sound/bgm.mp3"));
 
-	// document.onclick = (e) => {
-	//   if (e.target.parentElement.tagName == "A" || e.target.tagName == "A")
-	//     return;
-	//   audio.volume = 0.1;
-	//   if (playing) {
-	//     audio.pause();
-	//     setPlaying(false);
-	//   } else {
-	//     audio.play();
-	//     setPlaying(true);
-	//   }
-	// };
+	useEffect(() => {
+		audio.volume = 0.1;
+		audio.play();
+	});
 
 	return (
 		<div>

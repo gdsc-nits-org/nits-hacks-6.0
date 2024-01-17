@@ -4,8 +4,7 @@ import Preview from "./components/Preview/Preview";
 
 const App = () => {
 	const [loaded, setLoaded] = useState(false);
-	const [audio] = useState(new Audio("/sound/button.mp3"));
-	// const [audio] = useState(new Audio("/sound/button2.mpeg"));
+	const [audio] = useState(new Audio("/sound/button2_re.mp3"));
 
 	useEffect(() => {
 		[...document.querySelectorAll("a")]
