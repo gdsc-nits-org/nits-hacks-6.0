@@ -9,7 +9,7 @@ const Footer = () => {
 						<div className={styles.buttondiv2}>
 							<button className={styles.btn2}>
 								<a
-									href="https://tecnoesis.co.in"
+									href="https://www.tecnoesis.co.in/"
 									target="_blank"
 									rel="noreferrer"
 								>
@@ -20,7 +20,11 @@ const Footer = () => {
 						<p className={styles.pconnect}>CONNECT WITH US :</p>
 						<div className={styles.social}>
 							<div className={styles.imgdiv}>
-								<a href="https://www.instagram.com/nitshacks/" target="blank_">
+								<a
+									href="https://www.instagram.com/nitshacks/"
+									target="_blank"
+									rel="noreferrer"
+								>
 									<img
 										src="https://res.cloudinary.com/dxafdfvui/image/upload/v1705083563/instapxl_sj0sgp.svg"
 										alt="instagram"
@@ -28,7 +32,11 @@ const Footer = () => {
 								</a>
 							</div>
 							<div className={styles.imgdiv}>
-								<a href="https://www.facebook.com/NITSHacks" target="blank_">
+								<a
+									href="https://www.facebook.com/NITSHacks"
+									target="_blank"
+									rel="noreferrer"
+								>
 									<img
 										src="https://res.cloudinary.com/dxafdfvui/image/upload/v1705083563/fbpxl_imhsav.svg"
 										alt="facebook"
@@ -36,10 +44,26 @@ const Footer = () => {
 								</a>
 							</div>
 							<div className={styles.imgdiv}>
-								<a href="https://twitter.com/nitshacks" target="blank_">
+								<a
+									href="https://twitter.com/nitshacks"
+									target="_blank"
+									rel="noreferrer"
+								>
 									<img
 										src="https://res.cloudinary.com/dxafdfvui/image/upload/v1705083935/twitterlogo_al9ufe.svg"
 										alt="twitter"
+									/>
+								</a>
+							</div>
+							<div className={styles.imgdiv}>
+								<a
+									href="https://www.linkedin.com/company/nitshacks/"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<img
+										src="https://res.cloudinary.com/dxafdfvui/image/upload/v1705425238/linkedinneww_ctnyj8.svg"
+										alt="linkedin"
 									/>
 								</a>
 							</div>
@@ -55,12 +79,12 @@ const Footer = () => {
 						</p>
 					</div>
 					<div className={styles.logo}>
-						<div className={styles.logoInner}>
+						<a href="/" className={styles.logoInner}>
 							<img src="/logo.png" alt="Logo" className={styles.logoImg} />
-						</div>
+						</a>
 					</div>
 					<div className={styles.maps}>
-						<p>How to Reach</p>
+						<p>How to Reach?</p>
 						<div className={styles.mapsimg}>
 							<iframe
 								title="mymap"
@@ -76,14 +100,31 @@ const Footer = () => {
 					</div>
 					<div className={styles.buttondiv}>
 						<button className={styles.btn2}>
-							<a href="">VISIT TECNOESIS</a>
+							<a
+								href="https://tecnoesis.co.in/"
+								target="_blank"
+								rel="noreferrer"
+							>
+								VISIT TECNOESIS
+							</a>
 						</button>
 					</div>
 				</div>
 				<div className={styles.upper2}>
+					<div className={styles.copytxt2}>
+						<p>
+							Made with <span className={styles.span1}>❤️</span> by{" "}
+							<a
+								href="https://gdscnits.in/"
+								target="_blank"
+								rel="noreferrer"
+							></a>
+							GDSC, NIT Silchar
+						</p>
+					</div>
 					<div className={styles.copytxt}>
 						<p>©Copyright </p>
-						<p>2024, Nits Hacks </p>
+						<p>2024, NITS HACKS 6.0</p>
 						<p>National Institute of Technology, Silchar</p>
 					</div>
 				</div>
