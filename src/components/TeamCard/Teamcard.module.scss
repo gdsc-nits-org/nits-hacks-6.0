@@ -1,0 +1,99 @@
+.card {
+  background-color: black;
+  border: 2px solid rgba(208, 60, 171, 1);
+  height: 23rem;
+  width: 17rem;
+  gap: 2rem;
+  transition: 0.4s;
+  .box {
+    background: url("./spam/Group.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 1.7rem;
+    top: 2rem;
+    .img {
+      height: inherit;
+      width: inherit;
+      position: inherit;
+      left: 0.8rem;
+    }
+  }
+  .design {
+    position: relative;
+    top: 3rem;
+    left: 2.3rem;
+    height: 2rem;
+    width: 12.2rem;
+    border: 1.37px solid rgba(28, 169, 245, 1);
+    overflow: hidden;
+    .desimg {
+      position: relative;
+      left: 0.7rem;
+      top: 0.3rem;
+      float: right;
+      width: 80%;
+      height: 70%;
+    }
+  }
+}
+
+.social {
+  display: none;
+  transition: 0.2s;
+}
+.content {
+  position: relative;
+  top: 3.5rem;
+  left: 1.3rem;
+  padding-left: 1rem;
+  color: #ffffff;
+  transition: 0.2s;
+  font-weight: 700;
+  .name {
+    font-family: Pixeloid Bold;
+  }
+  .designation {
+    font-family: Pixeloid;
+  }
+}
+.card:hover {
+  cursor: pointer;
+}
+.hover .content {
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.card:hover {
+  box-shadow: rgba(210, 70, 200, 1) 4px 22px 50px 4px;
+  transform: translate3D(0, -1.5px, 0) scale(1.03);
+}
+.card:hover {
+  .desimg {
+    transform: translate(100%);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+  }
+}
+.card:hover {
+  .social {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 2rem;
+    gap: 2rem;
+    bottom: 1rem;
+
+    .logo {
+      height: 1.2rem;
+      width: 1.3rem;
+    }
+    .logogit {
+      height: 1.5rem;
+      width: 1.8rem;
+    }
+  }
+}
