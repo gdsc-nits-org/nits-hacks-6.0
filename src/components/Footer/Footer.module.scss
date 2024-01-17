@@ -13,7 +13,8 @@
 }
 
 .logoImg {
-  height: 7rem;
+  height: 5rem;
+  margin: 2rem auto;
   animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
@@ -275,7 +276,8 @@
       .logoInner {
         .logoImg {
           animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-          height: 6rem;
+          height: 5rem;
+          margin-top: 4rem;
         }
       }
     }
