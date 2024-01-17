@@ -3,26 +3,23 @@ const Event = () => {
 	const events = [
 		{
 			id: 1,
-			name: "Software Track",
-			img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1705409401/Nits%20hacks%206.0/Events/new2/wu6lez7se75gtjufzcc3.webp",
-			content:
-				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+			name: "Coming soon",
+			img: "https://res.cloudinary.com/drffnopta/image/upload/v1705349994/software_track_cxotxh.webp",
+			content: "Coming soon",
 		},
 
 		{
 			id: 2,
-			name: "UI/UX Track",
-			img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1705409401/Nits%20hacks%206.0/Events/new2/wa4qxrgwacycncj0olhl.webp",
-			content:
-				"UI/UX track aims to introduce tech enthusiasts to the aesthetic world of design and highlight its significance in technology.The design- a - thon provides beginners with education, skill development, andnetworking opportunities within the UI / UX community.",
+			name: "Coming soon",
+			img: "https://res.cloudinary.com/drffnopta/image/upload/v1705350222/ux_track_n8ftbq.webp",
+			content: "Coming soon",
 		},
 
 		{
 			id: 3,
-			name: "Speaker Session",
-			img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1705409401/Nits%20hacks%206.0/Events/new2/e1e6wzqea5yvopgxxwla.webp",
-			content:
-				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+			name: "Coming soon",
+			img: "https://res.cloudinary.com/drffnopta/image/upload/v1705350056/coding_track_pbo1gw.webp",
+			content: "Coming soon",
 		},
 	];
 	return (

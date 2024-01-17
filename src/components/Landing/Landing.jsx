@@ -11,7 +11,7 @@ const Landing = () => {
 	const rainContainerRef = useRef(null);
 
 	const rain = () => {
-		let amt = 45;
+		let amt = 60;
 		let i = 0;
 		while (i < amt) {
 			let drop = document.createElement("i");
@@ -48,10 +48,15 @@ const Landing = () => {
 			onPointerLeave={() => setMove(false)}
 			onPointerEnter={() => setMove(true)}
 			ref={rainContainerRef}
+			id="home"
 		>
 			<div className={move ? styles.pixel : undefined} ref={pixelRef}></div>
 			<div className={styles.superflex}>
-				<img src="/subtract1.png" alt="" className={styles.tag} />
+				<img
+					src="https://res.cloudinary.com/drffnopta/image/upload/v1705337573/subtract1_z0rakx.png"
+					alt=""
+					className={styles.tag}
+				/>
 				<h1 className={styles.nitshack}>NITS HACKS 6.0</h1>
 				<h1 className={styles.dates}>01. 02. 03. 04.</h1>
 				<h1 className={styles.month}>February</h1>

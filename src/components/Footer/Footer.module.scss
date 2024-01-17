@@ -1,11 +1,9 @@
 .footer {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0) 9.02%,
-    rgba(0, 0, 0, 0) 9.02%,
-    #540a51 93.53%
-  );
-  font-family: Pixeloid;
+  background: linear-gradient(180deg,
+      rgba(255, 255, 255, 0) 9.02%,
+      rgba(0, 0, 0, 0) 9.02%,
+      #540a51 93.53%);
+  font-family: PixeloidLight;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -14,25 +12,50 @@
   padding-top: 3rem;
 }
 
+.logoImg {
+  height: 7rem;
+  animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
 .footerUpper {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   background-color: transparent;
 }
 
 .upper1 {
   display: flex;
   flex-direction: column-reverse;
+  justify-content: center;
+  text-align: center;
 }
 
 .copytxt {
-  font-size: 0.625rem;
+  font-size: 0.4rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   line-height: normal;
   letter-spacing: 0.175rem;
   text-transform: capitalize;
-  padding: 1rem;
+  padding: 0.5rem 1rem 1rem 1rem;
+  text-align: center;
+
+}
+
+.copytxt2 {
+  font-size: 0.4rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  letter-spacing: 0.175rem;
+  text-transform: capitalize;
+  padding: 1.3rem 1rem 0 1rem;
+  text-align: center;
+
+  .span1 {
+    font-size: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+  }
 }
 
 .btn1 {
@@ -49,15 +72,13 @@
   height: 2.06rem;
   border: 0.07rem solid var(--button-stroke-2, #b5868d);
   background: linear-gradient(101deg, #002358 10.23%, #1d0b21 100%);
-  font-family: pixeloid;
+  font-family: PixeloidLight;
   padding: 0.5rem 0.3rem;
 
   &:hover {
-    background: linear-gradient(
-      180deg,
-      rgb(181, 134, 141) 0%,
-      rgb(243, 97, 150) 100%
-    );
+    background: linear-gradient(180deg,
+        rgb(181, 134, 141) 0%,
+        rgb(243, 97, 150) 100%);
 
     transition: ease-in;
     transition-duration: 0.2s;
@@ -77,7 +98,7 @@
     text-align: center;
     font-size: 0.711rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 16.271px;
     letter-spacing: 0.081px;
     text-decoration: none;
@@ -85,34 +106,33 @@
 }
 
 .mapsimg {
-  width: 17.625rem;
-  height: 13.06rem;
   overflow: hidden;
   border-radius: 8px;
 }
 
 .maps {
-  padding: 1rem;
+  padding: 0 1rem;
 
   p {
     padding: 1rem 0;
     font-size: 0.625rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     line-height: normal;
     letter-spacing: 0.081rem;
     text-transform: capitalize;
   }
 
   .mapsimg {
-    height: 13.06rem;
-    width: 17.62rem;
+    height: 9rem;
+    width: 14rem;
     background-color: white;
+    margin: auto;
   }
 }
 
 .contact {
-  padding: 1rem;
+  padding: 0 1rem 1rem 1rem;
 }
 
 .social {
@@ -120,8 +140,10 @@
   flex-direction: row;
   padding-top: 0.81rem;
   padding-bottom: 1.125rem;
-  align-items: flex-start;
+
   gap: 1rem;
+  justify-content: center;
+  text-align: center;
 
   p {
     font-size: 0.875rem;
@@ -140,9 +162,18 @@
 
 .con {
   padding-bottom: 0.375rem;
+  font-size: 0.7rem;
 }
 
-.logo,
+.pconnect {
+  font-size: 0.85rem;
+}
+
+.gmail {
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+}
+
 .buttondiv2 {
   display: none;
 }
@@ -151,9 +182,10 @@
   .footerUpper {
     flex-direction: column;
 
+
     .upper1 {
       flex-direction: row;
-
+      text-align: start;
       justify-content: space-between;
 
       .contact {
@@ -163,7 +195,7 @@
         p {
           font-size: 1.125rem;
           font-style: normal;
-          font-weight: 400;
+          font-weight: 300;
           line-height: normal;
         }
 
@@ -177,6 +209,7 @@
 
         .social {
           padding-bottom: 2.375rem;
+          justify-content: flex-start;
 
           .imgdiv {
             width: 3.125rem;
@@ -194,15 +227,22 @@
       }
     }
 
+    .copytxt2,
     .copytxt {
       font-family: PixeloidLight;
       justify-content: center;
       display: flex;
       align-items: center;
+      font-size: 0.625rem;
 
-      p {
-        padding: 0.5rem;
+      .span1 {
+        font-size: 1rem;
       }
+
+    }
+
+    .copytxt p {
+      padding: 0 0.5rem;
     }
 
     .maps {
@@ -222,6 +262,7 @@
       .mapsimg {
         height: 13.06rem;
         width: 17.62rem;
+        margin: 0;
       }
     }
 
@@ -229,6 +270,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+
       .logoInner {
         .logoImg {
           animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
@@ -240,10 +282,12 @@
 }
 
 @keyframes pulse {
+
   0%,
   100% {
     opacity: 1;
   }
+
   50% {
     opacity: 0.55;
   }
@@ -256,7 +300,7 @@
 }
 
 .maincontainer {
-  padding: 0 2rem 1rem 2rem;
+  padding: 0 2rem 2rem 2rem;
   width: 100%;
   max-width: 100%;
   background-color: transparent;
@@ -289,7 +333,7 @@
 
 @media (max-width: 920px) {
   .maincontainer {
-    padding: 2rem 1rem;
+    padding: 0 1rem 1rem 1rem;
 
     .line {
       height: 1px;
@@ -309,6 +353,7 @@
     .upper1 {
       flex-direction: row;
       justify-content: space-between;
+      text-align: start;
 
       .contact {
         padding: 5rem;
@@ -317,7 +362,7 @@
         p {
           font-size: 1.125rem;
           font-style: normal;
-          font-weight: 400;
+          font-weight: 300;
           line-height: normal;
         }
 
@@ -331,6 +376,7 @@
 
         .social {
           padding-bottom: 2.375rem;
+          justify-content: flex-start;
         }
       }
 
@@ -347,10 +393,22 @@
       justify-content: center;
       display: flex;
       align-items: center;
+      font-size: 0.625rem;
+      padding-top: 0;
 
       p {
         padding: 0.5rem;
       }
+    }
+
+    .copytxt2 {
+      font-size: 0.625rem;
+
+      .span1 {
+        font-size: 0.8rem;
+      }
+
+      padding-top: 0;
     }
 
     .maps {
@@ -369,12 +427,15 @@
       .mapsimg {
         width: 15rem;
         height: 10rem;
+        margin: 0;
       }
     }
+
     .logo {
       display: flex;
       justify-content: center;
       align-items: center;
+
       .logoInner {
         .logoImg {
           animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;

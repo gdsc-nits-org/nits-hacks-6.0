@@ -1,6 +1,6 @@
 .navCont {
   position: fixed;
-  background-image: linear-gradient(180deg, #000000b2 60%, transparent);
+  background-image: linear-gradient(180deg, #000 60%, transparent);
   animation-name: navAnimation;
   animation-duration: 1s;
   animation-fill-mode: forwards;
@@ -110,6 +110,7 @@
       border-radius: 1rem;
       transition: ease 0.5s;
       background-image: transparent;
+      cursor: pointer;
 
       .innerParent {
         // background-color: #002358;
@@ -132,7 +133,6 @@
       border-radius: 1rem;
       transition: ease 0.5s;
       text-transform: capitalize;
-      cursor: pointer;
     }
 
     .linkParent:hover {

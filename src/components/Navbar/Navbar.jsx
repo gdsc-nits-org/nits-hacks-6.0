@@ -37,9 +37,9 @@ const Navbar = () => {
 						/>
 					</button>
 				</div>
-				<div className={styles.right}>
+				<Link to="/" className={styles.right}>
 					<img src={logo} className={styles.navIcons} alt="logo loading..." />
-				</div>
+				</Link>
 			</div>
 			<div
 				className={styles.mobileActive}
@@ -51,17 +51,32 @@ const Navbar = () => {
 				}}
 			>
 				<div className={styles.linkParentMobile}>
-					<Link to="/" className={styles.link}>
+					<SectionLink
+						to="home"
+						smooth={true}
+						className={styles.link}
+						onClick={() => setNav(!nav)}
+					>
 						HOME
-					</Link>
+					</SectionLink>
 				</div>
 				<div className={styles.linkParentMobile}>
-					<SectionLink to="event" smooth={true} className={styles.link}>
+					<SectionLink
+						to="event"
+						smooth={true}
+						className={styles.link}
+						onClick={() => setNav(!nav)}
+					>
 						EVENTS
 					</SectionLink>
 				</div>
 				<div className={styles.linkParentMobile}>
-					<SectionLink to="sponsors" smooth={true} className={styles.link}>
+					<SectionLink
+						to="sponsors"
+						smooth={true}
+						className={styles.link}
+						onClick={() => setNav(!nav)}
+					>
 						SPONSORS
 					</SectionLink>
 				</div>
@@ -72,15 +87,15 @@ const Navbar = () => {
 				</div>
 			</div>
 			<div className={styles.deskNav}>
-				<div className={styles.left}>
+				<Link to="/" className={styles.left}>
 					<img src={logo} alt="logo loading..." className={styles.logo} />
-				</div>
+				</Link>
 				<div className={styles.right}>
 					<div className={styles.linkParent}>
 						<div className={styles.innerParent}>
-							<Link to="/" className={styles.link}>
+							<SectionLink to="home" smooth={true} className={styles.link}>
 								Home
-							</Link>
+							</SectionLink>
 						</div>
 					</div>
 					<div className={styles.linkParent}>
@@ -97,13 +112,13 @@ const Navbar = () => {
 							</SectionLink>
 						</div>
 					</div>
-					<div className={styles.linkParent}>
+					{<div className={styles.linkParent}>
 						<div className={styles.innerParent}>
 							<Link to="/Teams" className={styles.link}>
 								Team
 							</Link>
 						</div>
-					</div>
+					</div>}
 				</div>
 			</div>
 		</div>
