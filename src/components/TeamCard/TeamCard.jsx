@@ -9,19 +9,22 @@ const TeamCard = (props) => {
             <div className={styles.design}>
                 <img className={styles.desimg} src={design} />
                 <div className={styles.social}>
-                    <a
+                    {props.fb && (<a
                         href={props.fb}
                         target="_blank"
                         rel="noreferrer"
                     >
                         <img className={styles.logo} src="https://res.cloudinary.com/dxafdfvui/image/upload/v1705083563/fbpxl_imhsav.svg" alt="facebook" />
                     </a>
-                    <a
+                    )}
+                    {props.linkedin && (<a
                         href={props.linkedin}
                         target="_blank"
                         rel="noreferrer"
+
                     > <img className={styles.logo} src="https://res.cloudinary.com/dgnlmdkyq/image/upload/v1705425898/Nits%20hacks%206.0/Teams/nnj4l11tum53qdgmny4v.png" alt="linkedin" />
                     </a>
+                    )}
                     {props.git && (
                         <a
                             href={props.git}
@@ -44,7 +47,9 @@ const TeamCard = (props) => {
             </div>
             <div className={styles.content}>
                 <p className={styles.name}>{props.name}</p>
-                <p className={styles.designation}>{props.designation}</p>
+                {props.designation && (
+                    <p className={styles.designation}>{props.designation}</p>
+                )}
             </div>
         </div>
     );

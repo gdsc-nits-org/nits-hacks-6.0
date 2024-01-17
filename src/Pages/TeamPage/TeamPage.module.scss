@@ -8,15 +8,8 @@ $fontcolor: #ffffff;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  padding-top: 3rem;
 }
 
-.page {
-  padding-top: 1rem;
-  height: max-content;
-  overflow-y: hidden;
-  overflow-x: hidden;
-}
 .headingteams {
   color: #ffffff;
   font-family: Pixeloid;
@@ -63,7 +56,7 @@ $fontcolor: #ffffff;
     .button_text {
       color: #4debf6;
       font-family: PixeloidLight;
-      font-size: 1.3em;
+      font-size: 1.1em;
       margin-top: -1px;
       position: relative;
       text-align: center;
@@ -105,10 +98,10 @@ $fontcolor: #ffffff;
   font-weight: 500;
   letter-spacing: 0;
   line-height: 2.5rem;
-  text-align: center;
-  width: 100vw;
+  width: 50%;
   position: relative;
   top: 7rem;
+  text-align: center;
   left: 11rem;
   text-shadow: 2px 10px 25px #ffffff;
 }
@@ -127,7 +120,7 @@ $fontcolor: #ffffff;
   top: 7rem;
   object-position: 50% 50%;
   padding-bottom: 4rem;
-  width: fit-content;
+  width: 67%;
   height: fit-content;
 }
 @media screen and (max-width: 1200px) {
@@ -135,12 +128,27 @@ $fontcolor: #ffffff;
     flex-direction: row;
     gap: 2rem;
   }
-}
-@media screen and (max-width: 750px) {
+  .headingteamsa {
+    width: 100%;
+  }
   .teamname_body {
-    flex-direction: column;
-    gap: 2rem;
-    left: 55%;
+    width: 100%;
+  }
+}
+// @media screen and (max-width: 879px) and (min-width: 401)
+// @media screen and (max-width: 599px) and (min-width: 401px) {
+//   .teamname_body {
+//     left: 28%;
+//   }
+// }
+// @media screen and (max-width: 779px) and (min-width: 660px) {
+//   .teamname_body {
+//     left: 25%;
+//   }
+// }
+@media screen and (max-width: 650px) {
+  .teamname_body {
+    left: 10rem;
   }
 }
 @media screen and (max-width: 400px) {
@@ -149,14 +157,24 @@ $fontcolor: #ffffff;
     left: 45%;
   }
 }
-@media only screen and (min-width: 751px) and (max-width: 1000px) {
+@media screen and (max-width: 749px) {
   .teamname_body {
-    left: 20%;
+    gap: 2rem;
+  }
+}
+// @media screen and (max-width: 879px) and (min-width: 780px) {
+//   .teamname_body {
+//     left: 19%;
+//   }
+// }
+@media only screen and (min-width: 880px) and (max-width: 1000px) {
+  .teamname_body {
+    left: 17%;
   }
 }
 @media only screen and (min-width: 1001px) and (max-width: 1199px) {
   .teamname_body {
-    left: 25%;
+    left: 15%;
   }
 }
 @media only screen and (min-width: 751px) and (max-width: 1299px) {
@@ -176,7 +194,7 @@ $fontcolor: #ffffff;
 @media only screen and (max-width: 400px) {
   .teamname_body {
     position: relative;
-    left: 57%;
+    left: 45%;
   }
 }
 
@@ -193,9 +211,9 @@ $fontcolor: #ffffff;
     );
     flex-direction: column;
     float: right;
-    gap: 3rem;
+    gap: 2rem;
     padding-right: 1rem;
-    padding-bottom: 15rem;
+    padding-bottom: 25rem;
     padding-top: 5rem;
   }
   .teams {
@@ -210,6 +228,6 @@ $fontcolor: #ffffff;
   }
   .headingteamsa {
     position: relative;
-    left: 2%;
+    left: 30%;
   }
 }

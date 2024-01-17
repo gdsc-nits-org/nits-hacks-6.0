@@ -13,8 +13,8 @@
     left: 1.7rem;
     top: 2rem;
     .img {
-      height: inherit;
-      width: inherit;
+      height: 13.3rem;
+      width: 11.6rem;
       position: inherit;
       left: 0.8rem;
     }
@@ -41,6 +41,7 @@
 .social {
   display: none;
   transition: 0.2s;
+  width: 100%;
 }
 .content {
   position: relative;
@@ -51,10 +52,11 @@
   transition: 0.2s;
   font-weight: 700;
   .name {
-    font-family: Pixeloid Bold;
+    font-family: PixeloidLIGHT;
+    font-size: 0.8rem;
   }
   .designation {
-    font-family: Pixeloid;
+    font-family: PixeloidLIGHT;
   }
 }
 .card:hover {
@@ -79,21 +81,16 @@
 .card:hover {
   .social {
     display: inline-flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 2rem;
-    gap: 2rem;
+    gap: 1rem;
     bottom: 1rem;
 
     .logo {
       height: 1.2rem;
       width: 1.3rem;
-    }
-    .logogit {
-      height: 1.5rem;
-      width: 1.8rem;
     }
   }
 }
