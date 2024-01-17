@@ -36,7 +36,7 @@ $fontfamily: Pixeloid;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -76,6 +76,8 @@ $fontfamily: Pixeloid;
   overflow: hidden;
   position: relative;
   border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
 }
 
 .img {
@@ -93,7 +95,8 @@ $fontfamily: Pixeloid;
   word-wrap: normal;
   padding: 0.4rem;
   position: absolute;
-  bottom: 3.5rem;
+  bottom: 4rem;
+  left: 0.5rem;
   box-sizing: border-box;
   color: $fontcolor;
   transition: 0.4s;
@@ -138,7 +141,6 @@ $fontfamily: Pixeloid;
 @media screen and (max-width: 600px) {
   .pagebody {
     flex-direction: column;
-    gap: 2rem;
     align-items: center;
     justify-content: center;
   }
@@ -151,6 +153,7 @@ $fontfamily: Pixeloid;
 
   .card {
     height: 15rem;
+    margin: 1rem;
   }
 
   .content {
