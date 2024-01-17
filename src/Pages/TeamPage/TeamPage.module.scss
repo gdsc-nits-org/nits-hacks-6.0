@@ -12,6 +12,8 @@ $fontcolor: #ffffff;
 }
 
 .page {
+  padding-top: 1rem;
+  height: max-content;
   overflow-y: hidden;
   overflow-x: hidden;
 }
@@ -147,9 +149,14 @@ $fontcolor: #ffffff;
     left: 45%;
   }
 }
-@media only screen and (min-width: 751px) and (max-width: 1100px) {
+@media only screen and (min-width: 751px) and (max-width: 1000px) {
   .teamname_body {
     left: 20%;
+  }
+}
+@media only screen and (min-width: 1001px) and (max-width: 1199px) {
+  .teamname_body {
+    left: 25%;
   }
 }
 @media only screen and (min-width: 751px) and (max-width: 1299px) {
@@ -161,7 +168,7 @@ $fontcolor: #ffffff;
     align-items: center;
   }
 }
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 1201px) {
   .teamname_body {
     left: 23%;
   }
