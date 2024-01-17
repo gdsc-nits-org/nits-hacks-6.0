@@ -13,7 +13,8 @@
 }
 
 .logoImg {
-  height: 7rem;
+  height: 5rem;
+  margin: 2rem auto;
   animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
@@ -275,7 +276,8 @@
       .logoInner {
         .logoImg {
           animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-          height: 11rem;
+          height: 5rem;
+          margin-top: 4rem;
         }
       }
     }
@@ -286,11 +288,13 @@
 
   0%,
   100% {
-    opacity: 1;
+    // opacity: 1;
+    filter: drop-shadow(0rem 0rem 0.4rem #D03CAB);
   }
-
+  
   50% {
-    opacity: 0.55;
+    // opacity: 0.55;
+    filter: drop-shadow(0rem 0rem 1rem #D03CAB);
   }
 }
 

@@ -14,7 +14,7 @@ import { useState } from "react";
 // import { useState } from "react";
 
 const Home = () => {
-	const [audio] = useState(new Audio("/sound/bgm.mp3"));
+	const [audio] = useState(new Audio("/sound/bgm_re.mp3"));
 
 	useEffect(() => {
 		audio.volume = 0.1;
