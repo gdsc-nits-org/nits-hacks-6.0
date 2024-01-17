@@ -122,8 +122,10 @@ const Footer = () => {
 								href="https://gdscnits.in/"
 								target="_blank"
 								rel="noreferrer"
-							></a>
-							GDSC, NIT Silchar
+								className={styles.a1}
+							>
+								GDSC, NIT Silchar
+							</a>
 						</p>
 					</div>
 					<div className={styles.copytxt}>
