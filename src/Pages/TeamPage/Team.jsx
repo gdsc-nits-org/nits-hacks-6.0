@@ -1,6 +1,6 @@
 import styles from "./TeamPage.module.scss"
 import TeamCard from "../../components/TeamCard/TeamCard"
-import Navbar from "../../../src/components/Navbar/Navbar"
+import Navbar2 from "../../../src/components/Navbar/Navbar2"
 //import FACULTY from "./Faculty.json"
 import TECH from "./Tech.json"
 import VOLUNTEERS from "./Volunteers.json"
@@ -17,7 +17,7 @@ const Teams = () => {
     return (
         <>
             <div className={styles.teamsCont}>
-                <Navbar />
+                <Navbar2 />
                 <Events />
 
 
