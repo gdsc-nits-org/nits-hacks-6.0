@@ -22,7 +22,7 @@ const Carousel = ({ children }) => {
     return (
         <div className={styles.carouselCont}>
             <div className={styles.carousel}>
-                {active > 0 && <button className={`${styles.nav} ${styles.left}`} onClick={() => setActive(i => i - 1)}>&lt;</button>}
+                {active > 0 && <button className={styles.left} onClick={() => setActive(i => i - 1)}>&lt;</button>}
                 {React.Children.map(children, (child, i) => (
                     <div className={styles.cardContainer} style={{
                         '--active': i === active ? 1 : 0,
@@ -38,7 +38,7 @@ const Carousel = ({ children }) => {
                         {child}
                     </div>
                 ))}
-                {active < count - 1 && <button className={`${styles.nav} ${styles.right}`} onClick={() => setActive(i => i + 1)}>&gt;</button>}
+                {active < count - 1 && <button className={styles.right} onClick={() => setActive(i => i + 1)}>&gt;</button>}
             </div>
 
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
