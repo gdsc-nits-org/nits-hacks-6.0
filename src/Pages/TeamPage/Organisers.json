@@ -205,28 +205,28 @@
 		"fb": "https://www.facebook.com/anubhav.chakravarty.77/"
 	},
        {
-    "id": 24,
-    "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017411/gdsc%20seniors/team_pics/Priyabrat1_sl2zwb.webp",
-    "name": "Priyabrat Duarah",
-    "designatiom": "Marketing",
-    "linkedin": "https://www.linkedin.com/in/priyabrat-duarah-6a6132221/",
-    "fb": "https://www.facebook.com/profile.php?id=100076231446828",
-    "git": "https://github.com/Prybrt06"
+                "id": 24,
+                "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017411/gdsc%20seniors/team_pics/Priyabrat1_sl2zwb.webp",
+                "name": "Priyabrat Duarah",
+                "designatiom": "Marketing",
+                "linkedin": "https://www.linkedin.com/in/priyabrat-duarah-6a6132221/",
+                "fb": "https://www.facebook.com/profile.php?id=100076231446828",
+                "git": "https://github.com/Prybrt06"
         },
        {
-    "id": 25,
-    "img":"https://res.cloudinary.com/dhry5xscm/image/upload/v1694017416/gdsc%20seniors/team_pics/JUGYAKAMAL_GOGOI_i95s6r.webp",
-    "name": "Jugya Kamal Gogoi",
-    "designation": "Outreach",
-    "linkedin": "https://www.linkedin.com/in/jugya-kamal-gogoi-5ab594229/",
-    "fb": "https://www.facebook.com/zhang.jike.311/",
-    "git": "https://github.com/Jugya07"
+                "id": 25,
+                "img":"https://res.cloudinary.com/dhry5xscm/image/upload/v1694017416/gdsc%20seniors/team_pics/JUGYAKAMAL_GOGOI_i95s6r.webp",
+                "name": "Jugya Kamal Gogoi",
+                "designation": "Outreach",
+                "linkedin": "https://www.linkedin.com/in/jugya-kamal-gogoi-5ab594229/",
+                "fb": "https://www.facebook.com/zhang.jike.311/",
+                "git": "https://github.com/Jugya07"
        },
       {
-    "id": 26,
-    "img":"https://res.cloudinary.com/dl19r276g/image/upload/v1705605257/WhatsApp_Image_2024-01-19_at_00_03_43_96bce5f1_t7a5qe_z29ogt.webp",
-    "name": "Ayangshu Das Majumdar",
-    "designation": "Coding Track",
-    "linkedin": "https://www.linkedin.com/in/ayanangshu-das-majumder-b84248234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-	 }
+               "id": 26,
+               "img":"https://res.cloudinary.com/dl19r276g/image/upload/v1705605257/WhatsApp_Image_2024-01-19_at_00_03_43_96bce5f1_t7a5qe_z29ogt.webp",
+               "name": "Ayangshu Das Majumdar",
+               "designation": "Coding Track",
+               "linkedin": "https://www.linkedin.com/in/ayanangshu-das-majumder-b84248234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      }
 ]
