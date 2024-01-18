@@ -1,0 +1,19 @@
+[
+    {
+        "id": 7,
+        "name": "Arpit Jaiswal",
+        "designation": "Core Team",
+        "img": "https://res.cloudinary.com/dvra8rj4n/image/upload/v1705476987/NITSX/yuwrnfmmur7clbllzyix.webp",
+        "cf": "",
+        "linkedin": "https://www.linkedin.com/in/arpit-jaiswal-7166b0201/",
+        "fb": "https://www.facebook.com/arpit.jaiswal.965"
+    },
+    {
+        "id": 8,
+        "name": "Sakshi Garg",
+        "designation": "Core Team",
+        "img": "https://res.cloudinary.com/dl19r276g/image/upload/v1705513976/2023-05-27-18-43-16-504_-_Sakshi_Garg_c5y1xf.webp",
+        "git": "https://github.com/Sakshiagarwaal",
+        "linkedin": "https://www.linkedin.com/in/sakshi-garg-95563a215"
+    }
+]

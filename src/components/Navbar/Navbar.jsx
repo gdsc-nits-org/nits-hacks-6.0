@@ -81,7 +81,7 @@ const Navbar = () => {
 					</SectionLink>
 				</div>
 				<div className={styles.linkParentMobile}>
-					<Link to="/Teams" className={styles.link}>
+					<Link to="/teams" className={styles.link}>
 						TEAM
 					</Link>
 				</div>
@@ -114,7 +114,7 @@ const Navbar = () => {
 					</div>
 					{<div className={styles.linkParent}>
 						<div className={styles.innerParent}>
-							<Link to="/Teams" className={styles.link}>
+							<Link to="/teams" className={styles.link}>
 								Team
 							</Link>
 						</div>

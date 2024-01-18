@@ -52,6 +52,15 @@ $fontcolor: #ffffff;
   padding-bottom: 4rem;
   width: 100%;
   height: fit-content;
+  .sec {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
 }
 @media screen and (max-width: 650px) {
   .page {

@@ -5,9 +5,13 @@ import Navbar2 from "../../../src/components/Navbar/Navbar2"
 import TECH from "./Tech.json"
 import VOLUNTEERS from "./Volunteers.json"
 import ORGANISERS from "./Organisers.json"
-import CORE from "./Core.json"
+//import CORE from "./Core.json"
 import Footer from "../../components/Footer/Footer"
+import Coordinator from "./Coordinator.json"
+import Convener from "./Convener.json"
+import Coreteam from "./Coreteam.json"
 import Events from "./Carausel/Carausel"
+import Techlead from "./Techlead.json"
 const Teams = () => {
 
 
@@ -36,7 +40,9 @@ const Teams = () => {
                         <div className={styles.headingteamsa} id="CORE">
                             CORE
                         </div> <div className={styles.teamname_body}>
-                            {CORE.map(MemberDetails)}
+                            <section className={styles.sec}> {Convener.map(MemberDetails)}</section>
+                            <section className={styles.sec}>    {Coordinator.map(MemberDetails)}</section>
+                            <section className={styles.sec}>  {Coreteam.map(MemberDetails)}</section>
                         </div>
                     </div>
 
@@ -45,7 +51,8 @@ const Teams = () => {
                         <div className={styles.headingteamsa} id="TECH">
                             TECH
                         </div> <div className={styles.teamname_body}>
-                            {TECH.map(MemberDetails)}
+                            <section className={styles.sec}>    {Techlead.map(MemberDetails)}</section>
+                            <section className={styles.sec}>  {TECH.map(MemberDetails)}</section>
                         </div>
                     </div>
 

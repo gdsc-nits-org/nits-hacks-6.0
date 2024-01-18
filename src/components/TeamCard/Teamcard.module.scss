@@ -13,9 +13,10 @@
     left: 2.5rem;
     top: 2rem;
     .img {
-      height: 13.5rem;
+      height: 12rem;
       width: 11.6rem;
       position: inherit;
+      object-fit: cover;
     }
   }
   .design {

@@ -2,7 +2,7 @@ import styles from "./Teamcard.module.scss"
 import { useState } from "react";
 import design from "./spam/design.svg"
 const TeamCard = (props) => {
-     const [audio] = useState(new Audio("/sound/button2_re.mp3"));
+    const [audio] = useState(new Audio("/sound/button2_re.mp3"));
 
     const playm = () => {
         return (
