@@ -9,80 +9,12 @@ $fontcolor: #ffffff;
   background-size: cover;
   height: 100vh;
 }
-
-.headingteams {
-  color: #ffffff;
-  font-family: Pixeloid;
-  font-size: 2.3rem;
-  font-weight: 400;
-  height: 4.56;
-  left: 0;
-  letter-spacing: 0;
-  line-height: 2.5rem;
-  text-align: center;
-  top: 0;
-  width: 100vw;
-  text-shadow: 2px 10px 25px #ffffff;
-  padding-bottom: 3rem;
+.page {
+  padding-bottom: 4rem;
 }
-.button {
-  align-items: center;
-  background: linear-gradient(180deg, rgb(0, 35, 88) 0%, rgb(29, 11, 33) 100%);
-  border: 1.5px solid;
-  border-color: transparent;
-  border-image: linear-gradient(
-      to bottom,
-      rgb(181, 134, 141),
-      rgb(243, 97, 150)
-    )
-    1;
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  height: 3rem;
-  width: 10rem;
-  cursor: pointer;
-
-  .state_layer {
-    align-items: center;
-    display: inline-flex;
-    flex: 0 0 auto;
-    gap: 0.5rem;
-    justify-content: center;
-    padding: 0.6rem 1.2rem;
-    position: relative;
-
-    .button_text {
-      color: #4debf6;
-      font-family: PixeloidLight;
-      font-size: 1.1em;
-      margin-top: -1px;
-      position: relative;
-      text-align: center;
-      white-space: nowrap;
-      width: fit-content;
-      background: transparent;
-      border: none;
-      cursor: pointer;
-    }
-  }
-}
-.button:hover {
-  background: linear-gradient(
-    180deg,
-    rgb(181, 134, 141) 0%,
-    rgb(243, 97, 150) 100%
-  );
-}
-
-.button:hover .button_text {
-  color: #ffffff;
-}
-
 .teams_body {
   display: flex;
-  // padding-top: 3rem;
+  gap: 2rem;
   padding-left: 1.5rem;
   flex-wrap: wrap;
   justify-content: center;
@@ -98,136 +30,31 @@ $fontcolor: #ffffff;
   font-weight: 500;
   letter-spacing: 0;
   line-height: 2.5rem;
-  width: 50%;
+  width: 100%;
   position: relative;
   top: 7rem;
   text-align: center;
-  left: 11rem;
   text-shadow: 2px 10px 25px #ffffff;
 }
 .teamname {
   position: relative;
-  right: 10rem;
   padding-top: 1rem;
 }
 .teamname_body {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  gap: 3rem;
   align-items: center;
   flex-wrap: wrap;
   position: relative;
-  left: 24%;
   top: 7rem;
-  object-position: 50% 50%;
   padding-bottom: 4rem;
-  width: 67%;
+  width: 100%;
   height: fit-content;
 }
-@media screen and (max-width: 1200px) {
-  .teams_body {
-    flex-direction: row;
-    gap: 2rem;
-  }
-  .headingteamsa {
-    width: 100%;
-  }
-  .teamname_body {
-    width: 100%;
-  }
-}
-// @media screen and (max-width: 879px) and (min-width: 401)
-// @media screen and (max-width: 599px) and (min-width: 401px) {
-//   .teamname_body {
-//     left: 28%;
-//   }
-// }
-// @media screen and (max-width: 779px) and (min-width: 660px) {
-//   .teamname_body {
-//     left: 25%;
-//   }
-// }
 @media screen and (max-width: 650px) {
-  .teamname_body {
-    left: 10rem;
-  }
-}
-@media screen and (max-width: 400px) {
-  .headingteamsa {
-    font-size: 1.6rem;
-    left: 45%;
-  }
-}
-@media screen and (max-width: 749px) {
-  .teamname_body {
-    gap: 2rem;
-  }
-}
-// @media screen and (max-width: 879px) and (min-width: 780px) {
-//   .teamname_body {
-//     left: 19%;
-//   }
-// }
-@media only screen and (min-width: 880px) and (max-width: 1000px) {
-  .teamname_body {
-    left: 17%;
-  }
-}
-@media only screen and (min-width: 1001px) and (max-width: 1199px) {
-  .teamname_body {
-    left: 15%;
-  }
-}
-@media only screen and (min-width: 751px) and (max-width: 1299px) {
-  .teamname_body {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
-  }
-}
-@media only screen and (min-width: 1201px) {
-  .teamname_body {
-    left: 23%;
-  }
-}
-@media only screen and (max-width: 400px) {
-  .teamname_body {
-    position: relative;
-    left: 45%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .headingteams {
+  .page {
     display: none;
-  }
-  .teams_body {
-    background: linear-gradient(
-      270deg,
-      rgba(0, 0, 0, 1),
-      rgba(150, 0, 135, 0.41),
-      rgba(255, 0, 229, 0)
-    );
-    flex-direction: column;
-    float: right;
-    gap: 2rem;
-    padding-right: 1rem;
-    padding-bottom: 25rem;
-    padding-top: 5rem;
-  }
-  .teams {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
-  .teamname_body {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 3rem;
-  }
-  .headingteamsa {
-    position: relative;
-    left: 30%;
   }
 }
