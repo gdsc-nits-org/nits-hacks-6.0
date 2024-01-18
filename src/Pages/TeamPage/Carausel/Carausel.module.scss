@@ -74,11 +74,11 @@
   border: 0px solid transparent;
   border-radius: 4rem;
 
-  &.left {
+  .left {
     transform: translateX(-100%) translatey(-50%);
   }
 
-  &.right {
+  .right {
     right: -1.5rem;
     transform: translateX(100%) translatey(-50%);
   }
