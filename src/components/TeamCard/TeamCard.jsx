@@ -1,8 +1,19 @@
 import styles from "./Teamcard.module.scss"
+import { useState } from "react";
 import design from "./spam/design.svg"
 const TeamCard = (props) => {
+     const [audio] = useState(new Audio("/sound/button2_re.mp3"));
+
+    const playm = () => {
+        return (
+            audio.volume = 0.5,
+            audio.play()
+
+        );
+    };
+
     return (
-        <div className={styles.card}>
+        <div onMouseEnter={playm} className={styles.card}>
             <div className={styles.box}>
                 <img className={styles.img} src={props.img} alt="members" loading="lazy" />
             </div>
