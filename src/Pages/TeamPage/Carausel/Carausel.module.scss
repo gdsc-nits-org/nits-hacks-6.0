@@ -20,7 +20,7 @@
   transform-style: preserve-3d;
   position: relative;
   right: 3.3rem;
-  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 .content {
   .heading {
@@ -56,7 +56,7 @@
   transition: all 0.3s ease-out;
 }
 
-.nav {
+.left {
   color: white;
   font-size: 2rem;
   position: absolute;
@@ -73,22 +73,36 @@
   padding: 1rem;
   border: 0px solid transparent;
   border-radius: 4rem;
+  left: 3rem;
+  transform: translateX(-100%) translatey(-50%);
+}
 
-  &.left {
-    transform: translateX(-100%) translatey(-50%);
-  }
-
-  &.right {
-    right: -1.5rem;
-    transform: translateX(100%) translatey(-50%);
-  }
+.right {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  left: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  z-index: 12;
+  cursor: pointer;
+  user-select: none;
+  background: unset;
+  border: unset;
+  padding: 1rem;
+  border: 0px solid transparent;
+  border-radius: 4rem;
+  right: -1.5rem;
+  transform: translateX(100%) translatey(-50%);
 }
 
 .bubbleCont {
   display: flex;
   flex-direction: row;
   position: relative;
-  top: 22rem;
+  top: 24rem;
   left: 3rem;
   align-items: center;
   justify-content: center;
@@ -115,7 +129,4 @@
       translateZ(calc(var(--abs-offset) * -30rem))
       translateX(calc(var(--direction) * -4rem));
   }
-}
-.sec {
-  padding-bottom: 30rem;
 }

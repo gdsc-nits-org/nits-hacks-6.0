@@ -10,20 +10,20 @@
 	},
 	{
 		"id": 2,
-		"name": "Swagatmitra Bhattacharya ",
-		"linkedin": "https://linkedin.com/in/swagatmitrab",
-		"git": "https://github.com/swagatmitra-b",
-		"designation": "Developer",
-		"img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827574/GDSC%20images/swagat_-_SWAGATMITRA_BHATTACHARYA_vzi9fv.webp"
-	},
-	{
-		"id": 3,
 		"name": "Rishi Raj Saha",
 		"linkedin": "https://www.linkedin.com/in/rishi-raj-saha-696b44257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 		"git": "https://github.com/rishinhk004",
 		"fb": "https://www.facebook.com/rishiraj.saha.353?mibextid=2JQ9oc",
 		"designation": "Developer",
 		"img": "https://res.cloudinary.com/dl19r276g/image/upload/v1705489864/IMG_20240116_200449_axmupn.webp"
+	},
+	{
+		"id": 3,
+		"name": "Swagatmitra Bhattacharya ",
+		"linkedin": "https://linkedin.com/in/swagatmitrab",
+		"git": "https://github.com/swagatmitra-b",
+		"designation": "Developer",
+		"img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827574/GDSC%20images/swagat_-_SWAGATMITRA_BHATTACHARYA_vzi9fv.webp"
 	},
 	{
 		"id": 4,
