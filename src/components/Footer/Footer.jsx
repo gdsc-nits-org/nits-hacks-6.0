@@ -38,7 +38,10 @@ const Footer = () => {
 								</a>
 							</div>
 							<div className={styles.imgdiv}>
-								<a href="https://www.linkedin.com/company/nitshacks/" target="blank_">
+								<a
+									href="https://www.linkedin.com/company/nitshacks/"
+									target="blank_"
+								>
 									<img
 										src="https://res.cloudinary.com/dxafdfvui/image/upload/v1705425238/linkedinneww_ctnyj8.svg"
 										alt="linkedin"
@@ -84,7 +87,10 @@ const Footer = () => {
 				</div>
 				<div className={styles.upper2}>
 					<div className={styles.copytxt2}>
-						<p>Made with <span className={styles.span1}>❤️</span> by GDSC, NIT Silchar</p>
+						<p>
+							Made with <span className={styles.span1}>❤️</span> by GDSC, NIT
+							Silchar
+						</p>
 					</div>
 					<div className={styles.copytxt}>
 						<p>©Copyright </p>

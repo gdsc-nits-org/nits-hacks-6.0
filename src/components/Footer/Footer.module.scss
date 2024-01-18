@@ -1,3 +1,12 @@
+::-webkit-scrollbar {
+  width: 0.8rem;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #400250;
+  border-radius: 1rem;
+  border: 0.2rem solid transparent;
+  background-clip: content-box;
+}
 .footer {
   background: linear-gradient(180deg,
       rgba(255, 255, 255, 0) 9.02%,
