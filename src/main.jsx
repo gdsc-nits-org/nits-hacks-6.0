@@ -4,7 +4,10 @@ import "./index.scss";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import Custom404 from "./Pages/404/404";
-import Teams from "./Pages/TeamPage/Team"
+import Teams from "./Pages/TeamPage/Team";
+import { inject } from "@vercel/analytics";
+
+inject();
 // import Home from "./Home.jsx";
 // import Preview from "./Pages/Preview/Preview.jsx";
 
@@ -20,8 +23,7 @@ const router = createBrowserRouter([
 	},
 	{
 		path: "/Teams",
-		element: <Teams />
-
+		element: <Teams />,
 	},
 	//   {
 	//     path: "/home",

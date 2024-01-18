@@ -112,13 +112,15 @@ const Navbar = () => {
 							</SectionLink>
 						</div>
 					</div>
-					{<div className={styles.linkParent}>
-						<div className={styles.innerParent}>
-							<Link to="/teams" className={styles.link}>
-								Team
-							</Link>
+					{
+						<div className={styles.linkParent}>
+							<div className={styles.innerParent}>
+								<Link to="/teams" className={styles.link}>
+									Team
+								</Link>
+							</div>
 						</div>
-					</div>}
+					}
 				</div>
 			</div>
 		</div>

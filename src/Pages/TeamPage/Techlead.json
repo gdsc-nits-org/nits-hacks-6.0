@@ -1,29 +1,29 @@
 [
-    {
-        "id": 1,
-        "name": "Adhiraj Dutta",
-        "linkedin": "https://www.linkedin.com/in/byt3h3ad",
-        "git": "https://github.com/byt3h3ad",
-        "fb": "https://www.facebook.com/byte.head.12",
-        "designation": "Tech Lead",
-        "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017407/gdsc%20seniors/team_pics/AdhirajDutta_oe0c3l.webp"
-    },
-    {
-        "id": 2,
-        "name": "Bijay Jiwrajka",
-        "linkedin": "https://www.linkedin.com/in/bijay-jiwrajka-6b308a225/",
-        "git": "https://github.com/bj-jiwrajka",
-        "fb": "https://www.facebook.com/bijay.jiwrajka.1",
-        "designation": "Tech Lead",
-        "img": "https://res.cloudinary.com/dnitrnzho/image/upload/v1705521319/Bijay_pfp-1_ntkqnk.webp"
-    },
-    {
-        "id": 3,
-        "name": "Pragya Annesha Baruah",
-        "linkedin": "https://www.linkedin.com/in/pragya-annesha-baruah-34a043229",
-        "git": "https://github.com/Prag03",
-        "fb": "https://www.facebook.com/profile.php?id=100075204826742",
-        "designation": "UI/UX Lead",
-        "img": "https://res.cloudinary.com/dl19r276g/image/upload/v1705513973/imagegdsc2_zdgzcm.webp"
-    }
+	{
+		"id": 1,
+		"name": "Adhiraj Dutta",
+		"linkedin": "https://www.linkedin.com/in/byt3h3ad",
+		"git": "https://github.com/byt3h3ad",
+		"fb": "https://www.facebook.com/byte.head.12",
+		"designation": "Tech Lead",
+		"img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017407/gdsc%20seniors/team_pics/AdhirajDutta_oe0c3l.webp"
+	},
+	{
+		"id": 2,
+		"name": "Bijay Jiwrajka",
+		"linkedin": "https://www.linkedin.com/in/bijay-jiwrajka-6b308a225/",
+		"git": "https://github.com/bj-jiwrajka",
+		"fb": "https://www.facebook.com/bijay.jiwrajka.1",
+		"designation": "Tech Lead",
+		"img": "https://res.cloudinary.com/dnitrnzho/image/upload/v1705521319/Bijay_pfp-1_ntkqnk.webp"
+	},
+	{
+		"id": 3,
+		"name": "Pragya Annesha Baruah",
+		"linkedin": "https://www.linkedin.com/in/pragya-annesha-baruah-34a043229",
+		"git": "https://github.com/Prag03",
+		"fb": "https://www.facebook.com/profile.php?id=100075204826742",
+		"designation": "UI/UX Lead",
+		"img": "https://res.cloudinary.com/dl19r276g/image/upload/v1705513973/imagegdsc2_zdgzcm.webp"
+	}
 ]

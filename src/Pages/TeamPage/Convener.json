@@ -1,9 +1,9 @@
 [
-    {
-        "id": 1,
-        "name": "Ashish Gautam",
-        "designation": "Convener",
-        "img": "https://res.cloudinary.com/dl19r276g/image/upload/v1705575868/gst_s7yxte.webp",
-        "fb": "https://www.facebook.com/profile.php?id=100013905035630"
-    }
+	{
+		"id": 1,
+		"name": "Ashish Gautam",
+		"designation": "Convener",
+		"img": "https://res.cloudinary.com/dl19r276g/image/upload/v1705575868/gst_s7yxte.webp",
+		"fb": "https://www.facebook.com/profile.php?id=100013905035630"
+	}
 ]
