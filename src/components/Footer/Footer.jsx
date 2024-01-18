@@ -80,7 +80,11 @@ const Footer = () => {
 					</div>
 					<div className={styles.logo}>
 						<a href="/" className={styles.logoInner}>
-							<img src="/logo.png" alt="Logo" className={styles.logoImg} />
+							<img
+								src="https://res.cloudinary.com/dhry5xscm/image/upload/v1705000767/nits-hacks-6.0/logo-nitshacks_ztwqrk.svg"
+								alt="Logo"
+								className={styles.logoImg}
+							/>
 						</a>
 					</div>
 					<div className={styles.maps}>
@@ -118,8 +122,10 @@ const Footer = () => {
 								href="https://gdscnits.in/"
 								target="_blank"
 								rel="noreferrer"
-							></a>
-							GDSC, NIT Silchar
+								className={styles.a1}
+							>
+								GDSC, NIT Silchar
+							</a>
 						</p>
 					</div>
 					<div className={styles.copytxt}>

@@ -38,7 +38,7 @@ $fontfamily: Pixeloid;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -77,6 +77,9 @@ $fontfamily: Pixeloid;
   margin: 3.2rem;
   overflow: hidden;
   position: relative;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
 }
 
 .img {
@@ -94,7 +97,8 @@ $fontfamily: Pixeloid;
   word-wrap: normal;
   padding: 0.4rem;
   position: absolute;
-  bottom: 3.5rem;
+  bottom: 4rem;
+  left: 0.5rem;
   box-sizing: border-box;
   color: $fontcolor;
   transition: 0.4s;
@@ -122,6 +126,7 @@ $fontfamily: Pixeloid;
   height: fit-content;
   width: inherit;
   bottom: 1rem;
+  transition: 0.4s ease-in-out;
 }
 
 .card:hover .rectangle {
@@ -132,17 +137,12 @@ $fontfamily: Pixeloid;
   opacity: 1;
   visibility: visible;
   text-shadow: 2px 1px #000;
+  transition: 0.4s ease-in-out;
 }
 
-.card:hover .img {
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .pagebody {
     flex-direction: column;
-    gap: 2rem;
     align-items: center;
     justify-content: center;
   }
@@ -154,15 +154,12 @@ $fontfamily: Pixeloid;
   }
 
   .card {
-    height: 18rem;
-    width: fit-content;
-    margin-top: 1.3rem;
-    overflow: hidden;
-    position: relative;
-    left: 3.4rem;
-    .img {
-      width: 100%;
-    }
+    height: 15rem;
+    margin: 1rem;
+  }
+
+  .content {
+    left: 0.5rem;
   }
 
   .title {
@@ -173,36 +170,14 @@ $fontfamily: Pixeloid;
     font-size: 0.8rem;
     width: 78%;
   }
+}
 
-  .card:hover .img {
-    -webkit-transform: scale(1.15);
-    transform: scale(1.15);
-  }
-}
-@media screen and (min-width: 401px) and (max-width: 499px) {
-  .card {
-    position: relative;
-    left: 4rem;
-  }
-}
-@media screen and (min-width: 500px) and (max-width: 599px) {
-  .card {
-    position: relative;
-    left: 6rem;
-  }
-}
-@media screen and (min-width: 601px) and (max-width: 1000px) {
-  .card {
-    width: 20rem;
-  }
-}
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .pagebody {
     flex-direction: column;
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     overflow: hidden;
   }
 
@@ -220,32 +195,20 @@ $fontfamily: Pixeloid;
     font-size: 1.3rem;
     width: 78%;
   }
-  .content {
-    width: 70%;
-  }
 
   .card {
-    height: 20rem;
-    width: 100%;
-    margin-top: 1.3rem;
-    overflow: hidden;
     .img {
-      width: 60%;
-      height: 15rem;
       padding: 0%;
       margin: 0%;
     }
+
     .rectangle {
       width: fit-content;
+
       .box {
         width: fit-content;
       }
     }
-  }
-
-  .card:hover .img {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
   }
 }
 
@@ -261,7 +224,7 @@ $fontfamily: Pixeloid;
   .description {
     font-size: 0.7rem;
     width: 90%;
-    height: 40%;
+    height: 50%;
   }
 
   .card {
@@ -284,12 +247,17 @@ $fontfamily: Pixeloid;
   .heading {
     font-size: 1.9rem;
   }
+
+  .card {
+    width: auto;
+  }
 }
 
 @media screen and (min-width: 600px) {
   .card:hover .rectangle {
     height: 8.3rem;
   }
+
   .card:hover .content {
     padding-left: 0.8rem;
   }
@@ -325,22 +293,5 @@ $fontfamily: Pixeloid;
 
   .description {
     font-size: 1.2rem;
-  }
-}
-
-@media (min-width: 600px) and (max-width: 1150px) {
-  .card:hover .content {
-    height: 12rem;
-  }
-}
-@media (min-width: 1001px) and (max-width: 1499px) {
-  .card {
-    height: 16rem;
-    width: 25rem;
-
-    .img {
-      width: 100%;
-      height: 100%;
-    }
   }
 }

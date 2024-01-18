@@ -5,5 +5,6 @@ import Landing from "./Landing/Landing";
 import Event from "./EventCard/EventCard";
 import NitsHacks from "./About/NitsHacks/NitsHacks";
 import Techno from "./About/Techno/Techno";
+import Navbar2 from "./Navbar/Navbar2";
 
-export { Navbar, Footer, Sponsor, NitsHacks, Techno, Event, Landing };
+export { Navbar, Footer, Sponsor, NitsHacks, Techno, Event, Landing, Navbar2 };
