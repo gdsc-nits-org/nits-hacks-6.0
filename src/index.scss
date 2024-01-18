@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+@font-face {
+  font-family: Pixeloid;
+  src: url("/fonts/PixeloidSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: PixeloidLight;
+  src: url("/fonts/PixeloidSans.ttf");
+}
+
 :root {
   --hacks-color-1: #400250;
-  --font-color-1: #FFFFFF;
+  --font-color-1: #ffffff;
 
   --gdsc-red-1-100: #db3236;
   --gdsc-red-2-100: #f0766c;
+
+  --gdsc-cyan-1: #C7FFF2;
 
   --gdsc-dark-1-100: #1d192b;
   --gdsc-content-1-100: #313033;
@@ -21,9 +35,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
+}
+
+#root {
+  background-color: #000000;
+  min-height: 100vh;
+  font-family: 'JetBrains Mono', monospace;
 }

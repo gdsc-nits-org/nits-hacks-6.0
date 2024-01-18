@@ -1,0 +1,234 @@
+.nitsParent {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    overflow-x: hidden;
+    align-items: center;
+
+    .brochure {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        z-index: 3;
+
+        .btn {
+            border: 1.022px solid var(--button-stroke-2, #B5868D);
+            background: linear-gradient(101deg, #002358 10.23%, #1D0B21 100%);
+            color: #4DEBF6;
+            padding: 1rem 3.5rem;
+            border-radius: 2px;
+            font-family: PixeloidLight;
+            cursor: pointer;
+            z-index: 4;
+            transition-property: ease;
+            transition-duration: 0.5s;
+        }
+
+        .btn:hover {
+            background: var(--button-stroke-2, linear-gradient(106deg, #B5868D -5.14%, #F36196 115.83%));
+            color: #ffffff;
+            transition-property: ease;
+            transition-duration: 0.5s;
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+
+    @media screen and (min-width:950px) {
+        .brochure {
+            justify-content: flex-start;
+            margin-left: 2rem;
+        }
+    }
+}
+
+@media screen and (min-width:950px) {
+    .nitsParent {
+        align-items: start;
+    }
+}
+
+.NitsHacks {
+    color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .parent {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        height: 100%;
+    }
+
+    .aboutCont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        row-gap: 2rem;
+    }
+
+    @media screen and (min-width:950px) {
+        .aboutCont {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            padding: 2rem;
+            row-gap: 2rem;
+        }
+    }
+
+    .LottieCont {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        border: 0 solid transparent;
+        border-radius: 1rem;
+        scale: 0.8;
+    }
+
+    @media screen and (min-width:300px) {
+        .LottieCont {
+            scale: 0.9;
+        }
+    }
+
+    @media screen and (min-width:950px) {
+        .LottieCont {
+            scale: 1;
+            margin: 2rem;
+        }
+
+        .aboutCont {
+            width: 100%;
+        }
+    }
+
+    .heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        column-gap: 1rem;
+        font-size: 0.8rem;
+
+        .aboutHead1 {
+            background-clip: text;
+            -webkit-text-stroke: 0.4rem transparent;
+            background-image: linear-gradient(180deg,
+                    rgb(255, 1, 1) 0%,
+                    rgba(255, 0, 0, 0) 100%);
+            font-family: Pixeloid;
+        }
+
+        .aboutHead2 {
+            font-family: Pixeloid;
+            background-clip: text;
+            -webkit-text-stroke: 0.1rem transparent;
+            background-image: linear-gradient(180deg,
+                    rgb(255, 1, 1) 0%,
+                    rgba(255, 0, 0, 0) 100%);
+        }
+    }
+
+    @media screen and (min-width:300px) {
+        .heading {
+            font-size: 1rem;
+
+            .aboutHead1 {
+                -webkit-text-stroke: 0.2rem transparent;
+            }
+
+            .aboutHead2 {
+                -webkit-text-stroke: 0.2rem transparent;
+            }
+        }
+    }
+
+    @media screen and (min-width:400px) {
+        .heading {
+            font-size: 2rem;
+
+            .aboutHead1 {
+                -webkit-text-stroke: 0.3rem transparent;
+            }
+
+            .aboutHead2 {
+                -webkit-text-stroke: 0.3rem transparent;
+            }
+        }
+    }
+
+    .p {
+        font-size: 0.5rem;
+        text-align: center;
+        color: #afafaf;
+        line-height: 2.2rem;
+    }
+
+    @media screen and (min-width:300px) {
+        .p {
+            font-size: 0.8rem;
+        }
+    }
+
+    @media screen and (min-width:400px) {
+        .p {
+            font-size: 0.85rem;
+        }
+    }
+
+    @media screen and (min-width:950px) {
+        .p {
+            text-align: left;
+        }
+
+        .heading {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: start;
+            width: fit-content;
+        }
+    }
+
+    @media screen and (min-width:700px) {
+        .p {
+            font-size: 1rem;
+        }
+    }
+
+    @media screen and (min-width:950px) {
+        .p {
+            font-size: 0.8rem;
+            width: 100%;
+        }
+
+        .LottieCont {
+            height: 100%;
+            width: 80%;
+        }
+    }
+
+    @media screen and (min-width:1000px) {
+        .p {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (min-width:950px) {
+    .NitsHacks {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+}
