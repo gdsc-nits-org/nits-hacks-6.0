@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import styles from './Carausel.module.scss'
-import { Icon } from '@iconify/react';
 import TeamCard from '../../../components/TeamCard/TeamCard';
 import VOLUNTEERS from "../Volunteers.json"
 import TECH from "../Tech.json"
 import ORGANISERS from "../Organisers.json"
-import CORE from "../Core.json"
+import Techlead from "../Techlead.json"
+import Coordinator from "../Coordinator.json"
+import Convener from "../Convener.json"
+import Coreteam from "../Coreteam.json"
 //import FACULTY from "../Faculty.json"
 
 const MAX_VISIBILITY = 3;
@@ -27,7 +29,7 @@ const Carousel = ({ children }) => {
                         '--offset': (active - i) / 3,
                         '--direction': Math.sign(active - i),
                         '--abs-offset': Math.abs(active - i) / 3,
-                        'pointer-events': active === i ? 'auto' : 'none',
+                        'pointerEvents': active === i ? 'auto' : 'none',
                         'opacity': Math.abs(active - i) >= MAX_VISIBILITY ? '0' : '1',
                         'display': Math.abs(active - i) > MAX_VISIBILITY ? 'none' : 'block',
                         zIndex: `${i === active ? 5 : 0}`,
@@ -38,7 +40,7 @@ const Carousel = ({ children }) => {
                 ))}
                 {active < count - 1 && <button className={`${styles.nav} ${styles.right}`} onClick={() => setActive(i => i + 1)}>&gt;</button>}
             </div>
-            <div className={styles.regCont}><button className={styles.rocket} ><Icon icon="ion:rocket-outline" />Register</button><button className={styles.rocket}><Icon icon="ion:rocket-outline" />View Details</button></div>
+
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <div className={`${styles.bubbleCont}`}>
                     {React.Children.map(children, (child, i) => (
@@ -64,20 +66,41 @@ const Events = () => (
             */}
         <div className={styles.content}>
             <div className={styles.heading}><p>CORE</p></div>
+
             <div className={styles.Events}>
                 <Carousel>
-                    {CORE.map(MemberDetails)
+                    {Convener.map(MemberDetails)
                     }
                 </Carousel>
             </div>
+            <div className={styles.Events}>
+                <Carousel>
+                    {Coordinator.map(MemberDetails)
+                    }
+                </Carousel>
+            </div>
+            <div className={styles.Events}>
+                <Carousel>
+                    {Coreteam.map(MemberDetails)
+                    }
+                </Carousel>
+            </div>
+
         </div>
         <div className={styles.content}>
             <div className={styles.heading}><p>TECH</p></div>
             <div className={styles.Events}>
                 <Carousel>
+                    {Techlead.map(MemberDetails)
+                    }
+                </Carousel>
+            </div>
+            <div className={styles.Events}>
+                <Carousel>
                     {TECH.map(MemberDetails)
                     }
                 </Carousel>
+
             </div>
         </div>
         <div className={styles.content}>

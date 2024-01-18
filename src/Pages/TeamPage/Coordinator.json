@@ -1,6 +1,15 @@
 [
     {
         "id": 1,
+        "name": "Jyotishka Bhattacharjee ",
+        "designation": "Coordinator",
+        "img": "https://res.cloudinary.com/dl19r276g/image/upload/v1705487322/IMG_8519_-_Jyotishka_Bhattacharjee_nxjczl.webp",
+        "git": "https://github.com/jyotishka747",
+        "linkedin": "https://www.linkedin.com/in/jyotishka-b-32995712b/",
+        "fb": "https://www.facebook.com/profile.php?id=100005647038947"
+    },
+    {
+        "id": 3,
         "name": "Pratik Majumdar",
         "designation": "Coordinator",
         "img": "https://res.cloudinary.com/dl19r276g/image/upload/v1705487903/Pratik_Majumdar_Square_-_Pratik_Majumdar_kh9vft.webp",
@@ -16,15 +25,6 @@
         "git": "https://github.com/username-naz",
         "linkedin": "https://www.linkedin.com/in/aniruddha-dutta-naz/",
         "fb": "https://www.facebook.com/aniruddha.dutta.naz/"
-    },
-    {
-        "id": 3,
-        "name": "Jyotishka Bhattacharjee ",
-        "designation": "Coordinator",
-        "img": "https://res.cloudinary.com/dl19r276g/image/upload/v1705487322/IMG_8519_-_Jyotishka_Bhattacharjee_nxjczl.webp",
-        "git": "https://github.com/jyotishka747",
-        "linkedin": "https://www.linkedin.com/in/jyotishka-b-32995712b/",
-        "fb": "https://www.facebook.com/profile.php?id=100005647038947"
     },
     {
         "id": 4,

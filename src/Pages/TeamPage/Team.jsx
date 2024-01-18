@@ -16,7 +16,7 @@ const Teams = () => {
 
 
     const MemberDetails = (d) => {
-        return <TeamCard {...d} key={d._id} />;
+        return <TeamCard {...d} key={d.id} />;
     };
     return (
         <>
