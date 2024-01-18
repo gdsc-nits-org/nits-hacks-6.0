@@ -1,0 +1,60 @@
+$fontcolor: #ffffff;
+
+.teamsCont {
+  width: 100%;
+  overflow-x: hidden;
+  background: url("../../../public/background/teamPagebg.svg");
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.page {
+  padding-bottom: 4rem;
+}
+.teams_body {
+  display: flex;
+  gap: 2rem;
+  padding-left: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1.5rem;
+}
+
+.headingteamsa {
+  margin-bottom: 3rem;
+  color: #ffffff;
+  font-family: Pixeloid;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 2.5rem;
+  width: 100%;
+  position: relative;
+  top: 7rem;
+  text-align: center;
+  text-shadow: 2px 10px 25px #ffffff;
+}
+.teamname {
+  position: relative;
+  padding-top: 1rem;
+}
+.teamname_body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 7rem;
+  padding-bottom: 4rem;
+  width: 100%;
+  height: fit-content;
+}
+@media screen and (max-width: 650px) {
+  .page {
+    display: none;
+  }
+}

@@ -18,4 +18,5 @@ const App = () => {
 
 	return loaded ? <Home /> : <Preview setLoaded={setLoaded} />;
 };
+
 export default App;
