@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Link as SectionLink } from "react-scroll";
 import styles from "./Navbar.module.scss";
 // import Teams from "../../Pages/TeamPage/Team";
-const Navbar = () => {
+const Navbar2 = () => {
 	const [nav, setNav] = useState(false);
 	const hamburger = {
 		inactive:
@@ -30,7 +29,7 @@ const Navbar = () => {
 				<div className={styles.left}>
 					<button className={styles.btn} onClick={hamClick}>
 						<img
-							src={`${nav === false ? hamburger.inactive : hamburger.active}`}
+							src={nav === false ? hamburger.inactive : hamburger.active}
 							style={{ transition: "ease 0.5s" }}
 							className={styles.navIcons}
 							alt="hamburger loading..."
@@ -44,41 +43,38 @@ const Navbar = () => {
 			<div
 				className={styles.mobileActive}
 				style={{
-					display: `${nav === false ? "none" : "flex"}`,
-					zIndex: `${nav === false ? "-1" : "3"}`,
-					opacity: `${nav === false ? "0" : "1"}`,
+					display: nav === false ? "none" : "flex",
+					zIndex: nav === false ? "-1" : "3",
+					opacity: nav === false ? "0" : "1",
 					transition: "ease 500ms",
 				}}
 			>
 				<div className={styles.linkParentMobile}>
-					<SectionLink
-						to="home"
-						smooth={true}
+					<Link
+						to="/#home"
 						className={styles.link}
 						onClick={() => setNav(!nav)}
 					>
 						HOME
-					</SectionLink>
+					</Link>
 				</div>
 				<div className={styles.linkParentMobile}>
-					<SectionLink
-						to="event"
-						smooth={true}
+					<Link
+						to="/#event"
 						className={styles.link}
 						onClick={() => setNav(!nav)}
 					>
 						EVENTS
-					</SectionLink>
+					</Link>
 				</div>
 				<div className={styles.linkParentMobile}>
-					<SectionLink
-						to="sponsors"
-						smooth={true}
+					<Link
+						to="/#sponsors"
 						className={styles.link}
 						onClick={() => setNav(!nav)}
 					>
 						SPONSORS
-					</SectionLink>
+					</Link>
 				</div>
 				<div className={styles.linkParentMobile}>
 					<Link to="/teams" className={styles.link}>
@@ -93,23 +89,23 @@ const Navbar = () => {
 				<div className={styles.right}>
 					<div className={styles.linkParent}>
 						<div className={styles.innerParent}>
-							<SectionLink to="home" smooth={true} className={styles.link}>
+							<Link to="/#home" className={styles.link}>
 								Home
-							</SectionLink>
+							</Link>
 						</div>
 					</div>
 					<div className={styles.linkParent}>
 						<div className={styles.innerParent}>
-							<SectionLink to="event" smooth={true} className={styles.link}>
+							<Link to="/#event" className={styles.link}>
 								Events
-							</SectionLink>
+							</Link>
 						</div>
 					</div>
 					<div className={styles.linkParent}>
 						<div className={styles.innerParent}>
-							<SectionLink to="sponsors" smooth={true} className={styles.link}>
+							<Link to="/#sponsors" smooth={true} className={styles.link}>
 								Sponsors
-							</SectionLink>
+							</Link>
 						</div>
 					</div>
 					{
@@ -126,4 +122,4 @@ const Navbar = () => {
 		</div>
 	);
 };
-export default Navbar;
+export default Navbar2;

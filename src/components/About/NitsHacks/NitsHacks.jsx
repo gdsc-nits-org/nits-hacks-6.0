@@ -29,7 +29,14 @@ const NitsHacks = () => {
 				</div>
 			</div>
 			<div className={styles.brochure}>
-				<a className={styles.btn}>DOWNLOAD BROCHURE</a>
+				<a
+					className={styles.btn}
+					href="https://drive.google.com/file/d/1SmUnAG203PMFMooqD6uvAu3FaDYFaXNI"
+					target="_blank"
+					rel="noreferrer"
+				>
+					DOWNLOAD BROCHURE
+				</a>
 			</div>
 		</div>
 	);

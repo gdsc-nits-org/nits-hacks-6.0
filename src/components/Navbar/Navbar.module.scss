@@ -1,197 +1,196 @@
 .navCont {
-    position: fixed;
-    background-image: linear-gradient(180deg, #1a1a1ab2, transparent);
-    animation-name: navAnimation;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    width: 100vw;
-    min-height: 10vh;
-    z-index: 5;
-    overflow: hidden;
+  position: fixed;
+  background-image: linear-gradient(180deg, rgb(0, 0, 0) 20%, transparent);
+  animation-name: navAnimation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  width: 100vw;
+  min-height: 10vh;
+  z-index: 5;
+  overflow: hidden;
 }
 
-
 .NavbarMobile {
-    position: relative;
-    top: -100%;
-    visibility: visible;
+  position: relative;
+  top: -100%;
+  visibility: visible;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  overflow: hidden;
+  padding: 0.5rem 0.5rem;
+
+  .btn {
+    background-color: transparent;
+    border: none;
+  }
+
+  .left,
+  .right {
+    width: 50%;
+  }
+
+  .navIcons {
+    scale: 0.5;
+    z-index: 5;
+  }
+
+  @media screen and (min-width: 250px) {
+    .navIcons {
+      scale: 0.8;
+    }
+  }
+
+  .left {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    height: auto;
-    overflow: hidden;
-    padding: 0.5rem 0.5rem;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
 
-    .btn {
-        background-color: transparent;
-        border: none;
-    }
-
-    .left,
-    .right {
-        width: 50%;
-    }
-
-    .navIcons {
-        scale: 0.5;
-        z-index: 5;
-    }
-
-    @media screen and (min-width:250px) {
-        .navIcons {
-            scale: 0.8;
-        }
-    }
-
-    .left {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
-        background-color: transparent;
-    }
-
-    .right {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-end;
-    }
+  .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
 }
 
 @keyframes navAnimation {
-    0% {
-        top: -100%;
-    }
+  0% {
+    top: -100%;
+  }
 
-    100% {
-        top: 0%;
-    }
+  100% {
+    top: 0%;
+  }
 }
 
 .deskNav {
-    visibility: hidden;
-    padding: 2rem 2rem;
-    height: 0;
+  visibility: hidden;
+  padding: 2rem 2rem;
+  height: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  .left {
+    width: 50%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
+    justify-content: flex-start;
+    background-color: transparent;
 
-    .left {
-        width: 50%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
-        background-color: transparent;
-
-        .logo {
-            background-color: transparent;
-        }
+    .logo {
+      background-color: transparent;
     }
+  }
 
-    .right {
-        width: 50%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        background-color: transparent;
-
-        .linkParent {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 2px;
-            border: 0 solid transparent;
-            border-radius: 1rem;
-            transition: ease 0.5s;
-            background-image: transparent;
-            cursor: pointer;
-
-            .innerParent {
-                // background-color: #002358;
-                padding: 0rem;
-                border: 0 solid transparent;
-                border-radius: 1rem;
-            }
-        }
-
-        .link {
-            position: relative;
-            left: 0;
-            top: 0;
-            color: #ffffff;
-            font-family: PixeloidLight;
-            text-decoration: none;
-            background-color: transparent;
-            padding: 0.5rem 1rem;
-            border: 0 solid transparent;
-            border-radius: 1rem;
-            transition: ease 0.5s;
-            text-transform: capitalize;
-        }
-
-        .linkParent:hover {
-            background-image: linear-gradient(108.6deg, #E3E2A9, #EFBBB6, #A52E62);
-            transition: all 0.5s;
-
-            .innerParent {
-                background-color: #002358;
-                transition-duration: 0.5s;
-            }
-        }
-
-        .linkParent:hover .link {
-            background: linear-gradient(106.48deg, #56F4FD, #047A94);
-            color: #1d0b21;
-            top: 0.5rem;
-            left: 5%;
-            transition-duration: 0.5s;
-            padding: 0.5rem 1.1rem;
-        }
-    }
-}
-
-@media screen and (min-width:750px) {
-    .NavbarMobile {
-        visibility: hidden;
-        height: 0;
-    }
-
-    .deskNav {
-        height: 3rem;
-        visibility: visible;
-    }
-}
-
-.mobileActive {
-    position: fixed;
-    top: 10vh;
-    background-color: #d9d9d917;
-    z-index: 2;
-    backdrop-filter: blur(10px);
-    font-family: Pixeloid;
+  .right {
+    width: 50%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    height: 60vh;
-    width: 100%;
+    background-color: transparent;
 
-    .linkParentMobile {
-        background-color: transparent;
+    .linkParent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2px;
+      border: 0 solid transparent;
+      border-radius: 1rem;
+      transition: ease 0.5s;
+      background-image: transparent;
+      cursor: pointer;
+
+      .innerParent {
+        // background-color: #002358;
+        padding: 0rem;
+        border: 0 solid transparent;
+        border-radius: 1rem;
+      }
     }
 
     .link {
-        color: #ffffff;
-        text-decoration: none;
-        background-color: transparent;
-        border: 0px solid transparent;
-        font-family: Pixeloid;
+      position: relative;
+      left: 0;
+      top: 0;
+      color: #ffffff;
+      font-family: PixeloidLight;
+      text-decoration: none;
+      background-color: transparent;
+      padding: 0.5rem 1rem;
+      border: 0 solid transparent;
+      border-radius: 1rem;
+      transition: ease 0.5s;
+      text-transform: capitalize;
     }
+
+    .linkParent:hover {
+      background-image: linear-gradient(108.6deg, #e3e2a9, #efbbb6, #a52e62);
+      transition: all 0.5s;
+
+      .innerParent {
+        background-color: #002358;
+        transition-duration: 0.5s;
+      }
+    }
+
+    .linkParent:hover .link {
+      background: linear-gradient(106.48deg, #56f4fd, #047a94);
+      color: #1d0b21;
+      top: 0.5rem;
+      left: 5%;
+      transition-duration: 0.5s;
+      padding: 0.5rem 1.1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .NavbarMobile {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .deskNav {
+    height: 3rem;
+    visibility: visible;
+  }
+}
+
+.mobileActive {
+  position: fixed;
+  top: 10vh;
+  background-color: #d9d9d917;
+  z-index: 2;
+  backdrop-filter: blur(10px);
+  font-family: Pixeloid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 60vh;
+  width: 100%;
+
+  .linkParentMobile {
+    background-color: transparent;
+  }
+
+  .link {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0px solid transparent;
+    font-family: Pixeloid;
+  }
 }

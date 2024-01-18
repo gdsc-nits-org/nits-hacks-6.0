@@ -4,21 +4,21 @@ const Event = () => {
 		{
 			id: 1,
 			name: "Coming soon",
-			img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1704971596/Nits%20hacks%206.0/Events/xbb2oxs7ytlcongnfkwn.svg",
+			img: "https://res.cloudinary.com/drffnopta/image/upload/v1705349994/software_track_cxotxh.webp",
 			content: "Coming soon",
 		},
 
 		{
 			id: 2,
 			name: "Coming soon",
-			img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1704971595/Nits%20hacks%206.0/Events/ssk8rfvcx5kiqjym5sl4.svg",
+			img: "https://res.cloudinary.com/drffnopta/image/upload/v1705350222/ux_track_n8ftbq.webp",
 			content: "Coming soon",
 		},
 
 		{
 			id: 3,
 			name: "Coming soon",
-			img: "https://res.cloudinary.com/drffnopta/image/upload/v1705332021/3fffde984f44e305ae305d4633de9e72_1_hrqwz9.svg",
+			img: "https://res.cloudinary.com/drffnopta/image/upload/v1705350056/coding_track_pbo1gw.webp",
 			content: "Coming soon",
 		},
 	];
@@ -38,7 +38,7 @@ const Event = () => {
 								</div>
 								<p className={styles.description}>
 									{" "}
-									{event.content.slice(0, 80) +
+									{event.content.slice(0, 40) +
 										`${event.content.length > 100 ? "..." : ""}`}
 								</p>
 							</div>

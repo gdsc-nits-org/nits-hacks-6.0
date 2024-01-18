@@ -1,0 +1,212 @@
+.MainDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding-bottom: 3rem;
+  .event_info {
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+      font-family: "Pixeloid";
+      font-size: 3rem;
+      color: white;
+      line-height: 2.5rem;
+      padding: 1.5rem 1rem 1.5rem 1rem;
+      background-image: linear-gradient(to bottom, #ff0101, #000000);
+      background-clip: text;
+      -webkit-text-stroke-color: transparent;
+      -webkit-text-stroke-width: 0.4rem;
+      background-clip: text;
+    }
+    p {
+      font-weight: 400;
+      font-size: 1.2rem;
+      line-height: 1.875rem;
+      text-align: justify;
+      color: var(--gdsc-cyan-1);
+      padding-left: 3.125rem;
+      padding-right: 3.125rem;
+      padding-bottom: 2rem;
+    }
+    img {
+      width: 100%;
+      left: 0;
+      height: auto;
+      object-fit: cover;
+      margin-left: none;
+      mask-image: linear-gradient(180deg, rgba(0, 0, 0, 1), transparent 100%);
+    }
+    .btn_wrapper {
+      text-decoration: none;
+      .btn_1,
+      .btn_2 {
+        color: #4debf6;
+        font-family: "PixeloidLight";
+        border: none;
+        border: 0.1rem solid transparent;
+        padding: 0.625rem 1.5rem;
+        font-size: 0.875rem;
+        letter-spacing: 0.0063rem;
+        background: linear-gradient(101deg, #002358 10.23%, #1d0b21 100%)
+            padding-box,
+          linear-gradient(
+              90deg,
+              rgba(181, 134, 141, 1) 0%,
+              rgba(243, 97, 150, 1) 100%
+            )
+            border-box;
+        margin: 0.9375rem;
+      }
+      .btn_2 {
+        background: linear-gradient(101deg, #002358 10.23%, #1d0b21 100%)
+            padding-box,
+          linear-gradient(
+              to right,
+              #e3e2a9,
+              #ecd9a6,
+              #f2d1a6,
+              #f5c9a9,
+              #f5c2ae,
+              #eeb4a6,
+              #e7a69f,
+              #df999a,
+              #d27f88,
+              #c56679,
+              #b54b6d,
+              #a52e62
+            )
+            border-box;
+      }
+      .btn_1:hover,
+      .btn_2:hover {
+        background: linear-gradient(101deg, #001d49 10.23%, #260f2c 100%)
+            padding-box,
+          linear-gradient(
+              90deg,
+              rgba(243, 97, 150, 1) 0%,
+              rgba(181, 134, 141, 1) 100%
+            )
+            border-box;
+        cursor: pointer;
+      }
+    }
+  }
+  .event_poster {
+    width: 50%;
+    height: 100vh;
+    img {
+      float: left;
+      width: 100%;
+      height: 100%;
+      left: 0;
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .MainDiv {
+    .event_info {
+      p {
+        font-size: 0.89rem;
+      }
+      .title {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+@media (max-width: 1100px) {
+  .MainDiv {
+    .event_info {
+      p {
+        font-size: 0.75rem;
+      }
+      .title {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .MainDiv {
+    .event_info {
+      p {
+        font-size: 0.65rem;
+      }
+      .title {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .MainDiv {
+    .event_info {
+      .btn_wrapper {
+        .btn_1,
+        .btn_2 {
+          font-size: 0.7rem;
+          padding: 0.55rem 1.3rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .MainDiv {
+    .event_info {
+      .btn_wrapper {
+        .btn_1,
+        .btn_2 {
+          font-size: 0.5rem;
+          padding: 0.45rem 0.9rem;
+          margin: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .MainDiv {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    overflow: none;
+    height: auto;
+    .event_info {
+      width: 100%;
+      height: auto;
+      .title {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+        text-align: center;
+      }
+    }
+    .event_poster {
+      height: 15rem;
+      width: 20rem;
+      margin-top: 4.625rem;
+      margin-bottom: 2rem;
+      img {
+        float: none;
+        width: 100%;
+        height: 15rem;
+        object-fit: fill;
+      }
+    }
+  }
+}
