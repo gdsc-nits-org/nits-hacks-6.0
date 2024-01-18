@@ -132,5 +132,14 @@
         "git": "https://github.com/Rajdeepsark",
         "linkedin": "https://www.linkedin.com/in/rajdeep-sarkar-00b80a244",
         "fb": "https://www.facebook.com/freaky.Rajdeep"
+    },
+    {
+        "id": 18,
+        "name": "Dhiraj Das",
+        "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827574/GDSC%20images/Untitled_design_-_CSE_089_DHIRAJ_DAS_pl4fp7.webp",
+        "git": "https://github.com/dheeraj1922d",
+        "linkedin": "https://www.linkedin.com/in/dhiraj-das-a26042249/",
+        "fb": "https://www.instagram.com/dheerajdas19/"
     }
+    
 ]
