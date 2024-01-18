@@ -1,145 +1,144 @@
 [
-    {
-        "id": 1,
-        "name": "Arunaditya Dasgupta ",
-        "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827549/GDSC%20images/Arunaditya_-_Arunaditya_Dasgupta_gq80ww.webp",
-        "git": "https://github.com/git-ADG",
-        "linkedin": "https://www.linkedin.com/in/arunaditya-dasgupta-662aa4256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "fb": "https://www.facebook.com/arunaditya.dasgupta?mibextid=ZbWKwL"
-    },
-    {
-        "id": 2,
-        "name": "Sahin Alam ",
-        "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827571/GDSC%20images/Sahin_Alam_-_SAHIN_ALAM_144_gjbuix.webp",
-        "git": "https://github.com/Ruler45",
-        "linkedin": "https://www.linkedin.com/in/sahin-alam-96250324a/",
-        "fb": "https://www.facebook.com/sahin.alam.9216778?mibextid=ZbWKwL"
-    },
-    {
-        "id": 3,
-        "name": "Gaurav Bhushan Kumar ",
-        "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827558/GDSC%20images/gaurav_-_EE_027_Gaurav_Bhushan_Kumar_k2djxq.webp",
-        "git": "https://github.com/Gaurav-822",
-        "linkedin": "https://www.linkedin.com/in/gauravbk08?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "fb": "https://m.facebook.com/profile.php/?id=100041213654038"
-    },
-    {
-        "id": 4,
-        "name": "Swagatmitra Bhattacharya ",
-        "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827574/GDSC%20images/swagat_-_SWAGATMITRA_BHATTACHARYA_vzi9fv.webp",
-        "git": "https://github.com/swagatmitra-b",
-        "linkedin": "https://linkedin.com/in/swagatmitrab"
-    },
-    {
-        "id": 5,
-        "name": "Jahanavi Mour",
-        "img": "https://res.cloudinary.com/dvra8rj4n/image/upload/v1705487350/NITSX/fwbhavxtxb2x0ubjiwbm.webp",
-        "git": "https://github.com/jahanavi08",
-        "linkedin": "https://www.linkedin.com/in/jahanavi-mour-9b42b5217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "fb": "https://www.facebook.com/jahanavi.mour?mibextid=ZbWKwL"
-    },
-    {
-        "id": 6,
-        "name": "ANKIT KUMAR BARNWAL ",
-        "img": "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/cv2qenyihqktamqy6ynz",
-        "git": "https://github.com/AnKiTk203",
-        "linkedin": "https://www.linkedin.com/in/ankit-kumar-barnwal-138a5a257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "fb": "https://www.facebook.com/profile.php?id=100010729830424"
-    },
-    {
-        "id": 7,
-        "name": "Bishal Paul Biswas ",
-        "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827552/GDSC%20images/Bishal_Paul_Biswas_-_Bishal_Paul_Biswas_zz8l0r.webp",
-        "git": "https://github.com/bishalpb2004",
-        "linkedin": "https://www.linkedin.com/in/bishal-paul-biswas-592341257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "fb": "https://www.facebook.com/profile.php/?id=100087658158317"
-    },
-    {
-        "id": 8,
-        "name": "Saptarshi Adhikari",
-        "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827571/GDSC%20images/saptarshi_-_CSE_072_SAPTARSHI_ADHIKARI_out4pi.webp",
-        "git": "https://github.com/Mastermind-sap",
-        "linkedin": "https://www.linkedin.com/in/saptarshi-adhikari/",
-        "fb": "https://www.facebook.com/profile.php?id=100013361384712"
-    },
-    {
-        "id": 9,
-        "name": "Diptangshu Chakraborty ",
-        "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827564/GDSC%20images/my-passport-photo_1_-_CSE_053_DIPTANGSHU_CHAKRABORTY_je8dzy.webp",
-        "git": "https://github.com/Diptanghsu-DC",
-        "linkedin": "https://www.linkedin.com/in/diptangshu-chakraborty-463b77250"
-    },
-    {
-        "id": 10,
-        "name": "Jagatjyoti Deb",
-        "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827560/GDSC%20images/jagatjyoti_-_ECE_052_JAGATJYOTI_DEB_syfvzf.webp",
-        "git": "https://github.com/jagat-01",
-        "linkedin": "https://www.linkedin.com/in/jagatjyoti-deb-0a57bb223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "fb": "https://www.facebook.com/profile.php?id=100084536361943"
-    },
-    {
-        "id": 11,
-        "name": "Nawadeep Atreya",
-        "img": "https://res.cloudinary.com/dvra8rj4n/image/upload/v1705487195/NITSX/vryxylkmzfdb9eywtm8w.webp",
-        "git": "https://github.com/Atreya45",
-        "linkedin": "https://www.linkedin.com/in/nawadeepatreya/",
-        "fb": "https://www.facebook.com/nawadeep.atreya.5"
-    },
-    {
-        "id": 12,
-        "name": "Pragyan Das",
-        "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827567/GDSC%20images/pragyan_-_Pragyan_Das_yvbmtz.webp",
-        "git": "https://github.com/pragyan4261",
-        "linkedin": "https://www.linkedin.com/in/pragyan-das-197086255/",
-        "fb": "https://www.facebook.com/profile.php?id=100087648530022&mibextid=2JQ9oc"
-    },
-    {
-        "id": 13,
-        "name": "Rishi Gorai",
-        "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827569/GDSC%20images/Rishi_Gorai_-_Rishi_Gorai_ehyvio.webp",
-        "git": "https://github.com/Frankistine007",
-        "linkedin": "https://www.linkedin.com/in/rishi-gorai-1771b1251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "fb": "https://www.facebook.com/profile.php?id=100087883024727"
-    },
-    {
-        "id": 14,
-        "name": "Manjit Kumar Poddar",
-        "img": "https://res.cloudinary.com/dvra8rj4n/image/upload/v1705487084/NITSX/wlnz0lf3ubn4z5gzsgjf.webp",
-        "cf": "https://codeforces.com/profile/noob4zero4",
-        "linkedin": "https://www.linkedin.com/in/manjit-poddar/",
-        "fb": "https://www.facebook.com/Manjit.Kr.Poddar"
-    },
-    {
-        "id": 15,
-        "name": "Bedanta Kataki",
-        "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827551/GDSC%20images/bedanta_-_EI_018_Bedanta_Kataki_bu2rny.webp",
-        "git": "https://github.com/r4inr3aper",
-        "linkedin": "https://www.linkedin.com/in/bedanta-kataki-0b5205257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "fb": "https://www.facebook.com/profile.php/?id=100029303175539&name=xhp_nt__fb__action__open_user"
-    },
-    {
-        "id": 16,
-        "name": "Siddharth Ghosh",
-        "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827576/GDSC%20images/WhatsApp_Image_2023-09-01_at_20.15.25_-_Siddharth_Ghosh_ofceqg.webp",
-        "git": "https://github.com/Z-Maniac-Sidd",
-        "linkedin": "https://www.linkedin.com/in/siddharth-ghosh-18ba29251/",
-        "fb": "https://www.linkedin.com/in/siddharth-ghosh-18ba29251/"
-    },
-    {
-        "id": 17,
-        "name": "Rajdeep Sarkar",
-        "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827558/GDSC%20images/IMG-20221111-WA0020_2_-_EIE_030_RAJDEEP_SARKAR_g0xej9.jpg",
-        "git": "https://github.com/Rajdeepsark",
-        "linkedin": "https://www.linkedin.com/in/rajdeep-sarkar-00b80a244",
-        "fb": "https://www.facebook.com/freaky.Rajdeep"
-    },
-    {
-        "id": 18,
-        "name": "Dhiraj Das",
-        "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827574/GDSC%20images/Untitled_design_-_CSE_089_DHIRAJ_DAS_pl4fp7.webp",
-        "git": "https://github.com/dheeraj1922d",
-        "linkedin": "https://www.linkedin.com/in/dhiraj-das-a26042249/",
-        "fb": "https://www.instagram.com/dheerajdas19/"
-    }
-    
+	{
+		"id": 1,
+		"name": "Arunaditya Dasgupta ",
+		"img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827549/GDSC%20images/Arunaditya_-_Arunaditya_Dasgupta_gq80ww.webp",
+		"git": "https://github.com/git-ADG",
+		"linkedin": "https://www.linkedin.com/in/arunaditya-dasgupta-662aa4256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+		"fb": "https://www.facebook.com/arunaditya.dasgupta?mibextid=ZbWKwL"
+	},
+	{
+		"id": 2,
+		"name": "Sahin Alam ",
+		"img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827571/GDSC%20images/Sahin_Alam_-_SAHIN_ALAM_144_gjbuix.webp",
+		"git": "https://github.com/Ruler45",
+		"linkedin": "https://www.linkedin.com/in/sahin-alam-96250324a/",
+		"fb": "https://www.facebook.com/sahin.alam.9216778?mibextid=ZbWKwL"
+	},
+	{
+		"id": 3,
+		"name": "Gaurav Bhushan Kumar ",
+		"img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827558/GDSC%20images/gaurav_-_EE_027_Gaurav_Bhushan_Kumar_k2djxq.webp",
+		"git": "https://github.com/Gaurav-822",
+		"linkedin": "https://www.linkedin.com/in/gauravbk08?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+		"fb": "https://m.facebook.com/profile.php/?id=100041213654038"
+	},
+	{
+		"id": 4,
+		"name": "Swagatmitra Bhattacharya ",
+		"img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827574/GDSC%20images/swagat_-_SWAGATMITRA_BHATTACHARYA_vzi9fv.webp",
+		"git": "https://github.com/swagatmitra-b",
+		"linkedin": "https://linkedin.com/in/swagatmitrab"
+	},
+	{
+		"id": 5,
+		"name": "Jahanavi Mour",
+		"img": "https://res.cloudinary.com/dvra8rj4n/image/upload/v1705487350/NITSX/fwbhavxtxb2x0ubjiwbm.webp",
+		"git": "https://github.com/jahanavi08",
+		"linkedin": "https://www.linkedin.com/in/jahanavi-mour-9b42b5217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+		"fb": "https://www.facebook.com/jahanavi.mour?mibextid=ZbWKwL"
+	},
+	{
+		"id": 6,
+		"name": "ANKIT KUMAR BARNWAL ",
+		"img": "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/cv2qenyihqktamqy6ynz",
+		"git": "https://github.com/AnKiTk203",
+		"linkedin": "https://www.linkedin.com/in/ankit-kumar-barnwal-138a5a257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+		"fb": "https://www.facebook.com/profile.php?id=100010729830424"
+	},
+	{
+		"id": 7,
+		"name": "Bishal Paul Biswas ",
+		"img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827552/GDSC%20images/Bishal_Paul_Biswas_-_Bishal_Paul_Biswas_zz8l0r.webp",
+		"git": "https://github.com/bishalpb2004",
+		"linkedin": "https://www.linkedin.com/in/bishal-paul-biswas-592341257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+		"fb": "https://www.facebook.com/profile.php/?id=100087658158317"
+	},
+	{
+		"id": 8,
+		"name": "Saptarshi Adhikari",
+		"img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827571/GDSC%20images/saptarshi_-_CSE_072_SAPTARSHI_ADHIKARI_out4pi.webp",
+		"git": "https://github.com/Mastermind-sap",
+		"linkedin": "https://www.linkedin.com/in/saptarshi-adhikari/",
+		"fb": "https://www.facebook.com/profile.php?id=100013361384712"
+	},
+	{
+		"id": 9,
+		"name": "Diptangshu Chakraborty ",
+		"img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827564/GDSC%20images/my-passport-photo_1_-_CSE_053_DIPTANGSHU_CHAKRABORTY_je8dzy.webp",
+		"git": "https://github.com/Diptanghsu-DC",
+		"linkedin": "https://www.linkedin.com/in/diptangshu-chakraborty-463b77250"
+	},
+	{
+		"id": 10,
+		"name": "Jagatjyoti Deb",
+		"img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827560/GDSC%20images/jagatjyoti_-_ECE_052_JAGATJYOTI_DEB_syfvzf.webp",
+		"git": "https://github.com/jagat-01",
+		"linkedin": "https://www.linkedin.com/in/jagatjyoti-deb-0a57bb223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+		"fb": "https://www.facebook.com/profile.php?id=100084536361943"
+	},
+	{
+		"id": 11,
+		"name": "Nawadeep Atreya",
+		"img": "https://res.cloudinary.com/dvra8rj4n/image/upload/v1705487195/NITSX/vryxylkmzfdb9eywtm8w.webp",
+		"git": "https://github.com/Atreya45",
+		"linkedin": "https://www.linkedin.com/in/nawadeepatreya/",
+		"fb": "https://www.facebook.com/nawadeep.atreya.5"
+	},
+	{
+		"id": 12,
+		"name": "Pragyan Das",
+		"img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827567/GDSC%20images/pragyan_-_Pragyan_Das_yvbmtz.webp",
+		"git": "https://github.com/pragyan4261",
+		"linkedin": "https://www.linkedin.com/in/pragyan-das-197086255/",
+		"fb": "https://www.facebook.com/profile.php?id=100087648530022&mibextid=2JQ9oc"
+	},
+	{
+		"id": 13,
+		"name": "Rishi Gorai",
+		"img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827569/GDSC%20images/Rishi_Gorai_-_Rishi_Gorai_ehyvio.webp",
+		"git": "https://github.com/Frankistine007",
+		"linkedin": "https://www.linkedin.com/in/rishi-gorai-1771b1251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+		"fb": "https://www.facebook.com/profile.php?id=100087883024727"
+	},
+	{
+		"id": 14,
+		"name": "Manjit Kumar Poddar",
+		"img": "https://res.cloudinary.com/dvra8rj4n/image/upload/v1705487084/NITSX/wlnz0lf3ubn4z5gzsgjf.webp",
+		"cf": "https://codeforces.com/profile/noob4zero4",
+		"linkedin": "https://www.linkedin.com/in/manjit-poddar/",
+		"fb": "https://www.facebook.com/Manjit.Kr.Poddar"
+	},
+	{
+		"id": 15,
+		"name": "Bedanta Kataki",
+		"img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827551/GDSC%20images/bedanta_-_EI_018_Bedanta_Kataki_bu2rny.webp",
+		"git": "https://github.com/r4inr3aper",
+		"linkedin": "https://www.linkedin.com/in/bedanta-kataki-0b5205257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+		"fb": "https://www.facebook.com/profile.php/?id=100029303175539&name=xhp_nt__fb__action__open_user"
+	},
+	{
+		"id": 16,
+		"name": "Siddharth Ghosh",
+		"img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827576/GDSC%20images/WhatsApp_Image_2023-09-01_at_20.15.25_-_Siddharth_Ghosh_ofceqg.webp",
+		"git": "https://github.com/Z-Maniac-Sidd",
+		"linkedin": "https://www.linkedin.com/in/siddharth-ghosh-18ba29251/",
+		"fb": "https://www.linkedin.com/in/siddharth-ghosh-18ba29251/"
+	},
+	{
+		"id": 17,
+		"name": "Rajdeep Sarkar",
+		"img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827558/GDSC%20images/IMG-20221111-WA0020_2_-_EIE_030_RAJDEEP_SARKAR_g0xej9.jpg",
+		"git": "https://github.com/Rajdeepsark",
+		"linkedin": "https://www.linkedin.com/in/rajdeep-sarkar-00b80a244",
+		"fb": "https://www.facebook.com/freaky.Rajdeep"
+	},
+	{
+		"id": 18,
+		"name": "Dhiraj Das",
+		"img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827574/GDSC%20images/Untitled_design_-_CSE_089_DHIRAJ_DAS_pl4fp7.webp",
+		"git": "https://github.com/dheeraj1922d",
+		"linkedin": "https://www.linkedin.com/in/dhiraj-das-a26042249/",
+		"fb": "https://www.instagram.com/dheerajdas19/"
+	}
 ]

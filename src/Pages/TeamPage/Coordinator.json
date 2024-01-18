@@ -1,46 +1,46 @@
 [
-    {
-        "id": 1,
-        "name": "Jyotishka Bhattacharjee ",
-        "designation": "Coordinator",
-        "img": "https://res.cloudinary.com/dl19r276g/image/upload/v1705487322/IMG_8519_-_Jyotishka_Bhattacharjee_nxjczl.webp",
-        "git": "https://github.com/jyotishka747",
-        "linkedin": "https://www.linkedin.com/in/jyotishka-b-32995712b/",
-        "fb": "https://www.facebook.com/profile.php?id=100005647038947"
-    },
-    {
-        "id": 3,
-        "name": "Pratik Majumdar",
-        "designation": "Coordinator",
-        "img": "https://res.cloudinary.com/dl19r276g/image/upload/v1705487903/Pratik_Majumdar_Square_-_Pratik_Majumdar_kh9vft.webp",
-        "git": "https://github.com/codadept",
-        "linkedin": "https://www.linkedin.com/in/codadept/",
-        "fb": "https://www.facebook.com/itspratikmaj"
-    },
-    {
-        "id": 2,
-        "name": "Aniruddha Dutta",
-        "designation": "Coordinator",
-        "img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017416/gdsc%20seniors/team_pics/AniruddhaDutta_ipghak.webp",
-        "git": "https://github.com/username-naz",
-        "linkedin": "https://www.linkedin.com/in/aniruddha-dutta-naz/",
-        "fb": "https://www.facebook.com/aniruddha.dutta.naz/"
-    },
-    {
-        "id": 4,
-        "name": "Prakhar Saxena",
-        "designation": "Coordinator",
-        "img": "https://res.cloudinary.com/draptrzrc/image/upload/v1694702636/g2/ynlolbpzo9praozykdle.webp",
-        "git": "https://github.com/SkyWalkerPS",
-        "linkedin": "https://www.linkedin.com/in/SkyWalkerPS",
-        "fb": "https://www.facebook.com/SkyWalkerPS"
-    },
-    {
-        "id": 6,
-        "name": "Prateek Goel",
-        "designation": "Coordinator",
-        "img": "https://res.cloudinary.com/dl19r276g/image/upload/v1705574914/prateek_ft7lox.webp",
-        "git": "https://github.com/Prateek2534/",
-        "linkedin": "https://www.linkedin.com/in/prateek-goel-930891216/"
-    }
+	{
+		"id": 1,
+		"name": "Jyotishka Bhattacharjee ",
+		"designation": "Coordinator",
+		"img": "https://res.cloudinary.com/dl19r276g/image/upload/v1705487322/IMG_8519_-_Jyotishka_Bhattacharjee_nxjczl.webp",
+		"git": "https://github.com/jyotishka747",
+		"linkedin": "https://www.linkedin.com/in/jyotishka-b-32995712b/",
+		"fb": "https://www.facebook.com/profile.php?id=100005647038947"
+	},
+	{
+		"id": 3,
+		"name": "Pratik Majumdar",
+		"designation": "Coordinator",
+		"img": "https://res.cloudinary.com/dl19r276g/image/upload/v1705487903/Pratik_Majumdar_Square_-_Pratik_Majumdar_kh9vft.webp",
+		"git": "https://github.com/codadept",
+		"linkedin": "https://www.linkedin.com/in/codadept/",
+		"fb": "https://www.facebook.com/itspratikmaj"
+	},
+	{
+		"id": 2,
+		"name": "Aniruddha Dutta",
+		"designation": "Coordinator",
+		"img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017416/gdsc%20seniors/team_pics/AniruddhaDutta_ipghak.webp",
+		"git": "https://github.com/username-naz",
+		"linkedin": "https://www.linkedin.com/in/aniruddha-dutta-naz/",
+		"fb": "https://www.facebook.com/aniruddha.dutta.naz/"
+	},
+	{
+		"id": 4,
+		"name": "Prakhar Saxena",
+		"designation": "Coordinator",
+		"img": "https://res.cloudinary.com/draptrzrc/image/upload/v1694702636/g2/ynlolbpzo9praozykdle.webp",
+		"git": "https://github.com/SkyWalkerPS",
+		"linkedin": "https://www.linkedin.com/in/SkyWalkerPS",
+		"fb": "https://www.facebook.com/SkyWalkerPS"
+	},
+	{
+		"id": 6,
+		"name": "Prateek Goel",
+		"designation": "Coordinator",
+		"img": "https://res.cloudinary.com/dl19r276g/image/upload/v1705574914/prateek_ft7lox.webp",
+		"git": "https://github.com/Prateek2534/",
+		"linkedin": "https://www.linkedin.com/in/prateek-goel-930891216/"
+	}
 ]
