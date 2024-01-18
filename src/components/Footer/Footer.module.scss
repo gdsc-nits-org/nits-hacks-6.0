@@ -1,12 +1,32 @@
 ::-webkit-scrollbar {
-  width: 0.8rem;
+  width: 0.5rem;
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-track{
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
   background-color: #400250;
   border-radius: 1rem;
   border: 0.2rem solid transparent;
   background-clip: content-box;
 }
+
+body {
+  scrollbar-width: 0.5rem;
+  scrollbar-color: #000;
+}
+body:-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #400250;
+  border-radius: 1rem;
+  border: 0.2rem solid transparent;
+ 
+}
+
+
 .footer {
   background: linear-gradient(180deg,
       rgba(255, 255, 255, 0) 9.02%,
@@ -66,7 +86,8 @@
     font-size: 0.5rem;
     font-family: 'Courier New', Courier, monospace;
   }
-  .a1{
+
+  .a1 {
     color: #ffffff;
     text-decoration: none;
   }
@@ -304,7 +325,7 @@
     // opacity: 1;
     filter: drop-shadow(0rem 0rem 0.4rem #D03CAB);
   }
-  
+
   50% {
     // opacity: 0.55;
     filter: drop-shadow(0rem 0rem 1rem #D03CAB);
