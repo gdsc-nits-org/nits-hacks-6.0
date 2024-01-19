@@ -8,13 +8,10 @@ import Teams from "./Pages/TeamPage/Team";
 import { inject } from "@vercel/analytics";
 
 inject();
-// import Home from "./Home.jsx";
-// import Preview from "./Pages/Preview/Preview.jsx";
 
 const router = createBrowserRouter([
 	{
 		path: "/",
-		// element: <Preview/>
 		element: <App />,
 	},
 	{
@@ -25,10 +22,6 @@ const router = createBrowserRouter([
 		path: "/Teams",
 		element: <Teams />,
 	},
-	//   {
-	//     path: "/home",
-	//     element: <Home />,
-	//   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
