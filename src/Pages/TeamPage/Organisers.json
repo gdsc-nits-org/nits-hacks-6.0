@@ -45,6 +45,15 @@
 		"fb": "https://www.facebook.com/bijay.jiwrajka.1"
 	},
 	{
+		"id": 27,
+		"name": "Adhiraj Dutta",
+		"linkedin": "https://www.linkedin.com/in/byt3h3ad",
+		"git": "https://github.com/byt3h3ad",
+		"fb": "https://www.facebook.com/byte.head.12",
+		"designation": "Management",
+		"img": "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017407/gdsc%20seniors/team_pics/AdhirajDutta_oe0c3l.webp"
+	},
+	{
 		"id": 6,
 		"name": "Muskan Sharma",
 		"designation": "Design",
@@ -57,7 +66,7 @@
 		"name": "Maharnav Deka",
 		"designation": "Design",
 		"img": "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/borqvtizs9ah2jh92x9s",
-		"git": "https://github.com/Maharnav",
+		"git": "https://github.com/mdekaa",
 		"linkedin": "https://www.linkedin.com/in/maharnav-deka-06742815a/",
 		"fb": "https://www.facebook.com/profile.php?id=100076295825121"
 	},
