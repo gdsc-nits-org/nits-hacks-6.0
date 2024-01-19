@@ -28,7 +28,10 @@ const Preview = ({ setLoaded }) => {
 					</h1>
 				</div>
 				<div className={styles.insignia}>
-					<img src="/insignia.png" alt="" />
+					<img
+						src="https://res.cloudinary.com/dnitrnzho/image/upload/v1705658340/insignia_bsuul9.webp"
+						alt="nits-hacks"
+					/>
 				</div>
 				<div className={styles.upgrading}>
 					<Lottie
