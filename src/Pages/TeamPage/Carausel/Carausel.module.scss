@@ -101,15 +101,15 @@
   flex-direction: row;
   position: relative;
   top: 24rem;
-  left: 3rem;
+  left: 3.5rem;
   align-items: center;
   justify-content: center;
   column-gap: 0.1rem;
 
   .active,
   .inactive {
-    height: 0.5rem;
-    width: 0.5rem;
+    height: 0.4rem;
+    width: 0.4rem;
     border: 0px solid transparent;
     border-radius: 1rem;
     background-color: rgba(208, 60, 171, 1);
