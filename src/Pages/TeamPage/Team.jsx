@@ -5,13 +5,13 @@ import Navbar2 from "../../../src/components/Navbar/Navbar2";
 import TECH from "./Tech.json";
 import VOLUNTEERS from "./Volunteers.json";
 import ORGANISERS from "./Organisers.json";
-//import CORE from "./Core.json"
 import Footer from "../../components/Footer/Footer";
 import Coordinator from "./Coordinator.json";
 import Convener from "./Convener.json";
 import Coreteam from "./Coreteam.json";
 import Events from "./Carausel/Carausel";
 import Techlead from "./Techlead.json";
+
 const Teams = () => {
 	const MemberDetails = (d) => {
 		return <TeamCard {...d} key={d.id} />;
