@@ -1,7 +1,7 @@
 ::-webkit-scrollbar {
   width: 0.5rem;
 }
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
@@ -23,15 +23,15 @@ body::-webkit-scrollbar-thumb {
   background-color: #400250;
   border-radius: 1rem;
   border: 0.2rem solid transparent;
- 
 }
 
-
 .footer {
-  background: linear-gradient(180deg,
-      rgba(255, 255, 255, 0) 9.02%,
-      rgba(0, 0, 0, 0) 9.02%,
-      #540a51 93.53%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 9.02%,
+    rgba(0, 0, 0, 0) 9.02%,
+    #540a51 93.53%
+  );
   font-family: PixeloidLight;
   color: #ffffff;
   display: flex;
@@ -69,7 +69,6 @@ body::-webkit-scrollbar-thumb {
   text-transform: capitalize;
   padding: 0.5rem 1rem 1rem 1rem;
   text-align: center;
-
 }
 
 .copytxt2 {
@@ -84,12 +83,19 @@ body::-webkit-scrollbar-thumb {
 
   .span1 {
     font-size: 0.5rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
   }
 
   .a1 {
     color: #ffffff;
     text-decoration: none;
+    .gdsc_logo {
+      position: relative;
+      top: 5px;
+      right: 3px;
+      height: 22px;
+      width: 32px;
+    }
   }
 }
 
@@ -112,9 +118,11 @@ body::-webkit-scrollbar-thumb {
   text-decoration: none;
 
   &:hover {
-    background: linear-gradient(180deg,
-        rgb(181, 134, 141) 0%,
-        rgb(243, 97, 150) 100%);
+    background: linear-gradient(
+      180deg,
+      rgb(181, 134, 141) 0%,
+      rgb(243, 97, 150) 100%
+    );
 
     transition: ease-in;
     transition-duration: 0.2s;
@@ -218,7 +226,6 @@ body::-webkit-scrollbar-thumb {
   .footerUpper {
     flex-direction: column;
 
-
     .upper1 {
       flex-direction: row;
       text-align: start;
@@ -274,7 +281,6 @@ body::-webkit-scrollbar-thumb {
       .span1 {
         font-size: 1rem;
       }
-
     }
 
     .copytxt p {
@@ -319,16 +325,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 @keyframes pulse {
-
   0%,
   100% {
     // opacity: 1;
-    filter: drop-shadow(0rem 0rem 0.4rem #D03CAB);
+    filter: drop-shadow(0rem 0rem 0.4rem #d03cab);
   }
 
   50% {
     // opacity: 0.55;
-    filter: drop-shadow(0rem 0rem 1rem #D03CAB);
+    filter: drop-shadow(0rem 0rem 1rem #d03cab);
   }
 }
 
