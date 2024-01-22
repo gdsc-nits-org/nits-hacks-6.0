@@ -69,6 +69,15 @@ const Navbar2 = () => {
 				</div>
 				<div className={styles.linkParentMobile}>
 					<Link
+						to="/#speakers"
+						className={styles.link}
+						onClick={() => setNav(!nav)}
+					>
+						SPEAKERS
+					</Link>
+				</div>
+				<div className={styles.linkParentMobile}>
+					<Link
 						to="/#sponsors"
 						className={styles.link}
 						onClick={() => setNav(!nav)}
@@ -98,6 +107,13 @@ const Navbar2 = () => {
 						<div className={styles.innerParent}>
 							<Link to="/#event" className={styles.link}>
 								Events
+							</Link>
+						</div>
+					</div>
+					<div className={styles.linkParent}>
+						<div className={styles.innerParent}>
+							<Link to="/#speakers" className={styles.link}>
+								Speakers
 							</Link>
 						</div>
 					</div>

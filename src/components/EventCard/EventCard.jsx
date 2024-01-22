@@ -7,7 +7,6 @@ const Event = () => {
 			img: "https://res.cloudinary.com/drffnopta/image/upload/v1705349994/software_track_cxotxh.webp",
 			content: "Coming soon",
 		},
-
 		{
 			id: 2,
 			name: "Coming soon",
