@@ -1,11 +1,31 @@
 import { Link } from "react-router-dom";
-import { Footer, Navbar } from "../../components";
+import { Footer, Navbar2 } from "../../components";
 import styles from "./EventPage.module.scss";
-
+import { useParams } from "react-router-dom";
+import { useEffect, useState } from "react"
 const EventPage = () => {
+	const data = [
+		{
+			name: "Software Track", para1: "Get ready to embark on a journey of unparalleled innovation as NITS HACKS, the epicentre of technological brilliance, proudly presents the Software Track – a platform where your coding prowess meets real-world challenges! The Software Track challenges you to push the boundaries of your skills and craft groundbreaking solutions using your preferred tech stack, be it an Android app or a cutting-edge website. Within a specified time limit, participants will immerse themselves in the world of coding, creating solutions that transcend the ordinary.",
+			para2: "Registration is now open! Please click the provided link to complete your registration.Our seasoned panel of seniors will meticulously assess the entries based on solution effectiveness and final product design. Gear up for the ultimate tech adventure and seize the opportunity to be a part of something extraordinary. ",
+			link: "https://forms.gle/5MRD8AZkpv3yJ1ku5", img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1706274690/Nits%20hacks%206.0/Events/wnivqlvhyuljhmkczkdh.webp"
+		},
+		{
+			name: "UI/UX Track", para1: "Get ready to embark on a journey of unparalleled innovation as NITS HACKS, the epicentre of technological brilliance, proudly presents the Software Track – a platform where your coding prowess meets real-world challenges! The Software Track challenges you to push the boundaries of your skills and craft groundbreaking solutions using your preferred tech stack, be it an Android app or a cutting-edge website. Within a specified time limit, participants will immerse themselves in the world of coding, creating solutions that transcend the ordinary.",
+			para2: "Registration is now open! Please click the provided link to complete your registration.Our seasoned panel of seniors will meticulously assess the entries based on solution effectiveness and final product design. Gear up for the ultimate tech adventure and seize the opportunity to be a part of something extraordinary. ",
+			link: "https://forms.gle/5MRD8AZkpv3yJ1ku5", img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1706274690/Nits%20hacks%206.0/Events/f18k3hezqezvvh1r98kx.webp"
+		},
+		{
+			name: "Coding Track", para1: "Get ready to embark on a journey of unparalleled innovation as NITS HACKS, the epicentre of technological brilliance, proudly presents the Software Track – a platform where your coding prowess meets real-world challenges! The Software Track challenges you to push the boundaries of your skills and craft groundbreaking solutions using your preferred tech stack, be it an Android app or a cutting-edge website. Within a specified time limit, participants will immerse themselves in the world of coding, creating solutions that transcend the ordinary.",
+			para2: "Registration is now open! Please click the provided link to complete your registration.Our seasoned panel of seniors will meticulously assess the entries based on solution effectiveness and final product design. Gear up for the ultimate tech adventure and seize the opportunity to be a part of something extraordinary. ",
+			link: "https://forms.gle/5MRD8AZkpv3yJ1ku5", img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1706274690/Nits%20hacks%206.0/Events/f18k3hezqezvvh1r98kx.webp"
+		}
+	];
+	const { id } = useParams();
+
 	return (
 		<>
-			<Navbar />
+			<Navbar2 />
 			<div className={styles.MainDiv}>
 				<div className={styles.event_info}>
 					<img
@@ -13,25 +33,16 @@ const EventPage = () => {
 						src="https://res.cloudinary.com/dvra8rj4n/image/upload/v1705159558/NITSX/s8e6cjvpjyvgocbtbjpt.svg"
 						alt="Header"
 					/>
-					<h1 className={styles.title}>EVENT NAME</h1>
+					<h1 className={styles.title}>{data[id - 1].name}</h1>
 					<p className={styles.desc}>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-						libero itaque quos consectetur, atque nisi vel nulla ea deleniti,
-						fugiat ratione, sapiente non ab. Autem magni dolore quos alias
-						nostrum, assumenda ab consequuntur officiis dolores nesciunt,
-						similique qui sapiente optio sit. Minima quos eos nisi!
+						{data[id - 1].para1}
 					</p>
 
 					<p className={styles.desc}>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit vero
-						voluptatem assumenda ut nisi nam impedit error exercitationem illo
-						eos fugiat voluptatibus, minima deserunt similique beatae placeat
-						facilis, ab, nobis rem consequuntur accusantium. Obcaecati,
-						inventore soluta? Minus non reprehenderit illo possimus error fuga!
-						Repellendus amet ex aliquid illum ipsa expedita!
+						{data[id - 1].para2}
 					</p>
 					<div className={styles.btn_wrapper}>
-						<a href="https://forms.google.com/" className={styles.btn_1}>
+						<a href={data[id - 1].link} className={styles.btn_1}>
 							REGISTER NOW
 						</a>
 						<Link to="/" className={styles.btn_2}>
@@ -42,7 +53,7 @@ const EventPage = () => {
 				<div className={styles.event_poster}>
 					<img
 						className={styles.poster}
-						src="https://res.cloudinary.com/dvra8rj4n/image/upload/v1705161215/NITSX/dzxfy15gnq3t7tctn0ya.png"
+						src={data[id - 1].img}
 						alt="POSTER"
 					/>
 				</div>

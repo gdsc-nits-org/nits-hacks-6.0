@@ -6,6 +6,7 @@ import App from "./App.jsx";
 import Custom404 from "./Pages/404/404";
 import Teams from "./Pages/TeamPage/Team";
 import { inject } from "@vercel/analytics";
+import EventPage from "./Pages/EventPage/EventPage";
 
 inject();
 
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
 		path: "/Teams",
 		element: <Teams />,
 	},
+	{
+		path: "/event/:id",
+		element: <EventPage />
+	}
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
