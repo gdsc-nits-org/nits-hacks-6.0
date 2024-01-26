@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { Footer, Navbar2 } from "../../components";
 import styles from "./EventPage.module.scss";
 import { useParams } from "react-router-dom";
-import { useEffect, useState } from "react"
 const EventPage = () => {
 	const data = [
 		{
