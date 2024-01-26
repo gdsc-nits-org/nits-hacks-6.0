@@ -35,6 +35,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -45,4 +46,9 @@
   background-color: #000000;
   min-height: 100vh;
   font-family: 'JetBrains Mono', monospace;
+}
+
+p {
+  white-space: unset;
+  text-wrap: balance;
 }
