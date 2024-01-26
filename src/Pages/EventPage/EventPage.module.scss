@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    .btn_1_new{
+    .btn_1_new {
       display: none;
     }
     .title {
@@ -58,6 +58,7 @@
         padding: 0.625rem 1.5rem;
         font-size: 0.875rem;
         letter-spacing: 0.0063rem;
+        text-decoration: none;
         background: linear-gradient(101deg, #002358 10.23%, #1d0b21 100%)
             padding-box,
           linear-gradient(
@@ -102,7 +103,7 @@
       }
     }
   }
-  .event_poster_new{
+  .event_poster_new {
     width: 50%;
     height: 100vh;
     display: none;
@@ -174,10 +175,9 @@
           font-size: 0.7rem;
           padding: 0.55rem 1.3rem;
         }
-        .btn_1{
+        .btn_1 {
           display: none;
         }
-
       }
     }
   }
@@ -208,7 +208,7 @@
     .event_info {
       width: 100%;
       height: auto;
-      .btn_1_new{
+      .btn_1_new {
         display: initial;
         color: #4debf6;
         font-family: "PixeloidLight";
@@ -217,6 +217,7 @@
         padding: 0.625rem 1.5rem;
         font-size: 0.875rem;
         letter-spacing: 0.0063rem;
+        text-decoration: none;
         background: linear-gradient(101deg, #002358 10.23%, #1d0b21 100%)
             padding-box,
           linear-gradient(
@@ -227,7 +228,7 @@
             border-box;
         margin: 0.9375rem;
       }
-      .btn_1{
+      .btn_1 {
         display: none;
       }
       .title {
@@ -241,19 +242,18 @@
     .event_poster {
       display: none;
     }
-    .event_poster_new{
+    .event_poster_new {
       height: 100%;
       width: 20rem;
       margin-top: 4.625rem;
       margin-bottom: 2rem;
       display: block;
     }
-      img {
-        float: none;
-        width: 100%;
-        height: 15rem;
-        object-fit: fill;
-      }
+    img {
+      float: none;
+      width: 100%;
+      height: 15rem;
+      object-fit: fill;
     }
   }
-
+}
