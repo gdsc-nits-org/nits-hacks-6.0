@@ -42,7 +42,7 @@ const EventPage = () => {
 						{data[id - 1].para2}
 					</p>
 					<div className={styles.btn_wrapper}>
-						<a href={data[id - 1].link} className={styles.btn_1}>
+						<a href={data[id - 1].link} target="_blank" className={styles.btn_1}>
 							REGISTER NOW
 						</a>
 						<Link to="/" className={styles.btn_2}>
