@@ -25,8 +25,8 @@ const router = createBrowserRouter([
 	},
 	{
 		path: "/event/:id",
-		element: <EventPage />
-	}
+		element: <EventPage />,
+	},
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
