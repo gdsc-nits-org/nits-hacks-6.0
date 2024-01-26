@@ -34,6 +34,17 @@ const EventPage = () => {
 						alt="Header"
 					/>
 					<h1 className={styles.title}>{data[id - 1].name}</h1>
+					<div className={styles.event_poster_new}>
+					<img
+						className={styles.poster}
+						src={data[id - 1].img}
+						alt="POSTER"
+					/>
+				</div>
+					<a href={data[id - 1].link} target="_blank" className={styles.btn_1_new}>
+							REGISTER NOW
+					</a>
+					
 					<p className={styles.desc}>
 						{data[id - 1].para1}
 					</p>
