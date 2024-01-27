@@ -1,14 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.scss";
+import { inject } from "@vercel/analytics";
+import { injectSpeedInsights } from "@vercel/speed-insights";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./index.scss";
 import App from "./App.jsx";
 import Custom404 from "./Pages/404/404";
 import Teams from "./Pages/TeamPage/Team";
-import { inject } from "@vercel/analytics";
 import EventPage from "./Pages/EventPage/EventPage";
 
 inject();
+injectSpeedInsights();
 
 const router = createBrowserRouter([
 	{
