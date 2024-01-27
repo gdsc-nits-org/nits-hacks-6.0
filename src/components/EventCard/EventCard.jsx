@@ -45,7 +45,7 @@ const Event = () => {
 									</div>
 									<p className={styles.description}>
 										{" "}
-										{event.content.slice(0, 40) +
+										{event.content.slice(0, 100) +
 											`${event.content.length > 100 ? "..." : ""}`}
 									</p>
 								</div>

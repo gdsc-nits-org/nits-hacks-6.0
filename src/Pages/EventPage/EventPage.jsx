@@ -9,7 +9,7 @@ const EventPage = () => {
 			para1:
 				"Get ready to embark on a journey of unparalleled innovation as NITS HACKS, the epicentre of technological brilliance, proudly presents the Software Track - a platform where your coding prowess meets real-world challenges! The Software Track challenges you to push the boundaries of your skills and craft groundbreaking solutions using your preferred tech stack, be it an Android app or a cutting-edge website. Within a specified time limit, participants will immerse themselves in the world of coding, building solutions that transcend the ordinary.",
 			para2:
-				"Registration is now open! Please click the provided link to complete your registration. Gear up for the ultimate tech adventure and seize the opportunity to be a part of something extraordinary. ",
+				"Registration is now open! Please click the provided link to complete your registration. Gear up for the ultimate tech adventure and seize the opportunity to be a part of something extraordinary. Note: For outside teams, travel and accommodation expenses would have to borne by the teams themselves.",
 			link: "https://forms.gle/5MRD8AZkpv3yJ1ku5",
 			img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1706274690/Nits%20hacks%206.0/Events/wnivqlvhyuljhmkczkdh.webp",
 		},
