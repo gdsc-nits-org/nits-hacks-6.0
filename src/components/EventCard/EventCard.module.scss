@@ -62,11 +62,10 @@ $fontfamily: Pixeloid;
 
 .rectangle {
   height: 5rem;
-  width: 27.25rem;
+  width: fit-content;
   position: relative;
   top: 1rem;
   right: 0.5rem;
-
   .box {
     position: relative;
     top: 4rem;
@@ -104,8 +103,7 @@ $fontfamily: Pixeloid;
 
 .content {
   height: 6rem;
-  width: 20rem;
-  word-wrap: normal;
+  width: fit-content;
   padding: 0.4rem;
   position: absolute;
   bottom: 4.5rem;
@@ -121,7 +119,7 @@ $fontfamily: Pixeloid;
   letter-spacing: 0;
   line-height: normal;
   color: $fontcolor;
-  width: 13rem;
+  width: fit-content;
   position: relative;
   top: 0.5rem;
   visibility: hidden;
