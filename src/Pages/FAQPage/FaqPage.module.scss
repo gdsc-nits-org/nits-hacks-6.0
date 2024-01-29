@@ -4,8 +4,14 @@
     align-items: center;
     width: 100%;
     min-height: 80vh;
+    flex-direction: column;
+    img{
+        width: auto;
+        height: 15rem;
+    }
     .title{
         font-family: "Pixeloid";
+      margin-top: 4.5rem;
       font-size: 3rem;
       color: white;
       line-height: 2.5rem;
@@ -15,5 +21,51 @@
       -webkit-text-stroke-color: transparent;
       -webkit-text-stroke-width: 0.4rem;
       background-clip: text;
+    }
+    .accordion{
+        margin-bottom: .625rem auto;
+        width: 80vw;
+        color: #C7FFF2;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 1.5rem;
+        height: 5rem auto;
+        img{
+            position: relative;
+            z-index: 1;
+            
+        }
+        .label{
+            font-size: 1.5rem;
+        }
+        .content{
+            padding-left: .625rem;
+            padding-right:.625rem;
+            max-height: 0;
+            text-align: left;
+            overflow: hidden;
+            font-size: 1.5rem;
+            transition: max-height 1s;
+        }
+        li{
+            list-style: none;
+            width: 100%;
+            margin: 1.25rem;
+            padding: .625rem;
+            border: .0625rem solid #FFFFFF;
+            label{
+                display: flex;
+                align-items: center;
+                padding: .625rem;
+                font-size: 1.125rem;
+                cursor: pointer;
+
+            }
+            input[type="checkbox"]{
+                display: none;
+            }
+            input[type="checkbox"]:checked + label + .content{
+                max-height: 50rem;
+            }
+        }
     }
 }
