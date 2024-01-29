@@ -8,6 +8,7 @@ import App from "./App.jsx";
 import Custom404 from "./Pages/404/404";
 import Teams from "./Pages/TeamPage/Team";
 import EventPage from "./Pages/EventPage/EventPage";
+import FaqPage from "./Pages/FAQPage/FaqPage.jsx";
 
 inject();
 injectSpeedInsights();
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
 	{
 		path: "/event/:id",
 		element: <EventPage />,
+	},
+	{
+		path: "/faq",
+		element: <FaqPage />,
 	},
 ]);
 
