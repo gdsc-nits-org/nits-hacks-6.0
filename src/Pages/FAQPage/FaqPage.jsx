@@ -42,7 +42,7 @@ const FaqPage = () => {
 						</label>
 						<div className={styles.content}>
 							<span>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								A. Lorem ipsum dolor sit amet consectetur adipisicing elit.
 								Corrupti dicta officiis itaque magnam eveniet aspernatur.
 								Tenetur voluptatum qui eaque earum officia placeat, culpa totam
 								sit repellat nesciunt architecto unde quidem!

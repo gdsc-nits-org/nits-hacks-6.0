@@ -69,3 +69,43 @@
         }
     }
 }
+@media (max-width: 1000px){
+    .MainDiv{
+        .title{
+            font-size: 2rem;
+            text-align: center;
+        }
+        img{
+            width: auto;
+            height: 10rem;
+        }
+        .accordion{
+            .label{
+                font-size: 1.5rem;
+            }
+            .content{
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+@media (max-width: 850px){
+    .MainDiv{
+        .title{
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        img{
+            width: auto;
+            height: 10rem;
+        }
+        .accordion{
+            .label{
+                font-size: 1rem;
+            }
+            .content{
+                font-size: 1rem;
+            }
+        }
+    }
+}
