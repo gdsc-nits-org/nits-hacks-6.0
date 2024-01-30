@@ -66,8 +66,21 @@
             input[type="checkbox"]:checked + label + .content{
                 max-height: 50rem;
             }
+            
         }
     }
+    // .image_wrapper{
+    //     position: relative;
+    //     height: 2rem;
+    //     width: 2rem;
+    //     top: 0;
+    //     right: 0;
+    //     .arrow{
+    //         height: auto;
+    //         width: auto;
+    //         object-fit: contain;
+    //     }
+    // }
 }
 @media (max-width: 1000px){
     .MainDiv{
@@ -79,7 +92,20 @@
             width: auto;
             height: 10rem;
         }
+        
+        .faq_wrapper{
+            display: inline-block;
+            
+            .arrow{
+                width: auto;
+                height: auto;
+                object-fit: contain;
+            }
+        }
         .accordion{
+            li{
+                margin-left:none;
+            }
             .label{
                 font-size: 1.5rem;
             }
@@ -89,6 +115,7 @@
         }
     }
 }
+
 @media (max-width: 850px){
     .MainDiv{
         .title{
@@ -100,11 +127,36 @@
             height: 10rem;
         }
         .accordion{
+            li{
+                margin-left:none;
+            }
             .label{
                 font-size: 1rem;
             }
             .content{
                 font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .MainDiv{
+        margin-left: none;
+        .title{
+            font-size: 1rem;
+            text-align: center;
+        }
+        img{
+            width: auto;
+            height: 8rem;
+        }
+        .accordion{
+            .label{
+                font-size: 0.8rem;
+            }
+            .content{
+                font-size: 0.8rem;
             }
         }
     }
