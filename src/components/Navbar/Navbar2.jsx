@@ -115,7 +115,7 @@ const Navbar2 = () => {
 					</div>
 					<div className={styles.linkParent}>
 						<div className={styles.innerParent}>
-							<Link to="/#sponsors" smooth={true} className={styles.link}>
+							<Link to="/#sponsors" className={styles.link}>
 								Sponsors
 							</Link>
 						</div>

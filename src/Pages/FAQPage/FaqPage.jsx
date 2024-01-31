@@ -1,9 +1,8 @@
 import styles from "./FaqPage.module.scss";
-import { useState } from "react";
 import { Footer, Navbar2 } from "../../components";
 
 const FaqPage = () => {
-	const [faqs] = useState([
+	const faqs = [
 		{
 			ques: "Q. Will the events be online or offline?",
 			ans: (
@@ -81,7 +80,7 @@ const FaqPage = () => {
 			attr: "8",
 			id: 8,
 		},
-	]);
+	];
 	return (
 		<>
 			<Navbar2 />
