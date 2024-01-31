@@ -71,14 +71,9 @@ const Navbar = () => {
 					</SectionLink>
 				</div>
 				<div className={styles.linkParentMobile}>
-					<SectionLink
-						to="speakers"
-						smooth={true}
-						className={styles.link}
-						onClick={() => setNav(!nav)}
-					>
-						SPEAKERS
-					</SectionLink>
+					<Link to="/faq" className={styles.link} onClick={() => setNav(!nav)}>
+						FAQ
+					</Link>
 				</div>
 				<div className={styles.linkParentMobile}>
 					<SectionLink
@@ -117,9 +112,9 @@ const Navbar = () => {
 					</div>
 					<div className={styles.linkParent}>
 						<div className={styles.innerParent}>
-							<SectionLink to="speakers" smooth={true} className={styles.link}>
-								Speakers
-							</SectionLink>
+							<Link to="/faq" className={styles.link}>
+								FAQ
+							</Link>
 						</div>
 					</div>
 					<div className={styles.linkParent}>
