@@ -126,6 +126,8 @@
             width: auto;
             height: 10rem;
         }
+        .faq_wrapper{
+         transform: translate(-1.15rem); 
         .accordion{
             li{
                 margin-left:none;
@@ -137,6 +139,7 @@
                 font-size: 1rem;
             }
         }
+      }
     }
 }
 
