@@ -8,13 +8,13 @@ const Sponsor = () => {
 		},
 		{
 			id: 2,
-			img: "https://res.cloudinary.com/dl19r276g/image/upload/v1706769264/sp3_v5f57c.svg",
-			uri: "https://www.cipherschools.com/",
+			img: "https://res.cloudinary.com/dl19r276g/image/upload/v1706769702/hackerearth_k5ixla.svg",
+			uri: "https://www.hackerearth.com/challenges/",
 		},
 		{
 			id: 3,
-			img: "https://res.cloudinary.com/dxafdfvui/image/upload/v1705318017/taskadenew_e3cr2l.svg",
-			uri: "https://www.taskade.com/",
+			img: "https://res.cloudinary.com/dl19r276g/image/upload/v1706769405/sp2_lqrqnb.svg",
+			uri: "https://anaitik.com/",
 		},
 		{
 			id: 4,
@@ -23,13 +23,13 @@ const Sponsor = () => {
 		},
 		{
 			id: 5,
-			img: "https://res.cloudinary.com/dl19r276g/image/upload/v1706769405/sp2_lqrqnb.svg",
-			uri: "https://anaitik.com/",
+			img: "https://res.cloudinary.com/dxafdfvui/image/upload/v1705318017/taskadenew_e3cr2l.svg",
+			uri: "https://www.taskade.com/",
 		},
 		{
 			id: 6,
-			img: "https://res.cloudinary.com/dl19r276g/image/upload/v1706769702/hackerearth_k5ixla.svg",
-			uri: "https://www.hackerearth.com/",
+			img: "https://res.cloudinary.com/dl19r276g/image/upload/v1706769264/sp3_v5f57c.svg",
+			uri: "https://www.cipherschools.com/",
 		},
 	];
 	return (
