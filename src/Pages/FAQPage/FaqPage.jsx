@@ -7,8 +7,8 @@ const FaqPage = () => {
 			ques: "Q. Will the events be online or offline?",
 			ans: (
 				<>
-					A. Software Track - Offline <br /> &nbsp;&nbsp;&nbsp;UI/UX Track and
-					Coding Track - Hybrid
+					A. It is going to be a combination of online and offline , i.e. Hybrid
+					(Offline for the students of NITS and online for outside students)
 				</>
 			),
 			attr: "1",
@@ -18,7 +18,8 @@ const FaqPage = () => {
 			ques: "Q. What is the minimum number of members in each team?",
 			ans: (
 				<>
-					A. Coding and Software - 2 <br /> &nbsp;&nbsp;&nbsp;UI/UX - Individual
+					A. Coding and Software Track - 2 <br /> &nbsp;&nbsp;&nbsp;UI/UX Track
+					- Individual
 				</>
 			),
 			attr: "2",
@@ -32,7 +33,7 @@ const FaqPage = () => {
 		},
 		{
 			ques: "Q. Can students of other colleges participate remotely?",
-			ans: <>A. UI/UX and Coding Track - Remote participation allowed.</>,
+			ans: <>A. Yes, remote participation is allowed.</>,
 			attr: "4",
 			id: 4,
 		},
