@@ -32,7 +32,10 @@ $fontfamily: Pixeloid;
   width: 100vw;
   margin-bottom: 0;
 }
-
+.innerCont {
+  background-color: #000000;
+  z-index: 2;
+}
 .pagebody {
   display: flex;
   flex-wrap: nowrap;
@@ -59,11 +62,10 @@ $fontfamily: Pixeloid;
 
 .rectangle {
   height: 5rem;
-  width: 27.25rem;
+  width: fit-content;
   position: relative;
   top: 1rem;
   right: 0.5rem;
-
   .box {
     position: relative;
     top: 4rem;
@@ -83,21 +85,28 @@ $fontfamily: Pixeloid;
 }
 
 .img {
-  width: 20rem;
+  width: 14rem;
   border-radius: 0.5rem;
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
+  opacity: 1;
+  transition-duration: 0.5s;
+  object-fit: cover;
+}
+.card:hover .img {
+  opacity: 0.8;
+  filter: blur(1.5px);
+  transition-duration: 0.5s;
 }
 
 .content {
   height: 6rem;
-  width: 20rem;
-  word-wrap: normal;
+  width: fit-content;
   padding: 0.4rem;
   position: absolute;
-  bottom: 4rem;
+  bottom: 4.5rem;
   left: 0.5rem;
   box-sizing: border-box;
   color: $fontcolor;
@@ -110,7 +119,7 @@ $fontfamily: Pixeloid;
   letter-spacing: 0;
   line-height: normal;
   color: $fontcolor;
-  width: 13rem;
+  width: fit-content;
   position: relative;
   top: 0.5rem;
   visibility: hidden;

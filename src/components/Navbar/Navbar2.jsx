@@ -68,6 +68,11 @@ const Navbar2 = () => {
 					</Link>
 				</div>
 				<div className={styles.linkParentMobile}>
+					<Link to="/faq" className={styles.link} onClick={() => setNav(!nav)}>
+						FAQ
+					</Link>
+				</div>
+				<div className={styles.linkParentMobile}>
 					<Link
 						to="/#sponsors"
 						className={styles.link}
@@ -103,7 +108,14 @@ const Navbar2 = () => {
 					</div>
 					<div className={styles.linkParent}>
 						<div className={styles.innerParent}>
-							<Link to="/#sponsors" smooth={true} className={styles.link}>
+							<Link to="/faq" className={styles.link}>
+								FAQ
+							</Link>
+						</div>
+					</div>
+					<div className={styles.linkParent}>
+						<div className={styles.innerParent}>
+							<Link to="/#sponsors" className={styles.link}>
 								Sponsors
 							</Link>
 						</div>

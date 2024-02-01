@@ -124,7 +124,8 @@ const Footer = () => {
 								rel="noreferrer"
 								className={styles.a1}
 							>
-								GDSC, NIT Silchar
+								GDSC, NIT Silchar{" "}
+								<img src="/gdsc.png" className={styles.gdsc_logo} />
 							</a>
 						</p>
 					</div>

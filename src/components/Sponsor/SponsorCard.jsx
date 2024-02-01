@@ -3,13 +3,13 @@ const Sponsor = () => {
 	const sponsors = [
 		{
 			id: 1,
-			img: "https://res.cloudinary.com/dxafdfvui/image/upload/v1705316692/interviewCake_1_kauyf0.svg",
-			uri: "https://www.interviewcake.com/",
+			img: "https://res.cloudinary.com/dl19r276g/image/upload/v1706769021/xyzlogo_rcuvdb.svg",
+			uri: "https://gen.xyz/",
 		},
 		{
 			id: 2,
-			img: "https://res.cloudinary.com/dxafdfvui/image/upload/v1705317303/campuskarma_qwkjzg.svg",
-			uri: "https://www.campuskarma.in/",
+			img: "https://res.cloudinary.com/dl19r276g/image/upload/v1706769264/sp3_v5f57c.svg",
+			uri: "https://www.cipherschools.com/",
 		},
 		{
 			id: 3,
@@ -23,33 +23,18 @@ const Sponsor = () => {
 		},
 		{
 			id: 5,
-			img: "https://res.cloudinary.com/dxafdfvui/image/upload/v1705319687/CryptoMode-Filecoin_hvwlug.svg",
-			uri: "https://filecoin.io/",
+			img: "https://res.cloudinary.com/dl19r276g/image/upload/v1706769405/sp2_lqrqnb.svg",
+			uri: "https://anaitik.com/",
 		},
 		{
 			id: 6,
-			img: "https://res.cloudinary.com/dxafdfvui/image/upload/v1705319958/replit_tibgzp.svg",
-			uri: "https://replit.com/",
-		},
-		{
-			id: 7,
-			img: "https://res.cloudinary.com/dxafdfvui/image/upload/v1705320298/solana_yhw3k5.svg",
-			uri: "https://solana.com/",
-		},
-		{
-			id: 8,
-			img: "https://res.cloudinary.com/dxafdfvui/image/upload/v1705320698/Polygon_blockchain_logo_gijj2n.svg",
-			uri: "https://polygon.technology/",
-		},
-		{
-			id: 9,
-			img: "https://res.cloudinary.com/dxafdfvui/image/upload/v1705320842/devfolio_jpfrru.svg",
-			uri: "https://devfolio.co/",
+			img: "https://res.cloudinary.com/dl19r276g/image/upload/v1706769702/hackerearth_k5ixla.svg",
+			uri: "https://www.hackerearth.com/",
 		},
 	];
 	return (
 		<div className={styles.sponsorCont} id="sponsors">
-			<h1 className={styles.heading}>PAST SPONSORS</h1>
+			<h1 className={styles.heading}>OUR SPONSORS</h1>
 			<div className={styles.pagebody}>
 				{sponsors.map((s) => {
 					return (

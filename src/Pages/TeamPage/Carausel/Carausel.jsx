@@ -24,7 +24,7 @@ const Carousel = ({ children }) => {
 			<div className={styles.carousel}>
 				{active > 0 && (
 					<button
-						className={`${styles.nav} ${styles.left}`}
+						className={styles.left}
 						onClick={() => setActive((i) => i - 1)}
 					>
 						&lt;
@@ -49,7 +49,7 @@ const Carousel = ({ children }) => {
 				))}
 				{active < count - 1 && (
 					<button
-						className={`${styles.nav} ${styles.right}`}
+						className={styles.right}
 						onClick={() => setActive((i) => i + 1)}
 					>
 						&gt;

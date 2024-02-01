@@ -8,6 +8,7 @@ import {
 	Techno,
 	Sponsor,
 	Event,
+	SpeakerCard,
 } from "../../components/index";
 import { useEffect } from "react";
 import { useState } from "react";
@@ -30,6 +31,7 @@ const Home = () => {
 				<Techno />
 			</div>
 			<Event />
+			<SpeakerCard />
 			<Sponsor />
 			<Footer />
 		</div>
