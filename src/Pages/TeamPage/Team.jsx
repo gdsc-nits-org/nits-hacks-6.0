@@ -3,7 +3,7 @@ import TeamCard from "../../components/TeamCard/TeamCard";
 import Navbar2 from "../../../src/components/Navbar/Navbar2";
 //import FACULTY from "./Faculty.json"
 import TECH from "./Tech.json";
-import VOLUNTEERS from "./Volunteers.json";
+// import VOLUNTEERS from "./Volunteers.json";
 import ORGANISERS from "./Organisers.json";
 import Footer from "../../components/Footer/Footer";
 import Coordinator from "./Coordinator.json";
@@ -77,14 +77,14 @@ const Teams = () => {
 						</div>
 					</div>
 
-					<div className={styles.teamname}>
+					{/* <div className={styles.teamname}>
 						<div className={styles.headingteamsa} id="VOLUNTEERS">
 							VOLUNTEERS
 						</div>{" "}
 						<div className={styles.teamname_body}>
 							{VOLUNTEERS.map(MemberDetails)}
 						</div>
-					</div>
+					</div> */}
 				</div>
 				<Footer />
 			</div>
